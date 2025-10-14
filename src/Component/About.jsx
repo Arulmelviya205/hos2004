@@ -63,7 +63,6 @@ It covers a wide range of issues, including acne, eczema,<br/>
 It deals with conditions <br/>
 such as chronic kidney disease,<br/>
  kidney stones, high blood pressure, and electrolyte imbalances.</p>
-
-    </div>
+   </div>
   )
 }

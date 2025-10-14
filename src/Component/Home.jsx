@@ -23,6 +23,19 @@ import nurse from '../assets/images/nurse.jpg'
 import medic from '../assets/images/medic.jpg'
 import vac from '../assets/images/vac.jpg'
 import kit from '../assets/images/kit.jpg'
+import emer from '../assets/images/emer.jpg'
+import ste from '../assets/images/ste.jpg'
+import heart from '../assets/images/heart.jpg'
+import tent from '../assets/images/tent.jpg'
+import ambul from '../assets/images/ambul.jpg'
+import patient from '../assets/images/patient.jpg'
+import nt from '../assets/images/nt.jpg'
+import cardio from '../assets/images/cardio.jpg'
+import nano from '../assets/images/nano.jpg'
+import radio from '../assets/images/radio.jpg'
+import nep from '../assets/images/nep.jpg'
+import ctvs from '../assets/images/ctvs.jpg'
+import varma from '../assets/images/varma.jpg'
 import { Link } from 'react-router-dom';
 export default function Home() {
   return (
@@ -133,7 +146,49 @@ It covers a wide range of issues, including acne, eczema,<br/>
    <h2 className='vac1'>Vaccination</h2>
    <img className='ki' src={kit}/>
    <h2 className='ki1'>Medical kit</h2>
-  </div>
-    
+   <img className='emer' src={emer}/>
+   <h2 className='emer1'>Emergency</h2>
+   <img className='ste' src={ste}/>
+   <h2 className='ste1'>Stethoscope</h2>
+   <img className='heart' src={heart}/>
+   <h2 className='heart1'>Cardiogram</h2>
+   <img className='tent' src={tent}/>
+   <h2 className='tent1'>Patient</h2>
+   <img className='ambul' src={ambul}/>
+   <h2 className='ambul1'>Ambulance</h2>
+   <h1 className='ent'>Patient</h1>
+    <img className='ent1' src={patient}/>
+    <img className='ent0' src={nt}/>
+    <p className='reg'>A patient is an individual who receives medical care or treatment from healthcare professionals.<br/>
+     They may visit a hospital or clinic for diagnosis, therapy, or regular checkups. <br/>
+     Each patient’s condition and treatment plan are carefully monitored to ensure recovery and well-being.</p>
+   <p className='reg1'>A patient is a person receiving medical care or treatment from doctors or healthcare staff.<br/>
+    They may visit hospitals or clinics for checkups, diagnosis, or recovery support.</p>
+    <h1 className='list'>Doctor List</h1>
+    <div className='kk'></div>
+    <img className='car' src={cardio}/>
+    <h1 className='car0'>Dr. Deepak Natarajan</h1>
+    <h4 className='car1'>Specialist:cardiology</h4>
+    <div className='kkk'></div>
+    <img className='nanoo'src={nano}/>
+    <h1 className='nanok'>Dr. Rashi Gupta</h1>
+    <h4 className='nanon'>Specialist:Neonatology</h4>
+    <div  className='nnn'></div>
+    <img className='radioo' src={radio}/>
+    <h1 className='rd'>Dr. Ravi Kumar Saman</h1>
+    <h4 className='rd1'>Specialist:Radiology</h4>
+    <div className='mmm'></div>
+    <img className='nep' src={nep}/>
+    <h1 className='nepk'>Dr. Shivangini Gupta</h1>
+    <h4 className='nepm'>Specialist:Pediatric Nephrology</h4>
+    <div className='aaa'></div>
+    <img className='ctvsl' src={ctvs}/>
+    <h1 className='ctvss'>Dr. Ankush Singh Kotwal</h1>
+    <h4 className='ctvsd'>Specialist:CTVS Surgeon</h4>
+    <div className='hh'></div>
+    <img className='neul' src={varma}/>
+    <h1 className='ne'>Dr. (Prof.) Amitaabh Varma</h1>
+    <h4 className='na'>Specialist:Neurology</h4>
+    </div>
   )
 }

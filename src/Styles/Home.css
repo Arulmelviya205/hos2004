@@ -2,7 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/latherrich');
 @import url('https://fonts.cdnfonts.com/css/oswald-variable');
 @import url('https://fonts.cdnfonts.com/css/modestic-sans');
-
+@import url('https://fonts.cdnfonts.com/css/baskerville');
 *{
     margin: 0;
     padding: 0;
@@ -494,7 +494,7 @@ h1{
     z-index: 3;
     margin-left: 38vw;
     margin-top: -45vw;
-    color: brown;
+    color:black;
 }
 .health{
     position: absolute;
@@ -592,4 +592,345 @@ h1{
     margin-left: 50vw;
     margin-top: -18vw;
 }
-
+.emer{
+    position: absolute;
+    z-index: 3;
+    width: 7vw;
+    margin-left: 67vw;
+    margin-top: -27vw;
+}
+.emer1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 67vw;
+    margin-top: -18vw;
+    color: brown;
+}
+.ste{
+    position: absolute;
+    z-index: 3;
+    width: 6vw;
+    margin-left: 15vw;
+    margin-top: -13vw;
+}
+.ste1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -5vw;
+    margin-left: 15vw;
+    color: brown;
+}
+.heart{
+    position: absolute;
+    z-index: 3;
+    width: 6vw;
+    margin-left: 33vw;
+    margin-top: -12vw;
+}
+.heart1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 32vw;
+    margin-top: -5vw;
+    color: brown;
+}
+.tent{
+    position: absolute;
+    z-index: 3;
+    width: 7vw;
+    margin-left: 50vw;
+    margin-top: -13vw;
+}
+.tent1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -5vw;
+    margin-left: 50.4vw;
+    color: brown;
+}
+.ambul{
+    position: absolute;
+    z-index: 3;
+    margin-left: 67vw;
+    margin-top: -13vw;
+    width: 8vw;
+}
+.ambul1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 67vw;
+    margin-top: -5vw;
+    color: brown;
+}
+.ent{
+    position: relative;
+    margin-top: 8vw;
+    margin-left: 10vw;
+}
+.ent1{
+    position: relative;
+    width: 3vw;
+    margin-left: 6vw;
+    top: -3vw;
+}
+.ent0{
+    position: relative;
+    z-index: 2;
+    width: 95vw;
+    border-radius:2vw;
+    height: 100vh;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+.reg{
+    position: absolute;
+    z-index: 3;
+    margin-top: -35vw;
+    margin-left: 10vw;
+    font-size: 1.5vw;
+    color: black;
+    font-family: 'Baskerville', sans-serif;
+}
+.reg1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -22vw;
+    margin-left: 10vw;
+    font-size: 1.5vw;
+    color: black;
+    font-family: 'Baskerville BT', sans-serif;
+}
+.list{
+    position: relative;
+    margin-top: 5vw;
+    margin-left: 39vw;
+    color: brown;
+}
+.kk{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    background-color:antiquewhite;
+}
+.car{
+    position: absolute;
+    z-index: 3;
+    width: 15vw;
+    border-radius: 2vw;
+    margin-left: 12vw;
+    margin-top: -30vw;
+}
+.car:hover{
+     transform: scale(1.1);
+    cursor: pointer;
+}
+.car0{
+    position: absolute;
+    z-index: 3;
+    margin-left: 12vw;
+    margin-top: -8vw;
+    font-size: 1.5vw;
+}
+.car1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 12vw;
+    margin-top: -4vw;
+    font-size: 1.5vw;
+    color: grey;
+}
+.kkk{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 55vw;
+    margin-top: -34vw;
+    background-color:antiquewhite;
+}
+.nanoo{
+    position: absolute;
+    z-index: 3;
+    width: 15vw;
+    border-radius: 2vw;
+    margin-left: 62vw;
+    margin-top: -29vw;
+}
+.nanoo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.nanok{
+    position: absolute;
+    z-index: 3;
+    margin-left: 65vw;
+    margin-top: -8vw;
+    font-size: 1.5vw;
+}
+.nanon{
+    position: absolute;
+    z-index: 3;
+    margin-left: 63vw;
+    margin-top: -4vw;
+    font-size: 1.5vw;
+    color: grey;
+}
+.nnn{
+     position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    background-color:antiquewhite;
+}
+.radioo{
+    position: absolute;
+    z-index: 3;
+    width: 17vw;
+    border-radius: 2vw;
+    margin-left: 10vw;
+    margin-top: -30vw;
+}
+.radioo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.rd{
+    position: absolute;
+    z-index: 3;
+    margin-left: 11vw;
+    margin-top: -8vw;
+    font-size: 1.5vw;
+}
+.rd1{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.5vw;
+    color: grey;
+    margin-left: 11vw;
+    margin-top: -4vw;
+}
+.mmm{
+     position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 55vw;
+    margin-top: -34vw;
+    background-color:antiquewhite;
+}
+.nep{
+    position: absolute;
+    z-index: 3;
+    width: 16vw;
+    border-radius: 2vw;
+    margin-left: 63vw;
+    margin-top: -30vw;
+}
+.nep:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.nepk{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.5vw;
+    margin-left: 64vw;
+    margin-top: -8vw;
+}
+.nepm{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.5vw;
+    color:grey;
+    margin-left: 60vw;
+    margin-top: -4vw;
+}
+.aaa{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    background-color:antiquewhite;
+}
+.ctvsl{
+    position: absolute;
+    z-index: 3;
+    width: 14vw;
+    margin-left: 12vw;
+    margin-top: -30vw;
+    border-radius: 2vw;
+}
+.ctvsl:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.ctvss{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.5vw;
+    margin-left: 11vw;
+    margin-top: -9vw;
+}
+.ctvsd{
+    position: absolute;
+    z-index: 3;
+    margin-top: -5vw;
+    font-size: 1.5vw;
+    color: grey;
+    margin-left: 11vw;
+}
+.hh{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 55vw;
+    margin-top: -34vw;
+    background-color:antiquewhite;
+}
+.neul{
+    position: absolute;
+    z-index: 3;
+    width: 15vw;
+    border-radius: 2vw;
+    margin-left: 63vw;
+    margin-top: -29vw;
+}
+.neul:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+.ne{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.5vw;
+    margin-left: 62vw;
+    margin-top: -9vw;
+}
+.na{
+    position: absolute;
+    z-index: 3;
+    margin-left: 64vw;
+    font-size: 1.5vw;
+    color:  grey;
+    margin-top: -5vw;
+}
