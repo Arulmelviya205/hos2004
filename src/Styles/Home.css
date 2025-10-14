@@ -1,0 +1,595 @@
+@import url('https://fonts.cdnfonts.com/css/petitabold');
+@import url('https://fonts.cdnfonts.com/css/latherrich');
+@import url('https://fonts.cdnfonts.com/css/oswald-variable');
+@import url('https://fonts.cdnfonts.com/css/modestic-sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    background-image: url("src/assets/images/doc.jpg");
+}
+
+.hos{
+    position: relative;
+    width: 4vw;
+    margin-left: 3vw;
+}
+h1{
+ font-family: 'PetitaMedium', sans-serif;
+}
+.tal{
+    position: relative;
+    margin-left: 8vw;
+    top: -3.4vw;
+    color: brown;
+}
+.hos1{
+    position: relative;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+}
+.care{
+    position:absolute;
+    z-index: 3;
+    margin-top: -42vw;
+    margin-left: 5vw;
+    font-size: 2vw;
+    color: white;
+     font-family: 'PetitaMedium', sans-serif;
+                                                
+}
+.star{
+    position: relative;
+    margin-top: 5vw;
+    font-size: 2.5vw;
+    color:black;
+    margin-left: 10vw;
+}
+.abo{
+    position: relative;
+    width: 2.8vw;
+    margin-left:6.5vw;
+    top: -3vw;
+}
+.co{
+    position: relative;
+    margin-top: 3vw;
+    margin-left: 10vw;
+    font-size: 2vw;
+      font-family: 'Latherrich', sans-serif;
+}
+.coo{
+     position: absolute;
+    z-index: 3;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 20vw;
+    height: 10vh;
+    background-color:white;
+}
+.coo1{
+     position: absolute;
+    z-index: 4;
+    margin-top: 6vw;
+    margin-left: 15vw;
+    font-size: 1.9vw;
+    color: black;
+    font-family: 'Oswald Variable', sans-serif;
+                                                
+}
+.dap1{
+    position: relative;
+    margin-top: 13vw;
+    margin-left: 41vw;
+}
+.mo{
+    position: relative;
+    z-index: 2;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.kk0{
+     position: absolute;
+    z-index: 3;
+    color: grey;
+    margin-top: -32vw;
+    margin-left: 12vw;
+    font-size: 1.5vw;
+}
+.dio{
+    position: absolute;
+    z-index: 3;
+    margin-top: -36vw;
+    margin-left: 15vw;
+}
+.caro{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -28vw;
+    margin-left: 10vw;
+}
+.the{
+    position: absolute;
+    z-index: 3;
+    margin-top: -11vw;
+    margin-left: 10vw;
+    font-size: 1.3vw;
+    font-family: 'Latherrich', sans-serif;
+}
+.gg2{
+    position: relative;
+    z-index: 2;
+    margin-top: -38.3vw;
+    margin-left: 52vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.kk1{
+    position: absolute;
+    z-index: 3;
+    color: grey;
+    margin-top: -32vw;
+    margin-left: 60vw;
+    font-size: 1.5vw;
+}
+.neu{
+    position: absolute;
+    z-index: 3;
+    margin-top: -36vw;
+    margin-left: 63vw;
+}
+.brain{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -27vw;
+    margin-left: 58vw;
+}
+.med{
+    position: absolute;
+    z-index: 3;
+    margin-top: -11vw;
+    margin-left: 58vw;
+    font-size: 1.3vw;
+    font-family: 'Latherrich', sans-serif;
+}
+.gg3{
+    position: relative;
+    z-index: 2;
+    margin-top: 4vw;
+    margin-left: 5vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.kk2{
+    position: absolute;
+    z-index: 3;
+    margin-top: -31vw;
+    margin-left: 13vw;
+    font-size: 1.5vw;
+    color: grey;
+}
+.pedics{
+    position: absolute;
+    z-index: 3;
+    margin-top: -35vw;
+    margin-left: 15vw;
+}
+.ortho{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -27vw;
+    margin-left: 11vw;
+}
+.dis{
+    position: absolute;
+    z-index: 3;
+    margin-top: -11vw;
+    margin-left: 7vw;
+    font-size: 1.2vw;
+    font-family: 'Latherrich', sans-serif;
+}
+.gg4{
+    position: relative;
+    z-index: 2;
+    margin-top: -38.5vw;
+    margin-left: 52vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.kk3{
+    position: absolute;
+    z-index: 3;
+    margin-left: 61vw;
+    margin-top: -31vw;
+    font-size: 1.5vw;
+    color: grey;
+}
+.cian{
+    position: absolute;
+    z-index: 3;
+    margin-top: -35vw;
+    margin-left: 62vw;
+}
+.pedia{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -28vw;
+    margin-left: 58vw;
+}
+.who{
+   position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 55vw;
+    font-size: 1.2vw;
+    font-family: 'Latherrich', sans-serif;
+}
+.gg5{
+    position: relative;
+    z-index: 2;
+    margin-top: 5vw;
+    margin-left: 28vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.der{
+    position: absolute;
+    z-index: 3;
+    margin-top: -35vw;
+    margin-left: 38vw;
+}
+.kk4{
+     position: absolute;
+    z-index: 3;
+    margin-left: 38vw;
+    margin-top: -31vw;
+    font-size: 1.5vw;
+    color: grey;
+}
+.der1{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -28vw;
+    margin-left: 34vw;
+}
+.mat{
+ position: absolute;
+    z-index: 3;
+    margin-top: -11vw;
+    margin-left: 32vw;
+    font-size: 1.2vw;
+    font-family: 'Latherrich', sans-serif;
+}
+.us{
+    position: relative;
+    margin-left: 11vw;
+    margin-top: 6vw;
+}
+.img21{
+    position: relative;
+    margin-left: 7vw;
+    width: 3.5vw;
+    top: -2.8vw;
+}
+.loo{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 45vw;
+    height: 150vh;
+    background-color: rgb(240, 237, 237);
+    margin-top: 5vw;
+    margin-left: 22vw;
+}
+.apo{
+    position: absolute;
+    z-index: 3;
+    margin-left: 34vw;
+    margin-top: -70vw;
+}
+.apo1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -63vw;
+    margin-left: 30vw;
+    font-size: 1.8vw;
+    color: brown;
+    font-family: 'Modestic Sans', sans-serif;
+}
+.apo2{
+    position: absolute;
+    z-index: 3;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 2vw;
+    margin-left: 32vw;
+    margin-top: -59vw;
+}
+.apo0{
+    position: absolute;
+    z-index: 3;
+    width: 3vw;
+    margin-top: -63.5vw;
+    margin-left: 26vw;
+}
+.name{
+    position: absolute;
+    z-index: 3;
+    margin-left: 30vw;
+    margin-top: -53vw;
+    font-size: 1.8vw;
+     color: brown;
+    font-family: 'Modestic Sans', sans-serif;
+}
+.name0{
+    position: absolute;
+    z-index: 3;
+     width: 15vw;
+    height: 4vh;
+    border-radius: 2vw;
+    margin-left: 32vw;
+    margin-top: -49vw;
+}
+.name1{
+    position: absolute;
+    z-index: 3;
+    width: 3vw;
+    margin-left: 26vw;
+    margin-top: -53.5vw;
+}
+.phone{
+    position: absolute;
+    z-index: 3;
+    margin-left: 30vw;
+    margin-top: -43vw;
+    font-size: 1.8vw;
+    color: brown;
+    font-family: 'Modestic Sans', sans-serif;
+}
+.phone1{
+    position: absolute;
+    z-index: 3;
+    border-radius: 2vw;
+    width: 15vw;
+    height: 4vh;
+    margin-left: 32vw;
+    margin-top: -39vw;
+}
+.pho1{
+    position: absolute;
+    z-index: 3;
+    width: 3vw;
+    margin-left: 26vw;
+    margin-top: -43.8vw;
+}
+.depart{
+    position: absolute;
+    z-index: 3;
+    margin-top: -33vw;
+    margin-left: 30vw;
+    font-size: 1.8vw;
+    color: brown;
+    font-family: 'Modestic Sans', sans-serif;
+}
+.depart0{
+    position: absolute;
+    z-index: 3;
+    width: 15vw;
+    height: 4vh;
+    border-radius: 2vw;
+    margin-left: 32vw;
+    margin-top: -29vw;
+}
+.depart1{
+    position: absolute;
+    z-index: 3;
+    width: 3vw;
+    margin-left: 26vw;
+    margin-top: -34vw;
+}
+.email{
+    position: absolute;
+    z-index: 3;
+    margin-left: 30vw;
+    margin-top: -23vw;
+    font-size: 1.8vw;
+    color: brown;
+    font-family: 'Modestic Sans', sans-serif;
+}
+.email1{
+    position: absolute;
+    z-index: 3;
+     width: 15vw;
+    height: 4vh;
+    border-radius: 2vw;
+    margin-left: 32vw;
+    margin-top: -19vw;
+}
+.email0{
+    position: absolute;
+    z-index: 3;
+    width: 3vw;
+    margin-left: 26vw;
+    margin-top: -23.8vw;
+}
+.prob{
+    position: absolute;
+    z-index: 3;
+     font-size: 1.8vw;
+    color: brown;
+    font-family: 'Modestic Sans', sans-serif;
+    margin-left: 29vw;
+    margin-top: -14vw;
+}
+.prob0{
+    position: absolute;
+    z-index: 3;
+     width: 15vw;
+    height: 4vh;
+    border-radius: 2vw;
+    margin-top: -10vw;
+    margin-left: 32vw;
+}
+.prob1{
+    position: absolute;
+    z-index: 3;
+    width: 3vw;
+    margin-left: 25.8vw;
+    margin-top: -15vw;
+}
+.submit{
+    position: absolute;
+    z-index: 3;
+    width: 13vw;
+    height: 5vh;
+    border-radius: 2vw;
+    font-size: 1.3vw;
+    margin-left: 35vw;
+    margin-top: -4vw;
+    background-color: green;
+    color: white;
+}
+.kit1{
+    position: relative;
+    z-index: 2;
+    width: 70vw;
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 2vw;
+    background-color: white;
+    margin-top: 5vw;
+    margin-left: 10vw;
+}
+.kit{
+    position: absolute;
+    z-index: 3;
+    margin-left: 38vw;
+    margin-top: -45vw;
+    color: brown;
+}
+.health{
+    position: absolute;
+    z-index: 3;
+    width: 8vw;
+    margin-left: 15vw;
+    margin-top: -40vw;
+}
+.hea{
+    position:absolute;
+    z-index: 3;
+    margin-left: 15vw;
+    margin-top: -31vw;
+    color: brown;
+}
+.host{
+    position: absolute;
+    z-index: 3;
+    width: 7.9vw;
+    margin-top:-40vw;
+    margin-left: 32vw;
+}
+.host1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 33vw;
+    margin-top: -31vw;
+    color: brown;
+}
+.doct{
+    position: absolute;
+    z-index: 3;
+    margin-left: 49vw;
+    margin-top: -40vw;
+}
+.doct1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 51vw;
+    margin-top: -31vw;
+    color: brown;
+}
+.nurse{
+    position: absolute;
+    z-index: 3;
+    margin-left: 66vw;
+    margin-top: -40vw;
+}
+.nurse1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 68vw;
+    margin-top: -31vw;
+    color: brown;
+}
+.medic{
+    position: absolute;
+    z-index: 3;
+    width: 7vw;
+    margin-left: 15vw;
+    margin-top: -26vw;
+}
+.medic1{
+   position: absolute;
+   z-index: 3;
+   margin-left: 15vw;
+   margin-top: -18vw;
+   color: brown;
+}
+.vac{
+    position: absolute;
+    z-index: 3;
+    width: 7vw;
+    margin-left: 33vw;
+    margin-top: -26vw;
+}
+.vac1{
+    position: absolute;
+    z-index: 3;
+    color: brown;
+    margin-left: 33vw;
+    margin-top: -18vw;
+}
+.ki{
+    position: absolute;
+    z-index: 3;
+    width: 6.5vw;
+    margin-left: 50vw;
+    margin-top: -26vw;
+}
+.ki1{
+    position: absolute;
+    z-index: 3;
+    color: brown;
+    margin-left: 50vw;
+    margin-top: -18vw;
+}
+

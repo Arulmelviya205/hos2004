@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+
+.ho{
+    position: relative;
+    width: 4vw;
+    margin-left: 3vw;
+}
+.ta{
+    position: relative;
+    margin-left: 8vw;
+    top: -3.4vw;
+    color: brown;
+}
+.doc1{
+    position: absolute;
+    z-index: 3;
+   margin-top: 5vw;
+    margin-left: 5vw;
+    font-size: 2vw;
+    color:black;
+}
+.gg{
+    position: absolute;
+    z-index: 3;
+    margin-top: 19vw;
+    margin-left: 10vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 20vw;
+    height: 10vh;
+    background-color:white;
+}
+.doc2{
+    position: absolute;
+    z-index: 4;
+    margin-top: 20vw;
+    margin-left: 15vw;
+    font-size: 1.9vw;
+    color: black;
+}
+.dap{
+    position: relative;
+    margin-top: 35vw;
+    margin-left: 40vw;
+}
+.gg1{
+    position: relative;
+    z-index: 2;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.kk0{
+    position: absolute;
+    z-index: 3;
+    color: grey;
+    margin-top: -32vw;
+    margin-left: 12vw;
+    font-size: 1.5vw;
+}
+
+ .dio{
+    position: absolute;
+    z-index: 3;
+    margin-top: -36vw;
+    margin-left: 15vw;
+}
+.caro{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -28vw;
+    margin-left: 10vw;
+}
+.the{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 10vw;
+    font-size: 1.3vw;
+}
+.gg2{
+    position: relative;
+    z-index: 2;
+    margin-top: -38.3vw;
+    margin-left: 52vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.kk1{
+    position: absolute;
+    z-index: 3;
+    color: grey;
+    margin-top: -32vw;
+    margin-left: 60vw;
+    font-size: 1.5vw;
+}
+.neu{
+    position: absolute;
+    z-index: 3;
+    margin-top: -36vw;
+    margin-left: 63vw;
+}
+.brain{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -27vw;
+    margin-left: 58vw;
+}
+.med{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 57vw;
+    font-size: 1.3vw;
+}
+.gg3{
+    position: relative;
+    z-index: 2;
+    margin-top: 4vw;
+    margin-left: 5vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.kk2{
+    position: absolute;
+    z-index: 3;
+    margin-top: -31vw;
+    margin-left: 13vw;
+    font-size: 1.5vw;
+    color: grey;
+}
+.pedics{
+    position: absolute;
+    z-index: 3;
+    margin-top: -35vw;
+    margin-left: 15vw;
+}
+.ortho{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -28vw;
+    margin-left: 10vw;
+}
+.dis{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 7vw;
+    font-size: 1.2vw;
+}
+.gg4{
+    position: relative;
+    z-index: 2;
+    margin-top: -38.5vw;
+    margin-left: 52vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.kk3{
+    position: absolute;
+    z-index: 3;
+    margin-left: 61vw;
+    margin-top: -31vw;
+    font-size: 1.5vw;
+    color: grey;
+}
+.cian{
+    position: absolute;
+    z-index: 3;
+    margin-top: -35vw;
+    margin-left: 62vw;
+}
+.pedia{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -28vw;
+    margin-left: 58vw;
+}
+.who{
+   position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 56vw;
+    font-size: 1.2vw;
+}
+.gg5{
+    position: relative;
+    z-index: 2;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.der{
+    position: absolute;
+    z-index: 3;
+    margin-top: -35vw;
+    margin-left: 15vw;
+}
+.kk4{
+     position: absolute;
+    z-index: 3;
+    margin-left: 15vw;
+    margin-top: -31vw;
+    font-size: 1.5vw;
+    color: grey;
+}
+.der1{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -28vw;
+    margin-left: 12vw;
+}
+.mat{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 7vw;
+    font-size: 1.2vw;
+}
+.gg6{
+     position: relative;
+    z-index: 2;
+    margin-top: -39vw;
+    margin-left: 52vw;
+    border: 1px solid black;
+    border-radius: 3vw;
+    width: 35vw;
+    height: 80vh;
+    background-color:antiquewhite;
+}
+.nep{
+    position: absolute;
+    z-index: 3;
+    margin-top: -35vw;
+    margin-left: 63vw;
+}
+.kk5{
+    position: absolute;
+    z-index: 3;
+    margin-left: 65vw;
+    margin-top: -31vw;
+    font-size: 1.5vw;
+    color: grey;
+}
+.kid{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    margin-top: -28vw;
+    margin-left: 59vw;
+}
+.kid1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left:55vw;
+    font-size: 1.2vw;
+}
