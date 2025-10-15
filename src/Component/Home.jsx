@@ -10,7 +10,7 @@ import pedia from '../assets/images/pedia.jpg'
 import der from '../assets/images/der.jpg'
 import us from '../assets/images/us.jpg'
 import apo from '../assets/images/apo.jpg'
-import picturevideo from '../assets/videos/picture.mp4'
+import doctvideo from '../assets/videos/doct.mp4'
 import nam1 from '../assets/images/nam1.jpg'
 import pho1 from '../assets/images/pho1.jpg'
 import depart from '../assets/images/depart.jpg'
@@ -87,17 +87,17 @@ export default function Home() {
           care of infants, children, and adolescents.<br/>
           They monitor growth, development,
  and provide preventive<br/> care like vaccinations.</p>
- <div className='gg5'></div>
- <h1 className='der'>Dermatology</h1>
- <h4 className='kk4'>(skin, hair, nails)</h4>
- <img className='der1' src={der}/>
- <p className='mat'>Dermatology is the branch of medicine that <br/>focuses on diagnosing<br/>
+ <div className='gg7'></div>
+ <h1 className='dern'>Dermatology</h1>
+ <h4 className='kko'>(skin, hair, nails)</h4>
+ <img className='derp' src={der}/>
+ <p className='matn'>Dermatology is the branch of medicine that <br/>focuses on diagnosing<br/>
   and treating conditions related to the<br/> skin, hair, and nails.<br/>
 It covers a wide range of issues, including acne, eczema,<br/>
  psoriasis, infections, and skin cancers.</p>
  <h1 className='us'>Contact us</h1>
-   <img className='img21' src={us}/>
-    <video autoPlay loop muted  width='100%'><source src={picturevideo} type='video/mp4' className='pat01'/></video>
+   <img className='img21' src={us}/> 
+    <video autoPlay loop muted  width='80%' style={{margin:"5vw"}}><source src={doctvideo} type='video/mp4' className='pat01'/></video>
     <div className='loo'></div>
      <img className='apo0' src={apo}/>
      <img className='name1'  src={nam1}/>

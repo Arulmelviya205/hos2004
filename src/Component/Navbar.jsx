@@ -1,13 +1,12 @@
 import React from 'react'
-
 import '../Styles/Navbar.css';
 import { Link } from 'react-router-dom';
-import home from '/src/assets/images/home.jpg';
-import about from '/src/assets/images/about.jpg';
-import us from '/src/assets/images/us.jpg';
-import patient from '/src/assets/images/patient.jpg';
-import bill from '/src/assets/images/bill.jpg';
-import login  from '/src/assets/images/login.jpg';
+import home from '../assets/images/home.jpg';
+import about from '../assets/images/about.jpg';
+import us from '../assets/images/us.jpg';
+import patient from '../assets/images/patient.jpg';
+import bill from '../assets/images/bill.jpg';
+import login  from '../assets/images/login.jpg';
 export default function Navbar() {
   return (
     <div>

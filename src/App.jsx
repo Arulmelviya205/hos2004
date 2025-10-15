@@ -19,11 +19,11 @@ function App() {
      <Navbar/>
      <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='./about' element={<About/>}/>
-      <Route path='./contactus' element={<ContactUs/>}/>
-      <Route path='./patient' element={<Patient/>}/>
-      <Route path='./billing' element={<Billing/>}/>
-      <Route path='./login' element={<Login/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/contactus' element={<ContactUs/>}/>
+      <Route path='/patient' element={<Patient/>}/>
+      <Route path='/billing' element={<Billing/>}/>
+      <Route path='/login' element={<Login/>}/>
      </Routes>
        
     </>
