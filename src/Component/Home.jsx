@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Styles/Home.css";
+
 import hos from '../assets/images/hos.jpg';
 import hos1 from '../assets/images/hos1.jpg';
 import about from '../assets/images/about.jpg';
@@ -40,6 +41,9 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div>
+     
+      
+    
        <img className='hos' src={hos} alt='Hospital'/> 
       <h1 className='tal'>Hospital</h1>
      <img className='hos1' src={hos1} alt='about hosptial'/>
@@ -178,7 +182,7 @@ It covers a wide range of issues, including acne, eczema,<br/>
     <h1 className='rd'>Dr. Ravi Kumar Saman</h1>
     <h4 className='rd1'>Specialist:Radiology</h4>
     <div className='mmm'></div>
-    <img className='nep' src={nep}/>
+    <img className='nepp' src={nep}/>
     <h1 className='nepk'>Dr. Shivangini Gupta</h1>
     <h4 className='nepm'>Specialist:Pediatric Nephrology</h4>
     <div className='aaa'></div>

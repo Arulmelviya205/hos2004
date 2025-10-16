@@ -207,3 +207,300 @@
     background-color: green;
     color: white;
 }
+.jj0{
+    position: relative;
+    margin-top: 8vw;
+    margin-left: 43vw;
+    color: brown;
+}
+.jj{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 90vw;
+    height: 100vh;
+    margin-top: 5vw;
+    margin-left: 4vw;
+    background-color: aliceblue;
+}
+.lth{
+    position: absolute;
+    z-index: 3;
+    width: 8vw;
+    margin-top: -45vw;
+    margin-left: 7vw;
+}
+.lth1{
+    position:absolute;
+    z-index: 3;
+    margin-left: 7vw;
+    margin-top: -36vw;
+    color: brown;
+}
+.st{
+    position: absolute;
+    z-index: 3;
+    margin-top: -44vw;
+    width: 7vw;
+    margin-left: 25vw;
+}
+.st1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -36vw;
+    margin-left: 25.8vw;
+    color: brown;
+}
+.oct{
+    position: absolute;
+    z-index: 3;
+    width: 8vw;
+    margin-top: -44vw;
+    margin-left: 41vw;
+}
+.oct1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -36vw;
+    margin-left: 43vw;
+    color: brown;
+}
+.rse{
+    position: absolute;
+    z-index: 3;
+    width: 7.5vw;
+    margin-top: -44vw;
+    margin-left: 58vw;
+}
+.rse1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -36vw;
+    margin-left: 60vw;
+    color: brown;
+}
+.cine{
+    position: absolute;
+    z-index: 3;
+    width: 7vw;
+    margin-top: -43vw;
+    margin-left: 76vw;
+}
+.cine1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 76vw;
+    margin-top: -36vw;
+    color: brown;
+}
+.tion{
+    position: absolute;
+    z-index: 3;
+    margin-left: 7vw;
+    width: 7vw;
+    margin-top: -32vw;
+}
+.tion1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 7vw;
+    margin-top: -24vw;
+    color: brown;
+}
+.it{
+    position: absolute;
+    z-index: 3;
+    width: 6vw;
+    margin-left: 25vw;
+    margin-top: -31vw;
+}
+.it1{
+   position: absolute;
+   z-index: 3;
+   margin-top: -24vw;
+   margin-left: 24.3vw;
+   color: brown;
+}
+.dio{
+    position: absolute;
+    z-index: 3;
+    width: 6vw;
+    margin-top: -30.4vw;
+    margin-left: 42vw;
+}
+.dio1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 41vw;
+    margin-top: -24vw;
+    color: brown;
+}
+.tie{
+    position: absolute;
+    z-index: 3;
+    width: 7vw;
+    margin-left: 59vw;
+    margin-top: -31vw;
+}
+.tie1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 59.5vw;
+    margin-top: -24vw;
+    color: brown;
+}
+.mer{
+    position: absolute;
+    z-index: 3;
+    width: 7vw;
+    margin-top: -31vw;
+    margin-left: 76vw;
+}
+.mer1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 76vw;
+    margin-top: -23.5vw;
+    color: brown;
+}
+.bul{
+    position: absolute;
+    z-index: 3;
+    margin-left: 7vw;
+    margin-top: -21vw;
+    width: 7.5vw;
+}
+.bul1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -14vw;
+    margin-left: 6.8vw;
+    color: brown;
+}
+.tho{
+    position: absolute;
+    z-index: 3;
+    width: 6vw;
+    margin-left: 24.5vw;
+    margin-top: -20.5vw;
+}
+.tho1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 24vw;
+    margin-top: -14vw;
+    color: brown;
+}
+.surg{
+    position: absolute;
+    z-index: 3;
+    width: 6vw;
+    margin-left: 42vw;
+    margin-top: -20vw;
+}
+.surg1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -14vw;
+    margin-left: 42vw;
+    color: brown;
+}
+.lab{
+    position: absolute;
+    z-index:3;
+    margin-left: 59vw;
+    width: 5.5vw;
+    margin-top: -20vw;
+}
+.lab1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 60.5vw;
+    margin-top: -14vw;
+    color: brown;
+}
+.virus{
+    position: absolute;
+    z-index: 3;
+    width: 5.5vw;
+    margin-top: -20vw;
+    margin-left: 76.5vw;
+}
+.virus1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -14vw;
+    margin-left: 77vw;
+    color: brown;
+}
+.phar{
+   position: absolute;
+   z-index: 3;
+   width: 6vw;
+   margin-left: 7vw;
+   margin-top: -11vw;
+}
+.phar1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 7vw;
+    margin-top: -4vw;
+    color: brown;
+}
+.report{
+    position: absolute;
+    z-index: 3;
+    width: 6vw;
+    margin-left: 24vw;
+    margin-top: -11vw;
+}
+.report1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -4vw;
+    margin-left: 22vw;
+    color: brown;
+}
+.treat{
+    position: absolute;
+    z-index: 3;
+    width: 6vw;
+    margin-left: 42vw;
+    margin-top: -11vw;
+}
+.treat1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -4vw;
+    margin-left: 41vw;
+    color: brown;
+}
+.micro{
+    position: absolute;
+    z-index: 3;
+    width: 6vw;
+    margin-left: 59vw;
+    margin-top: -11vw;
+}
+.micro1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 58vw;
+    margin-top: -4vw;
+    color: brown;
+}
+.clinic{
+    position: absolute;
+    z-index: 3;
+    width: 5vw;
+    margin-top: -10vw;
+    margin-left: 76vw;
+}
+.clinic1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 76.5vw;
+    margin-top: -4vw;
+    color: brown;
+}
