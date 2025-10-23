@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Styles/Contactus.css'
 import hos from '../assets/images/hos.jpg'
 import ht from '../assets/images/ht.jpg'
@@ -29,7 +29,22 @@ import report from '../assets/images/report.jpg'
 import treat from '../assets/images/treat.jpg'
 import micro from '../assets/images/micro.jpg'
 import clinic from '../assets/images/clinic.jpg'
+import face from '../assets/images/face.jpg'
+import insta from '../assets/images/insta.jpg'
+import goo from '../assets/images/goo.jpg'
  export default function Contactus() {
+  const [email, setEmail] = useState("");
+
+  const submitEmail = () => {
+    if (email === "") {
+      alert("Please enter an email.");
+    } else if (!email.includes("@") || !email.includes(".")) {
+      alert("Please enter a valid email address.");
+    } else {
+      alert("Submitted Successfully");
+      setEmail(""); 
+    }
+  };
   return (
     <div>
       <img className='ho' src={hos}/>
@@ -109,7 +124,39 @@ import clinic from '../assets/images/clinic.jpg'
    <h2 className='micro1'>Microscope</h2>
    <img className='clinic' src={clinic}/>
    <h2 className='clinic1'>Clinic</h2>
+   <h1 className='pi'>Hospital</h1>
+   <img className='img0' src={hos}/>
+   <div className='vv'></div>
+   <h1 className='vv0'>Contact us</h1>
+    <p className='np'>📞 Phone: +91 98765 43210</p>
+    <p className='mail'>📧 Email: support@hospital.com</p>
+      <p className='nagar'>📍 Address: 123, Anna Nagar, Chennai</p>
+      <img className='face' src={face}/>
+      <img className='ins' src={insta}/>
+      <img className='g0' src={goo}/>
+      <h1 className='joi'>Join us</h1>
+      <label className='vv1'>Email:</label>
+      <input type='email'value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        className='labe'/>
+      <button className='ton' onClick={submitEmail}>Submit</button>
+      <h2 className='ment'>Department</h2>
+      <h2 className='day'>Days</h2>
+      <h2 className='time'>Timing</h2>
+      <p className='opd'>General OPD</p>
+      <p className='monday'>Monday-Saturday</p>
+      <p className='monk'>8:00 AM – 8:00 PM</p>
+      <p className='genk'>Emergency</p>
+      <p className='all'>All Days</p>
+      <p className='all0'>24 * 7</p>
+      <p className='mac'>Pharmacy</p>
+      <p className='sun'>Monday-Sunday</p>
+      <p className='sun0'>7:00 AM – 10:00 PM</p>
+      <p className='scan'>Lab & Scan</p>
+      <p className='scan0'>Monday–Saturday</p>
+      <p className='scan1'>8:00 AM – 6:00 PM</p>
    </div>
+   
   )
 }
 

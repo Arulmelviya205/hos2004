@@ -218,7 +218,7 @@
     z-index: 2;
     border: 1px solid black;
     border-radius: 2vw;
-    width: 90vw;
+    width: 85vw;
     height: 100vh;
     margin-top: 5vw;
     margin-left: 4vw;
@@ -503,4 +503,227 @@
     margin-left: 76.5vw;
     margin-top: -4vw;
     color: brown;
+}
+.pi{
+    position: relative;
+    margin-left: 9vw;
+    margin-top: 8vw;
+    color: brown;
+}
+.img0{
+    position: relative;
+    width: 3.5vw;
+    margin-left: 5vw;
+    top: -3vw;
+}
+.vv{
+    position: relative;
+    z-index: 2;
+    border: 1px solid white;
+    width: 99vw;
+    height: 40vh;
+    background-color: black;
+}
+.vv0{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -17vw;
+    margin-left: 5vw;
+}
+.np{
+    position: absolute;
+    z-index: 3;
+    margin-top: -13vw;
+    color: white;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+}
+.mail{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 3vw;
+    margin-top: -10vw;
+}
+.nagar{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -7vw;
+    font-size: 1.5vw;
+    margin-left: 3vw;
+}
+.face{
+    position: absolute;
+    z-index: 3;
+    width: 2.8vw;
+    margin-left: 5vw;
+    margin-top: -3.7vw;
+}
+.ins{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 9vw;
+    margin-top: -3.4vw;
+}
+.g0{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 13vw;
+    margin-top: -3.4vw;
+}
+.joi{
+    position: absolute;
+    z-index: 3;
+    margin-top: -17vw;
+    color: white;
+    margin-left: 35vw;
+}
+.vv1{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -13vw;
+    margin-left:35vw;
+    font-size: 1.5vw;
+}
+.labe{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 35vw;
+    border-radius: 2vw;
+    width: 12vw;
+    height: 4vh;
+}
+.ton{
+    position: absolute;
+    z-index: 3;
+    width: 9vw;
+    height: 3.5vh;
+    font-size: 1vw;
+    border-radius: 2vw;
+    margin-top: -5vw;
+    margin-left: 35vw;
+}
+.ment{
+    position: absolute;
+    z-index: 3;
+    margin-left: 55vw;
+    color: white;
+    margin-top: -17vw;
+}
+.day{
+    position: absolute;
+    z-index: 3;
+    margin-left: 73vw;
+    color: white;
+    margin-top: -16.8vw;
+}
+.time{
+    position: absolute;
+    z-index: 3;
+    margin-left: 85vw;
+    color: white;
+    margin-top: -16.8vw;
+}
+.opd{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -13vw;
+    margin-left: 55vw;
+    font-size: 1.4vw;
+}
+.monday{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-left: 70vw;
+    margin-top: -13vw;
+    font-size: 1.4vw;
+}
+.monk{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.3vw;
+    color: white;
+    margin-top: -13vw;
+    margin-left: 84vw;
+}
+.genk{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-left:55vw;
+    margin-top: -10vw;
+    font-size: 1.4vw;
+}
+.all{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    color: white;
+    margin-left: 72vw;
+    font-size: 1.3vw;
+}
+.all0{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 86vw;
+    margin-top: -10vw;
+}
+.mac{
+    position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    color: white;
+    margin-left: 55vw;
+    font-size: 1.4vw;
+}
+.sun{
+    position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    color: white;
+    margin-left: 70vw;
+    font-size: 1.4vw;
+}
+.sun0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    margin-left:83vw;
+    font-size: 1.3vw;
+    color: white;
+}
+.scan{
+    position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 54.6vw;
+    color: white;
+    font-size: 1.4vw;
+}
+.scan0{
+     position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 69vw;
+    color: white;
+    font-size: 1.4vw;
+}
+.scan1{
+     position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 83vw;
+    color: white;
+    font-size: 1.4vw;
 }
