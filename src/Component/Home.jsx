@@ -58,7 +58,7 @@ export default function Home() {
          <Link className="coo1" to="/about">Learn more</Link>
           <h1 className='dap1'>Department</h1>
           <div className='mo'></div>
-           <h1 className='dio'>cardiology</h1>
+           <h1 className='diok'>cardiology</h1>
            <h4 className='kk0'>(heart and blood vessels)</h4>
            <img className='caro' src={caro}/>
             <p className='the'>Cardiology is the branch of medicine that<br/>
