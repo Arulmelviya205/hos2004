@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../Styles/Patient.css'
 import hos from '../assets/images/hos.jpg'
-import patievideo from '../assets/videos/patie.mp4'
 import patho from '../assets/images/patho.jpg'
 import varma from '../assets/images/varma.jpg'
 import ana from '../assets/images/ana.jpg'
@@ -26,7 +25,99 @@ import add from '../assets/images/add.jpg'
 import gro from '../assets/images/gro.jpg'
 import path from '../assets/images/path.jpg'
 import tial from '../assets/images/tial.jpg'
+import axios from 'axios'
 export default function Patient() {
+    const[id,setId]=useState('');
+    const[name,setName]=useState('');
+    const[age,setAge]=useState('');
+    const[gender,setGender]=useState('');
+    const[dob,setDoB]=useState('');
+    const[email,setEmail]=useState('');
+    const[number,setNumber]=useState('');
+    const[problem,setProblem]=useState('');
+    const[address,setAddress]=useState('');
+    const[blood,setBlood]=useState('');
+    const[check,setCheck]=useState(false);
+     const [TotalData, setTotalData] = useState([]);
+    const PostData=async() =>{
+      try{
+      await axios.post(`https://68c8ec4eceef5a150f62b5f6.mockapi.io/index1/`,{
+        id:id,
+        name:name,
+        age:age,
+        gender:gender,
+        dob:dob,
+        email:email,
+        number:number,
+        problem:problem,
+        address:address,
+        blood:blood,
+        check:check
+     });
+     GetData();
+      }
+   catch(error){
+       console.log("failed to create data:",error.message);
+       alert("submitted successfully:");
+    }
+  }
+  const GetData= async()=>{
+    try{
+      const response=await axios.get(`https://68c8ec4eceef5a150f62b5f6.mockapi.io/index1/`);
+      setTotalData(response.data);
+    }
+    catch(error){
+      console.log("failed to get data:",error.message);
+      alert("failed to get data:");
+    }
+    useEffect(()=>{
+      GetData();
+    },[]);
+  }
+  const[updateid,setupdateId]=useState('');
+  const[updatename,setupdateName]=useState('');
+  const[updateage,setupdateAge]=useState('');
+  const[updategender,setupdateGender]=useState('');
+  const[updatedob,setupdateDoB]=useState('');
+  const[updateemail,setupdateEmail]=useState('');
+  const[updatenumber,setupdateNumber]=useState('');
+  const[updateproblem,setupdateProblem]=useState('');
+  const[updateaddress,setupdateAddress]=useState('');
+  const[updateblood,setupdateBlood]=useState('');
+  const[updatestatus,setupdateStatus]=useState(false);
+  const updateuser = async(id)=>{
+    try{
+      await axios.put(`https://68c8ec4eceef5a150f62b5f6.mockapi.io/index1/${id}`,{
+         id:updateid,
+         name:updatename,
+         age:updateage,
+         gender:updategender,
+         dob:updatedob,
+         email:updateemail,
+         number:updatenumber,
+         problem:updateproblem,
+         address:updateaddress,
+         blood:updateblood,
+         check:updatestatus
+      });
+      GetData();
+    }
+    catch(error){
+      console.log("failed to update data:",error.message);
+      alert("failed to update data:");
+    }
+  }
+    const deleteuser = async(id)=>{
+          try{
+       await axios.delete(`https://68c8ec4eceef5a150f62b5f6.mockapi.io/index1/${id}`);
+        GetData();
+          }
+           catch(error){
+          console.error("Failed to Delete  data:",error.message);
+          alert("failed to Delete data:");
+      }
+     }
+    
   return (
     <div>
        <img className='ho11' src={hos}/>
@@ -85,7 +176,7 @@ export default function Patient() {
       <img className='sree' src={sree}/>
       <h1 className='sree0'>Dr. K. Siva Sree</h1>
       <h4 className='sree1'>Specialist:Medical Oncologist</h4>
-      {/*<div className='mm'></div>
+      <div className='mm'></div>
       <h1 className='details'>Patient Details</h1>
       <img className='nn0' src={man}/>
       <img className='nam0' src={nam}/>
@@ -113,14 +204,75 @@ export default function Patient() {
           <label className='num'>Number:</label><br/>
            <input type='text' onChange={event=>{setNumber(event.target.value)}} className='num1'/><br/>
            <label className='pro'>Problem:</label><br/>
-            <input type='text' onChange={event=>{setProblem(event.target.value)}} className='pro1'/><br/>
+          <input type='text' onChange={event=>{setProblem(event.target.value)}} className='pro1'/><br/>
             <label className='add'>Address:</label><br/>
              <input type='text' onChange={event=>{setAddress(event.target.value)}} className='add1'/><br/>
              <label className='gro'>Blood group:</label><br/>
              <input type='text' onChange={event=>{setBlood(event.target.value)}} className='gro1'/><br/>
              <input type='checkbox' onChange={(event)=>setCheck(event.target.checked)} className='chec'/>
-             <button className='sub' onClick={PostData}>submit</button> */}
-            
+               <button className='sub' onClick={PostData}>submit</button> 
+                
+              <h1 className='data'>Read data</h1>
+             <table>
+             <tr>
+              <td>ID</td>
+              <td>name</td>
+              <td>age</td>
+              <td>gender</td>
+              <td>DOB</td>
+              <td>email</td>
+              <td>number</td>
+              <td>problem</td>
+              <td>address</td>
+              <td>blood group</td>
+              <td>status</td>
+              <td>update</td>
+              <td>delete</td>
+             </tr>
+             {TotalData.map(item=>(
+              <tr key={item.id}>
+                <td>{item.id}</td>
+              <td>{item.name}</td>
+              <td>{item.age}</td>
+              <td>{item.gender}</td>
+              <td>{item.dob}</td>
+              <td>{item.email}</td>
+              <td>{item.number}</td>
+              <td>{item.problem}</td>
+              <td>{item.address}</td>
+              <td>{item.blood}</td>
+              <td><input type='checkbox' checked={item.check}/></td>
+              <td><button onClick={()=>updateuser(item.id)}>update</button></td>
+              <td><button onClick={()=>deleteuser(item.id)}>delete</button></td>
+
+              </tr>
+
+             ))}
+             </table>
+             <h1 className='da'>Update data</h1>
+              <div className='ss'></div>
+             <label>ID:</label>
+             <input type='text' onChange={event=>{setupdateId(event.target.value)}}/><br/>
+      <label>Name:</label><br/>
+       <input type='text' onChange={event=>{setupdateName(event.target.value)}}/><br/>
+      <label>Age:</label><br/>
+       <input type='text' onChange={event=>{setupdateAge(event.target.value)}}/><br/>
+       <label>Gender:</label><br/>
+        <input type='text' onChange={event=>{setupdateGender(event.target.value)}}/><br/>
+        <label>DOB:</label><br/>
+         <input type='text' onChange={event=>{setupdateDoB(event.target.value)}}/><br/>
+         <label>email:</label><br/>
+          <input type='text' onChange={event=>{setupdateEmail(event.target.value)}}/><br/>
+          <label>Number:</label><br/>
+           <input type='text' onChange={event=>{setupdateNumber(event.target.value)}}/><br/>
+           <label>Problem:</label><br/>
+            <input type='text' onChange={event=>{setupdateProblem(event.target.value)}}/><br/>
+            <label>Address:</label><br/>
+             <input type='text' onChange={event=>{setupdateAddress(event.target.value)}}/><br/>
+             <label>Blood group:</label><br/>
+             <input type='text' onChange={event=>{setupdateBlood(event.target.value)}}/><br/>
+             <input type='checkbox' onChange={(event)=>setupdateStatus(event.target.checked)}/>
+          
     </div>
   )
 }
