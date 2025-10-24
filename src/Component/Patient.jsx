@@ -25,51 +25,67 @@ import pro from '../assets/images/pro.jpg'
 import add from '../assets/images/add.jpg'
 import gro from '../assets/images/gro.jpg'
 import path from '../assets/images/path.jpg'
-
+import tial from '../assets/images/tial.jpg'
 export default function Patient() {
   return (
     <div>
-       {/* <img className='ho11' src={hos}/>
+       <img className='ho11' src={hos}/>
       <h1 className='ta11'>Hospital</h1>
-     <video autoPlay loop muted  width='98%'><source src={patievideo} type='video/mp4' className='pat0'/></video>
+    <img className='cck'src={tial}/>
+    <p className='apy'>A patient is an individual who receives medical care or treatment from healthcare professionals.<br/>
+     They may visit a hospital or clinic for diagnosis, therapy, or regular checkups.</p>
+     <p className='apy0'>A patient is a person receiving medical care or treatment from doctors or healthcare staff.<br/>
+    They may visit hospitals or clinics for checkups, diagnosis, or recovery support.</p>
       <h1 className='doctor'>Doctor List</h1>
+      <div className='hh0'></div>
       <img className="patho" src={patho}/>
       <h1 className='raja'>Dr. Rajavigneshwari N</h1>
       <h4 className='raja1'>Specialist:Pathologist</h4>
+      <div className='hh1'></div>
       <img className='varma' src={varma}/>
       <h1 className='varmak'>Dr. (Prof.) Amitaabh Varma</h1>
       <h4 className='varma1'>Specialist:Neurology</h4>
+      <div className='hh2'></div>
       <img className='ana' src={ana}/>
       <h1 className='anam'>Dr. Anita Kulkarni</h1>
       <h4 className='anal'>Specialist:Anaesthesiology</h4>
+      <div className='hh3'></div>
       <img className='nanl' src={nano}/>
-      <h1 className='nanoj'>Dr. Rashi Gupta</h1>
-      <h4 className='nanoi'>Specialist:Neonatology</h4>
+     <h1 className='nanoj'>Dr. Rashi Gupta</h1>
+     <h4 className='nanoi'>Specialist:Neonatology</h4>
+     <div className='hh4'></div>
       <img className='uro' src={uro}/>
-      <h1 className='urop'>Dr. Surendra Kumar Nindra</h1>
+     <h1 className='urop'>Dr. Surendra Kumar Nindra</h1>
       <h4 className='urow'>Specialist:Urology</h4>
+      <div className='hh5'></div>
       <img className='cardio' src={cardio}/>
       <h1 className='cardioa'>Dr. Deepak Natarajan</h1>
       <h4 className='cardioq'>Specialist:cardiology</h4>
+      <div className='hh6'></div>
       <img className='radio' src={radio}/>
       <h1 className='radiod'>Dr. Ravi Kumar Saman</h1>
       <h4 className='radion'>Specialist:Radiologist</h4>
+      <div className='hh7'></div>
       <img className='gyna' src={gyna}/>
       <h1 className='gynal'>Dr. Manisha Uddey</h1>
       <h4 className='gynab'>Specialist:Gynaecology</h4>
+      <div className='hh8'></div>
       <img className='nep1' src={nep}/>
-      <h1 className='nepm'>Dr. Shivangini Gupta</h1>
+      <h1 className='neph'>Dr. Shivangini Gupta</h1>
       <h4 className='nep2'>Specialist:Pediatric Nephrology</h4>
+      <div className='hh9'></div>
       <img className='onco' src={onco}/>
       <h1 className='oncoo'>Dr. P. Karunakar Reddy</h1>
       <h4 className='onco1'>Specialist:Surgical Oncologist</h4>
+      <div className='hh10'></div>
       <img className='ctvs' src={ctvs}/>
       <h1 className='ctvs0'>Dr. Ankush Singh Kotwal</h1>
       <h4 className='ctvs1'>Specialist:CTVS Surgeon</h4>
+      <div className='hh11'></div>
       <img className='sree' src={sree}/>
       <h1 className='sree0'>Dr. K. Siva Sree</h1>
       <h4 className='sree1'>Specialist:Medical Oncologist</h4>
-      <div className='mm'></div>
+      {/*<div className='mm'></div>
       <h1 className='details'>Patient Details</h1>
       <img className='nn0' src={man}/>
       <img className='nam0' src={nam}/>
@@ -104,7 +120,7 @@ export default function Patient() {
              <input type='text' onChange={event=>{setBlood(event.target.value)}} className='gro1'/><br/>
              <input type='checkbox' onChange={(event)=>setCheck(event.target.checked)} className='chec'/>
              <button className='sub' onClick={PostData}>submit</button> */}
-             <h1>melvi</h1>
+            
     </div>
   )
 }
