@@ -801,3 +801,480 @@ table,tr,td{
     margin-top: 5vw;
     background-color:aliceblue;
 }
+.rr{
+    position: absolute;
+    z-index: 3;
+    margin-top: -43vw;
+    margin-left: 18vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.rr0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -39vw;
+    margin-left: 18vw;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+}
+.rr1{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-top: -66.5vw;
+    margin-left: 14vw;
+}
+.qq{
+   position: absolute;
+   z-index: 3;
+   margin-top: -35vw;
+   margin-left: 18vw;
+   font-size: 1.5vw;
+   color: brown;
+}
+.qq0{
+   position: absolute;
+   z-index: 3;
+   margin-top: -33vw;
+   margin-left: 18vw;
+   width: 10vw;
+   height: 3vh;
+   border-radius: 2vw;
+}
+.qq1{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-top: -57.5vw;
+    margin-left: 14vw;
+}
+.ssk{
+    position: absolute;
+    z-index: 3;
+   margin-top: -29vw;
+    margin-left: 18vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.ss0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -27vw;
+    margin-left: 18vw;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+}
+.ss1{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-top: -49vw;
+    margin-left: 14vw;
+}
+.ggm{
+    position: absolute;
+    z-index: 3;
+    margin-top: -24vw;
+    margin-left: 18vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.ggn{
+    position: absolute;
+    z-index: 3;
+    margin-top: -22vw;
+    margin-left: 18vw;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+}
+.ggl{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-top: -42vw;
+    margin-left: 14vw;
+}
+.ob{
+    position: absolute;
+    z-index: 3;
+    margin-top: -18vw;
+    margin-left: 18vw;
+    font-size: 1.5vw;
+    color:brown;
+}
+.ob1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -15.5vw;
+    margin-left: 18vw;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+}
+.ob0{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-top: -33.5vw;
+    margin-left: 14vw;
+}
+.ma{
+    position: absolute;
+    z-index: 3;
+    margin-top: -53.5vw;
+    margin-left: 58vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.ma1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -51vw;
+    margin-left: 58vw;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+}
+.ma0{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-top: -66vw;
+    margin-left: 54vw;
+}
+.mb{
+    position: absolute;
+    z-index: 3;
+    margin-top: -47vw;
+    margin-left: 58vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.mb1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -45vw;
+    margin-left: 58vw;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+}
+.mb0{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-top: -57.4vw;
+    margin-left: 54vw;
+}
+.em{
+    position: absolute;
+    z-index: 3;
+    margin-top: -41vw;
+    margin-left: 58vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.em1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -39vw;
+    margin-left: 58vw;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+}
+.em0{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 54vw;
+    margin-top: -49vw;
+}
+.ress{
+    position: absolute;
+    z-index: 3;
+    margin-left: 58vw;
+    margin-top: -35.5vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.ress1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 58vw;
+    margin-top: -33vw;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+}
+.ress0{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 54vw;
+    margin-top: -41vw;
+}
+.up{
+    position: absolute;
+    z-index: 3;
+    margin-left: 58vw;
+    margin-top: -30vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.up1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 58vw;
+    margin-top: -27vw;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 2vw;
+}
+.up0{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 54vw;
+    margin-top: -33vw;
+}
+.ox{
+    position: absolute;
+    z-index: 3;
+    margin-top: -27vw;
+    margin-left: 42vw;
+}
+.tt{
+    position:absolute;
+    z-index: 3;
+    width: 20vw;
+    border-radius: 2vw;
+    margin-left: 31vw;
+    margin-top: -54vw;
+}
+.pi0k{
+    position: relative;
+    margin-left: 9vw;
+    margin-top: -10vw;
+    color: brown;
+}
+.img01{
+     position: relative;
+    width: 3.5vw;
+    margin-left: 5vw;
+    top: -3vw;
+}
+.ii{
+    position: relative;
+    z-index: 2;
+    border: 1px solid white;
+    width: 99vw;
+    height: 40vh;
+    background-color: black;
+}
+.ont{
+     position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -17vw;
+    margin-left: 5vw;
+}
+.ont0{
+     position: absolute;
+    z-index: 3;
+    margin-top: -13vw;
+    color: white;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+}
+.ont1{
+     position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 3vw;
+    margin-top: -10vw;
+}
+.ont2{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -7vw;
+    font-size: 1.5vw;
+    margin-left: 3vw;
+}
+.ace{
+     position: absolute;
+    z-index: 3;
+    width: 2.8vw;
+    margin-left: 5vw;
+    margin-top: -3.7vw;
+}
+.nsta{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 9vw;
+    margin-top: -3.4vw;
+}
+.gok{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 13vw;
+    margin-top: -3.4vw;
+}
+.in{
+    position: absolute;
+    z-index: 3;
+    margin-top: -17vw;
+    color: white;
+    margin-left: 35vw;
+}
+.in0{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -13vw;
+    margin-left:35vw;
+    font-size: 1.5vw;
+}
+.in1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 35vw;
+    border-radius: 2vw;
+    width: 12vw;
+    height: 4vh;
+}
+.to{
+    position: absolute;
+    z-index: 3;
+    width: 9vw;
+    height: 3.5vh;
+    font-size: 1vw;
+    border-radius: 2vw;
+    margin-top: -5vw;
+    margin-left: 35vw;
+}
+.ay{
+    position: absolute;
+    z-index: 3;
+    margin-left: 55vw;
+    color: white;
+    margin-top: -17vw;
+}
+.ay0{
+    position: absolute;
+    z-index: 3;
+    margin-left: 73vw;
+    color: white;
+    margin-top: -16.8vw;
+}
+.ay1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 85vw;
+    color: white;
+    margin-top: -16.8vw;
+}
+.ral{
+   position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -13vw;
+    margin-left: 55vw;
+    font-size: 1.4vw;
+}
+.ral0{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-left: 70vw;
+    margin-top: -13vw;
+    font-size: 1.4vw;
+}
+.ral1{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.3vw;
+    color: white;
+    margin-top: -13vw;
+    margin-left: 84vw;
+}
+.cy{
+   position: absolute;
+    z-index: 3;
+    color: white;
+    margin-left:55vw;
+    margin-top: -10vw;
+    font-size: 1.4vw;
+}
+.cy0{
+   position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    color: white;
+    margin-left: 72vw;
+    font-size: 1.3vw;
+}
+.cy1{
+   position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 86vw;
+    margin-top: -10vw;
+}
+.ar{
+     position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    color: white;
+    margin-left: 55vw;
+    font-size: 1.4vw;
+}
+.ar0{
+   position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    color: white;
+    margin-left: 70vw;
+    font-size: 1.4vw;
+}
+.ar1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    margin-left:83vw;
+    font-size: 1.3vw;
+    color: white;
+}
+.an{
+   position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 54.6vw;
+    color: white;
+    font-size: 1.4vw;
+}
+.an0{
+   position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 69vw;
+    color: white;
+    font-size: 1.4vw;
+}
+.an1{
+   position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 83vw;
+    color: white;
+    font-size: 1.4vw;
+}

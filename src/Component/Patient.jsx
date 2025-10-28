@@ -25,6 +25,20 @@ import add from '../assets/images/add.jpg'
 import gro from '../assets/images/gro.jpg'
 import path from '../assets/images/path.jpg'
 import tial from '../assets/images/tial.jpg'
+import nam0 from '../assets/images/nam0.jpg'
+import qq from '../assets/images/qq.jpg'
+import ss from '../assets/images/ss.jpg'
+import gg from '../assets/images/gg.jpg'
+import ob from '../assets/images/ob.jpg'
+import ma from '../assets/images/ma.jpg'
+import mb from '../assets/images/mb.jpg'
+import em from '../assets/images/em.jpg'
+import ress from '../assets/images/ress.jpg'
+import up from '../assets/images/up.jpg'
+import tt from '../assets/images/tt.jpg'
+import face from '../assets/images/face.jpg'
+import insta from '../assets/images/insta.jpg'
+import goo from '../assets/images/goo.jpg'
 import axios from 'axios'
 export default function Patient() {
     const[id,setId]=useState('');
@@ -117,7 +131,20 @@ export default function Patient() {
           alert("failed to Delete data:");
       }
      }
-    
+       
+
+      const [Email, setemail] = useState("");
+     
+       const submitEmail = () => {
+         if (email === "") {
+           alert("Please enter an email.");
+         } else if (!email.includes("@") || !email.includes(".")) {
+           alert("Please enter a valid email address.");
+         } else {
+           alert("Submitted Successfully");
+           setEmail(""); 
+         }
+       }
   return (
     <div>
        <img className='ho11' src={hos}/>
@@ -251,28 +278,69 @@ export default function Patient() {
              </table>
              <h1 className='da'>Update data</h1>
               <div className='ss'></div>
-             <label>ID:</label>
-             <input type='text' onChange={event=>{setupdateId(event.target.value)}}/><br/>
-      <label>Name:</label><br/>
-       <input type='text' onChange={event=>{setupdateName(event.target.value)}}/><br/>
-      <label>Age:</label><br/>
-       <input type='text' onChange={event=>{setupdateAge(event.target.value)}}/><br/>
-       <label>Gender:</label><br/>
-        <input type='text' onChange={event=>{setupdateGender(event.target.value)}}/><br/>
-        <label>DOB:</label><br/>
-         <input type='text' onChange={event=>{setupdateDoB(event.target.value)}}/><br/>
-         <label>email:</label><br/>
-          <input type='text' onChange={event=>{setupdateEmail(event.target.value)}}/><br/>
-          <label>Number:</label><br/>
-           <input type='text' onChange={event=>{setupdateNumber(event.target.value)}}/><br/>
-           <label>Problem:</label><br/>
-            <input type='text' onChange={event=>{setupdateProblem(event.target.value)}}/><br/>
-            <label>Address:</label><br/>
-             <input type='text' onChange={event=>{setupdateAddress(event.target.value)}}/><br/>
-             <label>Blood group:</label><br/>
-             <input type='text' onChange={event=>{setupdateBlood(event.target.value)}}/><br/>
-             <input type='checkbox' onChange={(event)=>setupdateStatus(event.target.checked)}/>
-          
+             <label className='rr'> Patient ID:</label>
+             <input type='text' onChange={event=>{setupdateId(event.target.value)}} className='rr0'/><br/>
+      <label className='qq'>Name:</label><br/>
+       <input type='text' onChange={event=>{setupdateName(event.target.value)}} className='qq0'/><br/>
+      <label className='ssk'>Age:</label><br/>
+       <input type='text' onChange={event=>{setupdateAge(event.target.value)}} className='ss0'/><br/>
+       <label className='ggm'>Gender:</label><br/>
+        <input type='text' onChange={event=>{setupdateGender(event.target.value)}} className='ggn'/><br/>
+        <label className='ob'>DOB:</label><br/>
+         <input type='text' onChange={event=>{setupdateDoB(event.target.value)}} className='ob1'/><br/>
+         <label className='ma'>email:</label><br/>
+          <input type='text' onChange={event=>{setupdateEmail(event.target.value)}} className='ma1'/><br/>
+          <label className='mb'>Number:</label><br/>
+           <input type='text' onChange={event=>{setupdateNumber(event.target.value)}} className='mb1'/><br/>
+           <label className='em'>Problem:</label><br/>
+            <input type='text' onChange={event=>{setupdateProblem(event.target.value)}} className='em1'/><br/>
+            <label className='ress'>Address:</label><br/>
+             <input type='text' onChange={event=>{setupdateAddress(event.target.value)}} className='ress1'/><br/>
+             <label className='up'>Blood group:</label><br/>
+             <input type='text' onChange={event=>{setupdateBlood(event.target.value)}} className='up1'/><br/>
+             <input type='checkbox' onChange={(event)=>setupdateStatus(event.target.checked)} className='ox'/>
+          <img className='rr1' src={nam0}/>
+          <img className='qq1' src={qq}/>
+          <img className='ss1' src={ss}/>
+          <img className='ggl' src={gg}/>
+          <img className='ob0' src={ob}/>
+          <img className='ma0' src={ma}/>
+          <img className='mb0' src={mb}/>
+          <img className='em0' src={em}/>
+          <img className='ress0'src={ress}/>
+          <img  className='up0' src={up}/>
+          <img className='tt' src={tt}/>
+           <h1 className='pi0k'>Hospital</h1>
+             <img className='img01' src={hos}/>
+          <div className='ii'></div>
+             <h1 className='ont'>Contact us</h1>
+              <p className='ont0'>📞 Phone: +91 98765 43210</p>
+              <p className='ont1'>📧 Email: support@hospital.com</p>
+                <p className='ont2'>📍 Address: 123, Anna Nagar, Chennai</p>
+                <img className='ace' src={face}/>
+                <img className='nsta' src={insta}/>
+                <img className='gok' src={goo}/>
+                <h1 className='in'>Join us</h1>
+                <label className='in0'>Email:</label>
+                <input type='email'value={Email}
+                  onChange={(e) => setemail(e.target.value)}
+                  className='in1'/>
+                <button className='to' onClick={submitEmail}>Submit</button>
+                <h2 className='ay'>Department</h2>
+                <h2 className='ay0'>Days</h2>
+                <h2 className='ay1'>Timing</h2>
+                <p className='ral'>General OPD</p>
+                <p className='ral0'>Monday-Saturday</p>
+                <p className='ral1'>8:00 AM – 8:00 PM</p>
+                <p className='cy'>Emergency</p>
+                <p className='cy0'>All Days</p>
+                <p className='cy1'>24 * 7</p>
+                <p className='ar'>Pharmacy</p>
+                <p className='ar0'>Monday-Sunday</p>
+                <p className='ar1'>7:00 AM – 10:00 PM</p>
+                <p className='an'>Lab & Scan</p>
+                <p className='an0'>Monday–Saturday</p>
+                <p className='an1'>8:00 AM – 6:00 PM</p>
     </div>
   )
 }
