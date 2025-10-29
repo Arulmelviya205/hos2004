@@ -1,0 +1,35 @@
+.pit{
+    position: relative;
+    margin-left: 8vw;
+    top: 3.5vw;
+    color: brown;
+}
+.pit0{
+   position: relative;
+    width: 4vw;
+    margin-left: 3vw;
+}
+.dd{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+    margin-top: 8vw;
+    background-color: aliceblue;
+}
+.login0{
+    position: absolute;
+    z-index: 3;
+    width: 40vw;
+    height: 100vh;
+    margin-top: -48.3vw;
+    margin-left: 10vw;
+}
+.gin{
+    position: absolute;
+    z-index: 3;
+    margin-left: 66.5vw;
+    margin-top: -47vw;
+}
