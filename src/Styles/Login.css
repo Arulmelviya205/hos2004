@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/delius-swash-caps');
+
 .pit{
     position: relative;
     margin-left: 8vw;
@@ -17,7 +19,7 @@
     height: 100vh;
     margin-left: 10vw;
     margin-top: 8vw;
-    background-color: aliceblue;
+    background-color: white;
 }
 .login0{
     position: absolute;
@@ -32,4 +34,150 @@
     z-index: 3;
     margin-left: 66.5vw;
     margin-top: -47vw;
+}
+.bel{
+    position: absolute;
+    z-index: 3;
+    margin-left: 60vw;
+    margin-top: -40vw;
+    font-size: 2vw;
+    color: brown;
+    font-family: 'Delius Swash Caps', sans-serif;
+}
+.bel0{
+    position: absolute;
+    z-index: 3;
+    width: 12vw;
+    height: 3vh;
+    border-radius: 1vw;
+    margin-left: 65vw;
+    margin-top: -35vw;
+}
+.namk{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 57vw;
+    margin-top: -40vw;
+}
+.mai{
+    position: absolute;
+    z-index: 3;
+    margin-left: 60vw;
+    margin-top: -30vw;
+    font-size: 2vw;
+    color: brown;
+    font-family: 'Delius Swash Caps', sans-serif;
+}
+.mai0{
+    position: absolute;
+    z-index: 3;
+     width: 12vw;
+    height: 3vh;
+    border-radius: 1vw;
+    margin-left: 65vw;
+    margin-top: -26vw;
+}
+.mai1{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 57vw;
+    margin-top: -30vw;
+}
+.ord{
+    position: absolute;
+    z-index: 3;
+    margin-left: 60vw;
+    margin-top: -21vw;
+    font-size: 2vw;
+    color: brown;
+    font-family: 'Delius Swash Caps', sans-serif;
+}
+.ord0{
+    position: absolute;
+    z-index: 3;
+     width: 12vw;
+    height: 3vh;
+    border-radius: 1vw;
+    margin-left: 65vw;
+    margin-top: -16vw;
+}
+.ord1{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 57vw;
+    margin-top: -21vw;
+}
+.mit{
+    position: absolute;
+    z-index: 3;
+    width: 10vw;
+    height: 3vh;
+    border-radius: 3vw;
+    font-size: 1.1vw;
+    background-color: green;
+    margin-left: 64vw;
+    margin-top: -11vw;
+}
+.kn{
+    position: absolute;
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background-color:skyblue;
+    margin-left: 57vw;
+    margin-top: -7vw;
+}
+.kn:hover{
+    background-color: white;
+}
+.fac{
+    position: absolute;
+    z-index: 4;
+    width: 2.6vw;
+    margin-left: 58.4vw;
+    margin-top: -6vw;
+}
+.kn0{
+    position: absolute;
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background-color:palevioletred;
+    margin-left: 65vw;
+    margin-top: -7vw;
+}
+.kn0:hover{
+    background-color: white;
+}
+.ita{
+    position: absolute;
+    z-index: 4;
+    width: 2.6vw;
+    margin-left: 66.3vw;
+    margin-top: -6vw;
+}
+.kn1{
+    position: absolute;
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background-color:white;
+    margin-left: 73vw;
+    margin-top: -7vw;
+}
+.goh{
+    position: absolute;
+    z-index: 4;
+    width: 2.6vw;
+    margin-left: 74.3vw;
+    margin-top: -6vw;
 }
