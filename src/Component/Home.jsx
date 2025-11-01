@@ -193,7 +193,7 @@ It covers a wide range of issues, including acne, eczema,<br/>
     <img className='neul' src={varma}/>
     <h1 className='ne'>Dr. (Prof.) Amitaabh Varma</h1>
     <h4 className='na'>Specialist:Neurology</h4>
-    <h1 className='bil'>Billing</h1>
+    {/* <h1 className='bil'>Billing</h1> */}
     </div>
   )
 }
