@@ -196,15 +196,32 @@ It covers a wide range of issues, including acne, eczema,<br/>
     <img className='nepp' src={nep}/>
     <h1 className='nepk'>Dr. Shivangini Gupta</h1>
     <h4 className='nepm'>Specialist:Pediatric Nephrology</h4>
+    <p className='gist3'>Looking for a trusted Pediatric Nephrologist near me?<br/>
+     Dr. Shivangini Gupta at Apollo JBP Hospitals specializes in diagnosing and<br/>
+      treating kidney-related conditions in children,<br/>
+      including urinary tract infections, nephrotic syndrome, and chronic kidney disease.<br/>
+       With compassionate care and advanced pediatric <br/>
+      expertise, she ensures accurate diagnosis, personalized treatment, and ongoing <br/>
+      support for young patients and their families.</p>
     <div className='aaa'></div>
     <img className='ctvsl' src={ctvs}/>
     <h1 className='ctvss'>Dr. Ankush Singh Kotwal</h1>
     <h4 className='ctvsd'>Specialist:CTVS Surgeon</h4>
+    <p className='gist4'>Dr. Ankush Singh Kotwal is a highly skilled Consultant CTVS-Cardiothoracic Surgeon <br/>
+    specializing in comprehensive cardiac and thoracic care. He expertly manages heart diseases, vascular conditions,<br/>
+     and performs advanced cardiothoracic surgeries</p>
     <div className='hh'></div>
     <img className='neul' src={varma}/>
     <h1 className='ne'>Dr. (Prof.) Amitaabh Varma</h1>
     <h4 className='na'>Specialist:Neurology</h4>
-    {/* <h1 className='bil'>Billing</h1> */}
+    <p className='gist5'>With over 50 years of clinical excellence,<br/>
+     Dr. (Prof.) Amitaabh Varma is regarded as one of India’s<br/>
+     most respected neurologists, celebrated for his diagnostic precision,<br/>
+      ethical care, and leadership <br/>
+     in advancing neurological health. He was honored by the<br/>
+      Indian Academy of Neurology as a “Legend in Neurology”, a rare <br/>
+     distinction that reflects his immense contribution to the field.</p>
+    <h1 className='bil'>Billing</h1> 
     </div>
   )
 }
