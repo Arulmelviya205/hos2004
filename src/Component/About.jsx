@@ -10,6 +10,7 @@ import der from '../assets/images/der.jpg'
 import kid from '../assets/images/kid.jpg'
 import { Link } from 'react-router-dom'
 
+
 export default function About() {
   return (
     <div>
@@ -19,11 +20,11 @@ export default function About() {
       <p className='doc1'>The administration and coordination of hospital operations to ensure efficient<br/>
        healthcare delivery and patient care.</p>
         <div className='gg'></div>
-       <h1 className="doc28" to="/Home">Learn more</h1>
+      <h1 className="doc28" to="/home">Learn more</h1>
           <h1 className='dap'>Department</h1>
             <div className='gg1'></div>
             <h4 className='kk0'>(heart and blood vessels)</h4>
-            <h1 className='dio'>cardiology</h1>
+            <h1 className='diom'>cardiology</h1>
       <img className='caro' src={caro}/>
        <p className='the'>Cardiology is the branch of medicine that<br/>
         deals with the study,

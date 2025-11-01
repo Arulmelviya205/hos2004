@@ -59,9 +59,9 @@ export default function Home() {
           <h1 className='dap1'>Department</h1>
           <div className='mo'></div>
            <h1 className='diok'>cardiology</h1>
-           <h4 className='kk0'>(heart and blood vessels)</h4>
-           <img className='caro' src={caro}/>
-            <p className='the'>Cardiology is the branch of medicine that<br/>
+           <h4 className='kkl'>(heart and blood vessels)</h4>
+           <img className='carok' src={caro}/>
+            <p className='thek'>Cardiology is the branch of medicine that<br/>
          deals with the study,
         diagnosis, and<br/>
          treatment of heart and blood vessel diseases.</p>

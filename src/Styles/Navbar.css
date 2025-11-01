@@ -2,12 +2,14 @@
 
 @import url('https://fonts.cdnfonts.com/css/petitabold');
 
-*{
+ *{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     text-decoration: none;
 }
+
+
 h2{
     color: black;
     font-family: 'PetitaMedium', sans-serif;
@@ -89,6 +91,100 @@ h2:hover{
     margin-left: 8vw;
     top: -2.4vw;
 }
+ 
+ @media  screen and (max-width:600px) {
+    *{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+    h2{
+    color: black;
+    font-family: 'PetitaMedium', sans-serif;
+}
+    h2:hover{
+    color: brown;
+}
+   .home{
+    position: relative;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    text-decoration: none;
+    font-size: 2.3vw;
+}
+    .img{
+    position: relative;
+    width: 4.2vw;
+    margin-left: 0vw;
+    top: -6vw;
+}
+   .about{
+    position: relative;
+    margin-left:21vw;
+    margin-top: -3.8vw;
+    font-size: 2.3vw;
+}
+    .img1{
+    position: relative;
+    width: 4vw;
+    margin-left: 12vw;
+    top: -5.3vw;
+}
+    .contact{
+    position: relative;
+    margin-left: 37vw;
+    margin-top: -3.8vw;
+    font-size: 2.3vw;
+}
+    .img2{
+    position: relative;
+    width: 4.5vw;
+    margin-left: 12vw;
+    top: -4.7vw;
+}
+   .patient{
+    position: relative;
+    margin-left: 59vw;
+    margin-top: -4vw;
+    font-size: 2.3vw;
+}
+   .img3{
+    position: relative;
+    width: 4.5vw;
+    margin-left: 17.4vw;
+    top: -4.5vw;
+}
+   .bill{
+    position: relative;
+    margin-left: 76vw;
+    margin-top: -4vw;
+    font-size: 2.3vw;
+}
+    .img4{
+    position: relative;
+    width: 4.4vw;
+    margin-left: 13vw;
+    top: -4.5vw;
+}
+.login{
+    position: relative;
+    margin-left: 90vw;
+    margin-top: -4vw;
+    font-size: 2.3vw;
+}
+.img5{
+    position: relative;
+    width: 4.5vw;
+    margin-left: 9vw;
+    top: -4vw;
+}
+  
 
 
+
+    
+
+
+ }
 
