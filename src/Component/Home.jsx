@@ -182,10 +182,16 @@ It covers a wide range of issues, including acne, eczema,<br/>
     <img className='nanoo'src={nano}/>
     <h1 className='nanok'>Dr. Rashi Gupta</h1>
     <h4 className='nanon'>Specialist:Neonatology</h4>
+    <p className='gist1'>There are multiple dentists named Dr. Rashi Gupta, with prominent practices in Geelong,<br/>
+     Australia, and Mumbai, India. The Geelong-based Dr. Rashi Gupta is known<br/> for her expertise in cosmetic dentistry<br/>
+      and dental implants, having completed extensive training in Australia and abroad</p>
     <div  className='nnn'></div>
     <img className='radioo' src={radio}/>
     <h1 className='rd'>Dr. Ravi Kumar Saman</h1>
     <h4 className='rd1'>Specialist:Radiology</h4>
+    <p className='gist2'>Dr. Ravi Kumar Saman has expertise in a range of radiological investigations and interventional<br/>
+     procedures. His interests include fetal medicine, prostate imaging, and emergency radiology.<br/>
+      He is involved in active diagnostics and teaching.</p>
     <div className='mmm'></div>
     <img className='nepp' src={nep}/>
     <h1 className='nepk'>Dr. Shivangini Gupta</h1>
