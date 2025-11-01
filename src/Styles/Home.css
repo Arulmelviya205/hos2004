@@ -717,7 +717,7 @@ h1{
     border: 1px solid black;
     border-radius: 3vw;
     width: 30vw;
-    height: 70vh;
+    height: 75vh;
     margin-left: 5vw;
     margin-top: 3vw;
     background-color:antiquewhite;
@@ -749,15 +749,23 @@ h1{
     font-size: 1.5vw;
     color: grey;
 }
+.gist{
+    position: relative;
+    margin-left: 38vw;
+    font-size: 1.5vw;
+    margin-top: -25vw;
+    color: black;
+    font-family: 'Latherrich', sans-serif;
+}
 .kkk{
     position: relative;
     z-index: 2;
     border: 1px solid black;
     border-radius: 3vw;
     width: 30vw;
-    height: 70vh;
+    height: 75vh;
     margin-left: 55vw;
-    margin-top: 10vw;
+    margin-top: 15vw;
     background-color:antiquewhite;
 }
 .nanoo{
@@ -793,7 +801,7 @@ h1{
     border: 1px solid black;
     border-radius: 3vw;
     width: 30vw;
-    height: 70vh;
+    height: 75vh;
     margin-left: 5vw;
     margin-top: 10vw;
     background-color:antiquewhite;
@@ -831,7 +839,7 @@ h1{
     border: 1px solid black;
     border-radius: 3vw;
     width: 30vw;
-    height: 70vh;
+    height: 75vh;
     margin-left: 55vw;
     margin-top: 10vw;
     background-color:antiquewhite;

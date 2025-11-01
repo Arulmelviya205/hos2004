@@ -173,6 +173,11 @@ It covers a wide range of issues, including acne, eczema,<br/>
     <img className='car' src={cardio}/>
     <h1 className='car0'>Dr. Deepak Natarajan</h1>
     <h4 className='car1'>Specialist:cardiology</h4>
+    <p className='gist'>The first PTCA to be performed in India was in 1984 at G.B Pant Hospital,<br/> Delhi. Dr Deepak Natarajan was washed up for the case, and today is one of the leading angioplasters of Delhi NCR.<br/>
+     Dr. Deepak Natarajan is one of the top interventional cardiologists in India,<br/>
+      recognized for his groundbreaking work in percutaneous mitral balloon valvotomy with the Inoue Balloon catheter,<br/>
+       and being the first cardiologist in the country to administer intracoronary and intravenous <br/>
+       streptokinase in acute myocardial infarction.</p>
     <div className='kkk'></div>
     <img className='nanoo'src={nano}/>
     <h1 className='nanok'>Dr. Rashi Gupta</h1>
