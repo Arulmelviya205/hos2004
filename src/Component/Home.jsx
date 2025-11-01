@@ -65,7 +65,7 @@ export default function Home() {
          deals with the study,
         diagnosis, and<br/>
          treatment of heart and blood vessel diseases.</p>
-         <div className='gg2'></div>
+         <div className='gg22'></div>
          <h1 className='neu'>Neurologist</h1>
          <h4 className='kk1'>(brain, spinal cord, nerves)</h4>
          <img className='brain' src={brain}/>
