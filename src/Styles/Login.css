@@ -116,7 +116,6 @@
     position: absolute;
     z-index: 3;
     width: 6vw;
-    
     border-radius: 3vw;
     font-size: 1.1vw;
     background-color: green;
@@ -405,4 +404,194 @@
     margin-left: 83vw;
     color: white;
     font-size: 1.4vw;
+}
+@media screen and (max-width:600px){
+    .pit{
+    position: relative;
+    margin-left: 14vw;
+    top: 8vw;
+    font-size: 5vw;
+    color: brown;
+}
+.pit0{
+   position: relative;
+   width: 10vw;
+   margin-left: 2vw;
+}
+.dd{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    width: 115vw;
+    height: 120vh;
+    margin-left: 2vw;
+    margin-top: 8vw;
+    background-color:cornflowerblue;
+    border-radius: 3vw;
+}
+.login0{
+    position: absolute;
+    z-index: 3;
+    width: 80vw;
+    border-radius: 5vw;
+    height: 50vh;
+    margin-top: -240vw;
+    margin-left: 13vw;
+}
+.gin{
+    position: absolute;
+    z-index: 3;
+    color:black;
+    margin-left: 45vw;
+    margin-top: -253vw;
+}
+.bel{
+    position: absolute;
+    z-index: 3;
+    margin-left: 30vw;
+    margin-top: -115vw;
+    font-size: 5vw;
+    color: brown;
+    font-family: 'Delius Swash Caps', sans-serif;
+}
+.bel0{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2vh;
+    border-radius: 1vw;
+    margin-left: 32vw;
+    margin-top: -100vw;
+}
+.namk{
+    position: absolute;
+    z-index: 3;
+    width: 8vw;
+    margin-left: 21vw;
+    margin-top: -115.7vw;
+}
+.mai{
+    position: absolute;
+    z-index: 3;
+    margin-left: 30vw;
+    margin-top: -82vw;
+    font-size: 5vw;
+    color: brown;
+    font-family: 'Delius Swash Caps', sans-serif;
+}
+.mai0{
+    position: absolute;
+    z-index: 3;
+     width: 30vw;
+    height: 2vh;
+    border-radius: 1vw;
+    margin-left: 33vw;
+    margin-top: -72vw;
+}
+.mai1{
+    position: absolute;
+    z-index: 3;
+    width: 8vw;
+    margin-left: 21vw;
+    margin-top: -82.5vw;
+}.ord{
+    position: absolute;
+    z-index: 3;
+    margin-left: 30vw;
+    margin-top: -55vw;
+    font-size: 5vw;
+    color: brown;
+    font-family: 'Delius Swash Caps', sans-serif;
+}
+.ord0{
+    position: absolute;
+    z-index: 3;
+     width: 30vw;
+    height: 2vh;
+    border-radius: 1vw;
+    margin-left: 34vw;
+    margin-top: -44vw;
+}
+.ord1{
+    position: absolute;
+    z-index: 3;
+    width: 8vw;
+    margin-left: 21vw;
+    margin-top: -56vw;
+}
+.mit{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    border-radius: 3vw;
+    font-size:2vw;
+    background-color: green;
+    margin-left: 35vw;
+    margin-top: -30vw;
+}
+.kn{
+    position: absolute;
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 1vw;
+    width: 8vw;
+    height: 8vw;
+    background-color:skyblue;
+    margin-left: 25vw;
+    margin-top: -18vw;
+}
+.kn:hover{
+    background-color: white;
+}
+.fac{
+    position: absolute;
+    z-index: 4;
+    width: 6vw;
+    margin-left: 26vw;
+    margin-top: -17vw;
+}
+.kn0{
+    position: absolute;
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 1vw;
+    width: 8vw;
+    height: 8vw;
+    background-color:palevioletred;
+    margin-left:39vw;
+    margin-top: -18vw;
+}
+.kn0:hover{
+    background-color: white;
+}
+.ita{
+    position: absolute;
+    z-index: 4;
+    width: 5vw;
+    margin-left: 41vw;
+    margin-top: -16.5vw;
+}
+.kn1{
+    position: absolute;
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 1vw;
+    width: 8vw;
+    height: 8vw;
+    background-color:white;
+    margin-left: 52vw;
+    margin-top: -18vw;
+}
+.goh{
+    position: absolute;
+    z-index: 4;
+    width: 5vw;
+    margin-left: 53vw;
+    margin-top: -16.5vw;
+}
+
+
+
+
+
 }
