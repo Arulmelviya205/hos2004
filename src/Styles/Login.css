@@ -100,7 +100,7 @@
     position: absolute;
     z-index: 3;
      width: 12vw;
-    height: 3vh;
+    height: 8vh;
     border-radius: 1vw;
     margin-left: 65vw;
     margin-top: -16vw;
@@ -112,6 +112,7 @@
     margin-left: 57vw;
     margin-top: -21vw;
 }
+
 .mit{
     position: absolute;
     z-index: 3;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import '../Styles/Login.css'
 import qq from '../assets/images/qq.jpg'
 import hos from '../assets/images/hos.jpg'
@@ -8,7 +8,34 @@ import pass from '../assets/images/pass.jpg'
 import face from '../assets/images/face.jpg'
 import insta from '../assets/images/insta.jpg'
 import goo from '../assets/images/goo.jpg'
+
+import emailjs from '@emailjs/browser';
+
 export default function Login() {
+
+  
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('YOUR_service_wue1pqf',
+         'YOUR_template_4hoz438', {
+        formcurrent,
+        'zlh6YHfECaW1NmnbX',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          alert('Message sent successfully!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+    };
      const [Email, setemail] = useState("");
           
             const submitEmail = () => {
@@ -31,13 +58,16 @@ export default function Login() {
       <img className='mai1' src={ma}/>
       <img className='ord1' src={pass}/>
        <h1 className='gin'>login</h1>
+
+        <form ref={form} onSubmit={sendEmail}>
       <label className='bel'>Username:</label>
-      <input type='text'className='bel0'/>
+      <input type='text' name="user_name"className='bel0'/>
       <label className='mai'>Email:</label>
-      <input type='email' className='mai0'/>
-      <label className='ord'>Password:</label>
-      <input type='password' className='ord0'/>
-      <button type='submit' className='mit'>submit</button>
+      <input type='email'  name="user_email"className='mai0'/>
+      <label className='ord'>send message:</label>
+      <textarea name="message" className='ord0'/>
+      <input type='submit' className='mit' value="send"/>
+      </form>
       <div className='kn'></div>
       <img className='fac' src={face}/>
       <div className='kn0'></div>
