@@ -106,7 +106,7 @@
 .gg2{
     position: relative;
     z-index: 2;
-    margin-top: -43.7vw;
+    margin-top: -43vw;
     margin-left: 52vw;
     border: 1px solid black;
     border-radius: 3vw;
@@ -150,7 +150,7 @@
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 80vh;
+    height: 90vh;
     background-color:antiquewhite;
 }
 .kk2{
@@ -185,12 +185,12 @@
 .gg4{
     position: relative;
     z-index: 2;
-    margin-top: -38.5vw;
+    margin-top: -43vw;
     margin-left: 52vw;
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 80vh;
+    height: 90vh;
     background-color:antiquewhite;
 }
 .kk3{
@@ -229,7 +229,7 @@
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 80vh;
+    height: 90vh;
     background-color:antiquewhite;
 }
 .der{
@@ -264,12 +264,12 @@
 .gg6{
      position: relative;
     z-index: 2;
-    margin-top: -39vw;
+    margin-top: -43vw;
     margin-left: 52vw;
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 80vh;
+    height: 90vh;
     background-color:antiquewhite;
 }
 .nep{
