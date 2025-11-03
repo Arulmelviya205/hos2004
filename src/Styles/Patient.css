@@ -784,6 +784,7 @@ table,tr,td{
     border: 1px solid black;
     padding: 1.8vw;
     background-color: aliceblue;
+    border-radius: 2vw;
 }
 .da{
     position: relative;
@@ -1107,7 +1108,7 @@ table,tr,td{
     margin-left: 3vw;
 }
 .ace{
-     position: absolute;
+    position: absolute;
     z-index: 3;
     width: 2.8vw;
     margin-left: 5vw;
