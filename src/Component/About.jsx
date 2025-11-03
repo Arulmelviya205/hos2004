@@ -7,6 +7,7 @@ import brain from '../assets/images/brain.jpg'
 import ortho from '../assets/images/ortho.jpg'
 import pedia from '../assets/images/pedia.jpg'
 import der from '../assets/images/der.jpg'
+import patient from '../assets/videos/patient.mp4'
 import kid from '../assets/images/kid.jpg'
 import { Link } from 'react-router-dom'
 
@@ -75,7 +76,7 @@ It covers a wide range of issues, including acne, eczema,<br/>
 It deals with conditions <br/>
 such as chronic kidney disease,<br/>
  kidney stones, high blood pressure,<br/> and electrolyte imbalances.</p> 
- <h1 className=''>staff nurse</h1>
+  <video autoPlay loop muted  width='90%' style={{margin:"5vw"}}><source src={patient} type='video/mp4' className='kol'/></video>
  
    </div>
   )
