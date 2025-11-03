@@ -778,13 +778,34 @@ cursor: pointer;
     margin-left: 40vw;
     margin-top: -19vw;
 }
-table,tr,td{
-    position:relative;
-    margin-top: 3vw;
-    border: 1px solid black;
-    padding: 1.8vw;
-    background-color: aliceblue;
-    border-radius: 2vw;
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 1vw;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1.2vw;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 600;
+}
+
+td {
+  background-color: #f8fbff;
+  color: #333;
+}
+
+tr:hover td {
+  background-color: #e3f2fd;
+  cursor: pointer;
+  transition: 0.3s;
 }
 .da{
     position: relative;
