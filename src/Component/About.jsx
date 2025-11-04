@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Styles/About.css'
 import hos from '../assets/images/hos.jpg'
 import ha from '../assets/images/ha.jpg'
@@ -9,6 +9,10 @@ import pedia from '../assets/images/pedia.jpg'
 import der from '../assets/images/der.jpg'
 import patient from '../assets/videos/patient.mp4'
 import kid from '../assets/images/kid.jpg'
+import face from '../assets/images/face.jpg'
+import insta from '../assets/images/insta.jpg'
+import goo from '../assets/images/goo.jpg'
+import { Link } from 'react-router-dom'
 
 export default function About() {
     const doctors=[
@@ -120,7 +124,19 @@ export default function About() {
 
   ];
 
-    
+    const [email, setEmail] = useState("");
+
+const submitEmail = () => {
+  if (email === "") {
+    alert("Please enter an email.");
+  } else if (!email.includes("@") || !email.includes(".")) {
+    alert("Please enter a valid email address.");
+  } else {
+    alert("Submitted Successfully");
+    setEmail("");
+  }
+};
+
 
 
     
@@ -213,6 +229,35 @@ such as chronic kidney disease,<br/>
         </tbody>
       </table>
     </div>
+    <h1 className='spi'>Hospital</h1>
+    <img className='spi0' src={hos}/>
+    <div className='spi1'></div>
+    <h1 className='pol'>Contact us</h1>
+    <p className='pol0'>📞 Phone: +91 98765 43210</p>
+    <p className='pol1'>📧 Email: support@hospital.com</p>
+    <p className='pol2'>📍 Address: 123, Anna Nagar, Chennai</p>
+    <img className='rto' src={face}/>
+    <img className='rto0' src={insta}/>
+    <img className='rto1' src={goo}/>
+    <h1 className='xol'>Join us</h1>
+    <label className='xol0'>Email:</label>
+    <input type='email'value={email}onChange={(e) => setEmail(e.target.value)}className='xol1'/>
+    <button className='tok0' onClick={submitEmail}>Submit</button>
+    <h2 className='dod'>Department</h2>
+    <h2 className='dod0'>Days</h2>
+    <h2 className='dod1'>Timing</h2>
+    <p className='uuu'>General OPD</p>
+    <p className='uuu0'>Monday-Saturday</p>
+    <p className='uuu1'>8:00 AM – 8:00 PM</p>
+    <p className='zzz'>Emergency</p>
+    <p className='zz0'>All Days</p>
+    <p className='zz1'>24 * 7</p>
+    <p className='nom'>Pharmacy</p>
+    <p className='nom0'>Monday-Sunday</p>
+    <p className='nom1'>7:00 AM – 10:00 PM</p>
+    <p className='uko'>Lab & Scan</p>
+    <p className='uko0'>Monday–Saturday</p>
+    <p className='uko1'>8:00 AM – 6:00 PM</p>
    </div>
   )
 }

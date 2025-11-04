@@ -1,6 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/latherrich');
 @import url('https://fonts.cdnfonts.com/css/oswald-variable');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -308,9 +308,11 @@
 .schedule-con{
     padding: 2vw;
     text-align: center;
-    background-color: #f8f9f8;
+    background-color:#f8f9f8;
     min-height: 100vh;
     margin-top: 5vw;
+     font-family: 'Open Sans', sans-serif;
+   
 }
 .schedule-table{
     width: 100%;
@@ -333,6 +335,228 @@
 
 .schedule-table tr:hover {
   background-color:#d6eaff;
+}
+.spi{
+    position: relative;
+    margin-left: 9vw;
+    margin-top:8vw;
+    color: brown;
+}
+.spi0{
+    position: relative;
+    width: 3.5vw;
+    margin-left: 5vw;
+    top: -3vw;
+}
+.spi1{
+    position: relative;
+    z-index: 2;
+    border: 1px solid white;
+    width: 99vw;
+    height: 40vh;
+    background-color: black;
+}
+.pol{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -17vw;
+    margin-left: 5vw;
+}
+.pol0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -13vw;
+    color: white;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+}
+.pol1{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 3vw;
+    margin-top: -10vw;
+}
+.pol2{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -7vw;
+    font-size: 1.5vw;
+    margin-left: 3vw;
+}
+.rto{
+    position: absolute;
+    z-index: 3;
+    width: 2.8vw;
+    margin-left: 5vw;
+    margin-top: -3.7vw;
+}
+.rto0{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 9vw;
+    margin-top: -3.4vw;
+}
+.rto1{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 13vw;
+    margin-top: -3.4vw;
+}
+.xol{
+    position: absolute;
+    z-index: 3;
+    margin-top: -17vw;
+    color: white;
+    margin-left: 35vw;
+}
+.xol0{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -13vw;
+    margin-left:35vw;
+    font-size: 1.5vw;
+}.xol1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 35vw;
+    border-radius: 2vw;
+    width: 12vw;
+    height: 4vh;
+}
+.tok0{
+    position: absolute;
+    z-index: 3;
+    width: 9vw;
+    height: 3.5vh;
+    font-size: 1vw;
+    border-radius: 2vw;
+    margin-top: -5vw;
+    margin-left: 35vw;
+}
+.dod{
+    position: absolute;
+    z-index: 3;
+    margin-left: 55vw;
+    color: white;
+    margin-top: -17vw;
+}
+.dod0{
+    position: absolute;
+    z-index: 3;
+    margin-left: 73vw;
+    color: white;
+    margin-top: -16.8vw;
+}
+.dod1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 85vw;
+    color: white;
+    margin-top: -16.8vw;
+}
+.uuu{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -13vw;
+    margin-left: 55vw;
+    font-size: 1.4vw;
+}
+.uuu0{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-left: 70vw;
+    margin-top: -13vw;
+    font-size: 1.4vw;
+}
+.uuu1{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.3vw;
+    color: white;
+    margin-top: -13vw;
+    margin-left: 84vw;
+}
+.zzz{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-left:55vw;
+    margin-top: -10vw;
+    font-size: 1.4vw;
+}
+.zz0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    color: white;
+    margin-left: 72vw;
+    font-size: 1.3vw;
+}
+.zz1{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 1.3vw;
+    margin-left: 86vw;
+    margin-top: -10vw;
+}
+.nom{
+    position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    color: white;
+    margin-left: 55vw;
+    font-size: 1.4vw;
+}
+.nom0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    color: white;
+    margin-left: 70vw;
+    font-size: 1.4vw;
+}
+.nom1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    margin-left:83vw;
+    font-size: 1.3vw;
+    color: white;
+}
+.uko{
+    position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 54.6vw;
+    color: white;
+    font-size: 1.4vw;
+}
+.uko0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 69vw;
+    color: white;
+    font-size: 1.4vw;
+}
+.uko1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 83vw;
+    color: white;
+    font-size: 1.4vw;
 }
 
 
