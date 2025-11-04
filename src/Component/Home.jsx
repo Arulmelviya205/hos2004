@@ -37,6 +37,7 @@ import radio from '../assets/images/radio.jpg'
 import nep from '../assets/images/nep.jpg'
 import ctvs from '../assets/images/ctvs.jpg'
 import varma from '../assets/images/varma.jpg'
+import bill from '../assets/videos/bill.mp4'
 import { Link } from 'react-router-dom';
 export default function Home() {
   return (
@@ -222,6 +223,7 @@ It covers a wide range of issues, including acne, eczema,<br/>
       Indian Academy of Neurology as a “Legend in Neurology”, a rare <br/>
      distinction that reflects his immense contribution to the field.</p>
     <h1 className='bil'>Billing</h1> 
+     <video autoPlay loop muted  width='90%' style={{margin:"5vw"}}><source src={bill} type='video/mp4' className='pat01'/></video>
     </div>
   )
 }
