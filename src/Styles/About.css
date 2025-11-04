@@ -5,9 +5,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    
 }
-
 .ho{
     position: relative;
     width: 4vw;
@@ -302,3 +300,39 @@
     font-size: 1.2vw;
     font-family: 'Latherrich', sans-serif;
 }
+.sche{
+    position: relative;
+    margin-top: 5vw;
+    margin-left: 41vw;
+}
+.schedule-con{
+    padding: 2vw;
+    text-align: center;
+    background-color: #f8f9f8;
+    min-height: 100vh;
+    margin-top: 5vw;
+}
+.schedule-table{
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color:white;
+}
+.schedule-table th,.schedule-table td{
+    border: 1px solid #ddd;
+    padding: 1vw;
+}
+.schedule-table th{
+    background-color: #007bff;
+    color: white;
+    font-size: 1.5vw;
+}
+.schedule-table tr{
+  background-color: #f2f2f2;
+}
+
+.schedule-table tr:hover {
+  background-color:#d6eaff;
+}
+
+

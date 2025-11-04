@@ -9,10 +9,121 @@ import pedia from '../assets/images/pedia.jpg'
 import der from '../assets/images/der.jpg'
 import patient from '../assets/videos/patient.mp4'
 import kid from '../assets/images/kid.jpg'
-import { Link } from 'react-router-dom'
-
 
 export default function About() {
+    const doctors=[
+      {
+      name:"Dr.Priya sharma",
+      department:"Cardiology",
+      days:"Monday-Friday",
+      timing:"9:00 AM-2:00PM",
+      hours:"5hrs/day",
+    },
+    {
+      name:"Dr.Rajesh Kumar",
+      department:"Orthopedics",
+      days:"Tuesday-Saturday",
+      timing:"10:00 AM-4:00 PM",
+      hours:"6hrs/day",
+    },
+    {
+      name:"Dr.Anitha Rao",
+      department:"Pediatrics",
+      days:"Monday-Friday",
+      timing:"8:00 AM-1:00 PM",
+      hours:"5hrs/day",
+    },
+    {
+      name:"Dr.Vivek Nair",
+      department:"Neurology",
+      days:"Wednesday-Sunday",
+      timing:"9:30 AM-3:00PM",
+      hours:"6hrs/day",
+    },
+    {
+      name:"Dr.Meena Joseph",
+      department:"Dermatology",
+      days:"Monday-Thursday",
+      timing:"9:30 AM-3:00PM",
+      hours:"5.5hrs/day"
+    },
+    {
+      name:"Dr.Sanjay Patel",
+      department:"General Medicine",
+      days:"Monday-Saturday",
+      timing:"9:00 AM-5:00 PM",
+      hours:"8hrs/day",
+    },
+    {
+      name:"Dr.Kavya Lyer",
+      department:"Gynecology",
+      days:"Tuesday-Saturday",
+      timing:"10:00 AM-3:00 PM",
+      hours:"5hrs/day",
+    },
+    {
+      name:"Dr.Arjun Das",
+      department:"ENT",
+      days:"Monday-Friday",
+      timing:"8:30 AM-1:30 PM",
+      hours:"5hrs/day",
+    },
+    {
+      name:"Dr.Nisha Reddy",
+      department:"Psychiatry",
+      days:"Wednesday-Sunday",
+      timing:"12:00 PM-6:00 PM",
+      hours:"6hrs/day",
+    },
+    {
+      name:"Dr.Manoj verma",
+      department:"Dental",
+      days:"Monday-Saturday",
+      timing:"9:00 AM-3:00 PM",
+      hours:"6hrs/day",
+    },
+    {
+      name: "Dr. Karthik Menon",
+      department: "General Surgery",
+      days: "Monday - Saturday",
+      timing: "8:30 AM - 2:30 PM",
+      hours: "6 hrs/day",
+    },
+    {
+      name: "Dr. Kavya Iyer",
+      department: "Ophthalmology",
+      days: "Monday - Friday",
+      timing: "9:00 AM - 2:00 PM",
+      hours: "5 hrs/day",
+    },
+    {
+      name: "Dr. Rohan Pillai",
+      department: "Radiology",
+      days: "Tuesday - Saturday",
+      timing: "8:00 AM - 2:00 PM",
+      hours: "6 hrs/day",
+    },
+    {
+      name: "Dr. Nisha Thomas",
+      department: "Oncology",
+      days: "Monday - Friday",
+      timing: "10:00 AM - 4:00 PM",
+      hours: "6 hrs/day",
+    },
+    {
+      name: "Dr. Aditya Verma",
+      department: "Urology",
+      days: "Wednesday - Sunday",
+      timing: "9:00 AM - 3:00 PM",
+      hours: "6 hrs/day",
+    },
+
+  ];
+
+    
+
+
+    
   return (
     <div>
       <img className='ho' src={hos}/>
@@ -77,7 +188,31 @@ It deals with conditions <br/>
 such as chronic kidney disease,<br/>
  kidney stones, high blood pressure,<br/> and electrolyte imbalances.</p> 
   <video autoPlay loop muted  width='90%' style={{margin:"5vw"}}><source src={patient} type='video/mp4' className='kol'/></video>
- 
+  <h1 className='sche'>Doctor schedule</h1>
+  <div className='schedule-con'>
+   <table className="schedule-table">
+        <thead>
+          <tr>
+            <th>Doctor</th>
+            <th>Department</th>
+            <th>Days</th>
+            <th>Timing</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          {doctors.map((d, index) => (
+            <tr key={index}>
+              <td>{d.name}</td>
+              <td>{d.department}</td>
+              <td>{d.days}</td>
+              <td>{d.timing}</td>
+              <td>{d.hours}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
    </div>
   )
 }
