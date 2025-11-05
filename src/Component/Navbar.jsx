@@ -8,8 +8,10 @@ import patient from '../assets/images/patient.jpg';
 import bill from '../assets/images/bill.jpg';
 import login  from '../assets/images/login.jpg';
 export default function Navbar() {
+ 
   return (
     <div>
+      
      <nav>
       
         <div className='demo'>
@@ -28,10 +30,10 @@ export default function Navbar() {
         <img className='img4' src={bill}/>
         <img className='img5' src={login}/>
         </div>
-           
+            
       </nav>
         
     </div>
-    
   )
+    
 }

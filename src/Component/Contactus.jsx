@@ -33,41 +33,66 @@ import face from '../assets/images/face.jpg'
 import insta from '../assets/images/insta.jpg'
 import goo from '../assets/images/goo.jpg'
  export default function Contactus() {
-  const [email, setEmail] = useState("");
+  const [Appointmentid, setAppoinmentid] = useState("");
+const [name, setName] = useState("");
+const [phone, setPhone] = useState("");
+const [email, setEmail] = useState("");
+const [depart, setDepart] = useState("");
+const [problem, setProblem] = useState("");
 
+const handleSubmit = (e) => {
+  e.preventDefault();
+  if (!Appointmentid || !name || !phone || !email || !depart || !problem) {
+    alert("Please fill in all fields!");
+    return;
+  }
+  const formData = { Appointmentid, name, phone, email, depart, problem };
+  localStorage.setItem("form", JSON.stringify(formData));
+  alert("Form submitted successfully and saved in localStorage!");
+  setAppoinmentid("");
+  setName("");
+  setPhone("");
+  setEmail("");
+  setDepart("");
+  setProblem("");
+};
+
+   
+
+  const [Email, setemail] = useState("");
   const submitEmail = () => {
-    if (email === "") {
+    if (Email === "") {
       alert("Please enter an email.");
-    } else if (!email.includes("@") || !email.includes(".")) {
+    } else if (!Email.includes("@") || !Email.includes(".")) {
       alert("Please enter a valid email address.");
     } else {
       alert("Submitted Successfully");
-      setEmail(""); 
+      setemail(""); 
     }
-  };
+  
   return (
     <div>
       <img className='ho' src={hos}/>
       <h1 className='ta'>Hospital</h1>
-      <img className='htm' src={ht}/>
+      <img className='popm' src={ht}/>
       <h1 className='form'>Appointment Form</h1>
        <div className='loo1'></div>
       <img className='child' src={child}/>
+      <form onSubmit={handleSubmit}>
       <label className='no'>Appointment no:</label>
-      <input type='text' className='noo'/>
+      <input type='text' value={Appointmentid} onChange={(e)=>setAppoinmentid(e.target.value)} className='noo'/>
       <img className='ll' src={apo}/>
       <label className='me'>Name:</label>
-      <input type='text' className='me1'/>
+      <input type='text' value={name} onChange={(e)=>setName(e.target.value)} className='me1'/>
       <img className='zz' src={nam1}/>
       <label className='bb'>phone:</label>
-      <input type='text' className='bbb'/>
+      <input type='text' value={phone} onChange={(e)=>setPhone(e.target.value)} className='bbb'/>
       <img className='cc' src={pho1}/>
       <label className='il'>Email:</label>
-      <input type='text' className='ili'/>
+      <input type='text' value={email} onChange={(e)=>setEmail(e.target.value)} className='ili'/>
       <img className='ilil' src={ema0}/>
       <label className='men'>Department:</label>
-       <select className='men1'>
-    <input type='text'/>
+     <select className='men1' value={depart} onChange={(e)=>setDepart(e.target.value)}>
     <option>select department</option>
     <option>cardiology</option>
     <option>Neurologist</option>
@@ -79,9 +104,10 @@ import goo from '../assets/images/goo.jpg'
    </select>
    <img className='sel' src={depart}/>
    <label className='lem'>Problem:</label>
-   <input type='text' className='lem1'/>
+   <input type='text' value={problem} onChange={(e)=>setProblem(e.target.value)} className='lem1'/>
    <img className='lem2' src={prob0}/>
    <button type='submit' className='subb'>submit</button>
+   </form>
    <h1 className='jj0'>Medical kit</h1>
    <div className='jj'></div> 
    <img className='lth' src={health}/>
@@ -136,8 +162,8 @@ import goo from '../assets/images/goo.jpg'
       <img className='g0' src={goo}/>
       <h1 className='joi'>Join us</h1>
       <label className='vv1'>Email:</label>
-      <input type='email'value={email}
-        onChange={(e) => setEmail(e.target.value)}
+      <input type='email'value={Email}
+        onChange={(e) => setemail(e.target.value)}
         className='labe'/>
       <button className='ton' onClick={submitEmail}>Submit</button>
       <h2 className='ment'>Department</h2>
@@ -159,4 +185,4 @@ import goo from '../assets/images/goo.jpg'
    
   )
 }
-
+ }

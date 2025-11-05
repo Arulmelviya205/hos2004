@@ -999,11 +999,6 @@ h1{
     margin-left: 7vw;
     top: -3vw;
 }
-
-
-
-
-
 @media  screen and (max-width:600px)
  {
     .hos{
@@ -1131,7 +1126,7 @@ h1{
     margin-left: 52vw;
     border: 1px solid black;
     border-radius: 3vw;
-    width: 45vw;
+    width: 40vw;
     height: 30vh;
     background-color:antiquewhite;
 }

@@ -1300,3 +1300,816 @@ tr:hover td {
     color: white;
     font-size: 1.4vw;
 }
+@media screen and (max-width:600px){
+    *{
+        overflow-x: hidden;
+    }
+    .ho11{
+    position: relative;
+    width: 8vw;
+    margin-left: 3vw;
+}
+    .ta11{
+     position: relative;
+     margin-left: 12vw;
+     top: -7vw;
+     font-size: 5vw;
+     color: brown;
+}
+.cck{
+    position: relative;
+    z-index: 2;
+    width: 100vw;
+    height: 35vh;
+    margin-left: 1vw;
+}
+.apy{
+    position: absolute;
+    z-index: 3;
+    margin-top: -50vw;
+    margin-left: 5vw;
+    font-size: 2.5vw;
+    color: black;
+}
+.apy0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -30vw;
+    margin-left: 5vw;
+    font-size: 2.5vw;
+    color: black;
+}
+.doctor{
+    position: relative;
+    margin-left: 38vw;
+    margin-top: 5vw;
+    font-size: 5vw;
+}
+.doctor:hover{
+    color: brown;
+}
+.hh0{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 35vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    background-color: aliceblue;
+}
+.patho{
+    position: absolute;
+    z-index: 3;
+    height: 10vh;
+    border-radius: 2vw;
+    margin-left: 7vw;
+    margin-top: -32vw;
+}
+.patho:hover{
+    transform: scale(1.1);
+      cursor: pointer;     
+}
+.raja{
+    position:absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-left: 6vw;
+    margin-top: -8vw;
+}
+.raja1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 7vw;
+    margin-top: -4vw;
+    font-size: 1.5vw;
+    color:brown;
+}
+.hh1{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 35vw;
+    margin-left: 35vw;
+    margin-top: -35vw;
+    background-color: aliceblue;
+}
+.varma{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 10vh;
+   border-radius: 2vw;
+    margin-left: 40vw;
+    margin-top: -32vw;
+}
+.varma:hover{
+    transform: scale(1.1); 
+      cursor: pointer;     
+}
+.varmak{
+    position: absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-top: -8vw;
+    margin-left: 37.5vw;
+}
+.varma1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 42vw;
+    margin-top: -4vw;
+    font-size: 1.5vw;
+    color:brown;
+}
+.hh2{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 28vw;
+    height: 35vw;
+    margin-left: 68vw;
+    margin-top: -35vw;
+    background-color: aliceblue;
+}
+.ana{
+    position:absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 2vw;
+    margin-left: 72vw;
+    margin-top: -32vw;
+}
+.ana:hover{
+    transform: scale(1.1); 
+      cursor: pointer;     
+}
+.anam{
+    position:absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-left: 74vw;
+    margin-top: -8vw;
+}
+.anal{
+    position:absolute;
+    z-index: 3;
+    margin-left: 72vw;
+    margin-top: -4vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.hh3{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 35vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    background-color: aliceblue;
+}
+.nanl{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 2vw;
+    margin-left: 6vw;
+    margin-top: -32vw;
+}
+.nanl:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.nanoj{
+    position: absolute;
+    z-index: 3;
+    font-size: 2.2vw;
+    margin-left: 8vw;
+    margin-top: -7vw;
+}
+.nanoi{
+    position:absolute;
+    z-index: 3;
+    margin-left: 7.5vw;
+    margin-top: -3vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.hh4{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 35vw;
+    margin-left: 35vw;
+    margin-top: -35vw;
+    background-color: aliceblue;
+}
+.uro{
+    position:absolute;
+    z-index: 3;
+    border-radius: 2vw;
+    width: 18vw;
+    height: 10vh;
+    margin-left: 41vw;
+    margin-top: -32vw;
+}
+.uro:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.urop{
+    position: absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-left: 38vw;
+    margin-top: -7vw;
+}
+.urow{
+    position: absolute;
+    z-index: 3;
+    margin-left: 43vw;
+    margin-top: -3vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.hh5{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 28vw;
+    height: 35vw;
+    margin-left: 68vw;
+    margin-top: -35vw;
+    background-color: aliceblue;
+}
+.cardio{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 2vw;
+    margin-left: 72vw;
+    margin-top: -32vw;
+}
+.cardio:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.cardioa{
+    position: absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-left: 72vw;
+    margin-top: -7vw;
+}
+.cardioq{
+    position: absolute;
+    z-index: 3;
+    margin-left: 73vw;
+    font-size: 1.5vw;
+    margin-top: -3vw;
+    color: brown;
+}
+.hh6{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 35vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    background-color: aliceblue;
+}
+.radio{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 2vw;
+    margin-left: 6vw;
+    margin-top: -32vw;
+}
+.radio:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.radiod{
+    position: absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-left: 6vw;
+    margin-top: -7vw;
+}
+.radion{
+    position: absolute;
+    z-index: 3;
+    margin-left: 8vw;
+    margin-top: -3vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.hh7{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 35vw;
+    margin-left: 35vw;
+    margin-top: -35vw;
+    background-color: aliceblue;
+}
+.gyna{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 10vh;
+    margin-left: 39.8vw;
+    margin-top: -32vw;
+    border-radius: 2vw;
+}
+.gyna:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gynal{
+    position: absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-left: 42vw;
+    margin-top: -7vw;
+}
+.gynab{
+    position: absolute;
+    z-index: 3;
+    margin-top: -3vw;
+    margin-left: 42vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.hh8{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 28vw;
+    height: 35vw;
+    margin-left: 68vw;
+    margin-top: -35vw;
+    background-color: aliceblue;
+}
+.nep1{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 2vw;
+    margin-left: 72vw;
+    margin-top: -32vw;
+    
+}
+.nep1:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.neph{
+    position: absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-left: 73vw;
+    margin-top: -7vw;
+}
+.nep2{
+    position: absolute;
+    z-index: 3;
+    margin-left: 71vw;
+    font-size: 1.5vw;
+    margin-top: -3vw;
+    color: brown;
+}
+.hh9{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 35vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+    background-color: aliceblue;
+}
+.onco{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 10vh;
+    margin-left: 6vw;
+    margin-top: -32vw;
+    border-radius: 2vw;
+}
+.onco:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+.oncoo{
+    position: absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-left: 6vw;
+    margin-top: -7vw;
+}
+.onco1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 5vw;
+    margin-top: -3vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.hh10{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 30vw;
+    height: 35vw;
+    margin-left: 35vw;
+    margin-top: -35vw;
+    background-color: aliceblue;
+}
+.ctvs{
+    position:absolute;
+    z-index:3;
+    width: 20vw;
+    height: 10vh;
+    margin-left: 40vw;
+    border-radius: 2vw;
+    margin-top: -32vw;
+}
+.ctvs:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.ctvs0{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.5vw;
+    margin-left: 42vw;
+    margin-top: -7vw;
+}
+.ctvs1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 41vw;
+    margin-top: -3vw;
+    font-size: 1.5vw;
+    color: brown;
+}
+.hh11{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 28vw;
+    height: 35vw;
+    margin-left: 68vw;
+    margin-top: -35vw;
+    background-color: aliceblue;
+}
+.sree{
+    position:absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 10vh;
+    margin-left: 72vw;
+    margin-top: -32vw;
+    border-radius: 2vw;
+}
+.sree:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.sree0{
+    position: absolute;
+    z-index: 3;
+    font-size: 2vw;
+    margin-left: 75vw;
+    margin-top: -7vw;
+}
+.sree1{
+    position: absolute;
+    z-index: 3;
+    font-size: 1.5vw;
+    margin-left: 71vw;
+    margin-top: -3vw;
+    color: brown;
+}
+.mm{
+    position: relative;
+    z-index: 2;
+    border: 1px solid black;
+    border-radius: 2vw;
+    width: 90vw;
+    height: 125vh;
+    margin-left: 2vw;
+    margin-top: 20vw;
+    background-color:aliceblue;
+}
+.details{
+    position: absolute;
+    z-index: 3;
+    font-size: 4.5vw;
+    margin-top: -260vw;
+    margin-left: 30vw;
+}
+.nn{
+    position: absolute;
+    z-index: 3;
+    margin-left: 15vw;
+    margin-top: -248vw;
+    font-size:3vw;
+}
+.nn0{
+    position: absolute;
+    z-index: 3;
+    width: 4.5vw;
+    margin-left: 10vw;
+    margin-top: -248vw;
+}
+.nn1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2vh;
+    border-radius: 2vw;
+    margin-left: 17vw;
+    margin-top: -245vw;
+}
+.nam{
+    position: absolute;
+    z-index: 3;
+    margin-left: 45vw;
+    margin-top: -239vw;
+    font-size: 3vw;
+}
+.nam0{
+    position: absolute;
+    z-index: 3;
+    width: 5vw;
+    margin-left: 39vw;
+    margin-top: -230.5vw;
+}
+.nam1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2.5vh;
+    border-radius: 2vw;
+    margin-left: 50vw;
+    margin-top: -237vw;
+}
+.age{
+    position: absolute;
+    z-index: 3;
+    margin-left: 17vw;
+    margin-top: -231vw;
+    font-size: 3vw;
+}
+.age0{
+    position:absolute;
+    z-index: 3;
+    width: 4vw;
+    margin-left: 12vw;
+    margin-top: -213.5vw;
+}
+.age1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2.5vh;
+    border-radius: 2vw;
+    margin-top: -230vw;
+    margin-left: 17vw;
+}
+.gen{
+    position: absolute;
+    z-index: 3;
+    margin-left: 45vw;
+    margin-top: -220vw;
+    font-size: 3vw;
+}
+.gen0{
+    position: absolute;
+    z-index: 3;
+    width: 4vw;
+    margin-left: 39.8vw;
+    margin-top: -193vw;
+}
+.gen1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2.5vh;
+    border-radius: 2vw;
+    margin-top: -220vw;
+    margin-left: 50vw;
+}
+.dob{
+    position: absolute;
+    z-index: 3;
+    margin-left: 18vw;
+    margin-top: -210vw;
+    font-size: 3vw;
+}
+.dob0{
+    position: absolute;
+    z-index: 3;
+    width: 4vw;
+    margin-left: 13vw;
+    margin-top: -174.6vw;
+}
+.dob1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2.5vh;
+    border-radius: 2vw;
+    margin-left: 17vw;
+    margin-top: -208vw;
+}
+.path{
+    position: absolute;
+    z-index: 3;
+    width: 50vw;
+    border-radius: 2vw;
+    margin-left: 20vw;
+    margin-top: -150vw;
+}
+.ema{
+    position: absolute;
+    z-index: 3;
+    margin-left: 18vw;
+    margin-top: -153vw;
+    font-size: 3vw;
+}
+.ema0{
+    position: absolute;
+    z-index: 3;
+    width: 4vw;
+    margin-left: 13vw;
+    margin-top: -108vw;
+}
+.ema1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2.5vh;
+    border-radius: 2vw;
+    margin-left: 20vw;
+    margin-top: -151vw;
+}
+.num{
+    position: absolute;
+    z-index: 3;
+    margin-left: 45vw;
+    margin-top: -143vw;
+    font-size: 3vw;
+}
+.num0{
+    position: absolute;
+    z-index: 3;
+    width: 4vw;
+    margin-left: 39.6vw;
+    margin-top: -88.3vw;
+}
+.num1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2.5vh;
+    border-radius: 2vw;
+    margin-left: 50vw;
+    margin-top: -140vw;
+}
+.pro{
+    position: absolute;
+    z-index: 3;
+    margin-left: 18vw;
+    margin-top: -135vw;
+    font-size: 3vw;
+}
+.pro0{
+    position: absolute;
+    z-index: 3;
+    width: 4vw;
+    margin-left: 13vw;
+    margin-top: -72vw;
+}
+.pro1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2.5vh;
+    border-radius: 2vw;
+    margin-left: 20vw;
+    margin-top: -132vw;
+}
+.add{
+    position: absolute;
+    z-index: 3;
+    margin-left: 45vw;
+    margin-top: -122vw;
+    font-size: 3vw;
+}
+.add0{
+    position: absolute;
+    z-index: 3;
+    width: 4vw;
+    margin-left: 39.2vw;
+    margin-top: -49.5vw;
+}
+
+.add1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2.5vh;
+    border-radius: 2vw;
+    margin-left: 50vw;
+    margin-top: -119vw;
+}
+.gro{
+    position: absolute;
+    z-index: 3;
+    margin-left: 18vw;
+    margin-top: -113vw;
+    font-size: 3vw;
+}
+.gro0{
+    position: absolute;
+    z-index: 3;
+    width: 4vw;
+    margin-left: 13vw;
+    margin-top: -30.8vw;
+}
+.gro1{
+    position: absolute;
+    z-index: 3;
+    width: 30vw;
+    height: 2.5vh;
+    border-radius: 2vw;
+    margin-left: 20vw;
+    margin-top: -109.5vw;
+}
+.chec{
+    position: absolute;
+    z-index: 3;
+    margin-left: 60vw;
+    margin-top: -105vw;
+}
+.sub{
+    position: absolute;
+    z-index: 3;
+    margin-left: 35vw;
+    margin-top: -100vw;
+    width: 20vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
