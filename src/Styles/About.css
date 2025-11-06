@@ -110,7 +110,7 @@
 .gg2{
     position: relative;
     z-index: 2;
-    margin-top: -38vw;
+    margin-top: -38.5vw;
     margin-left: 52vw;
     border: 1px solid black;
     border-radius: 3vw;
@@ -151,7 +151,7 @@
 .gg3{
     position: relative;
     z-index: 2;
-    margin-top: 10vw;
+    margin-top: 5vw;
     margin-left: 5vw;
     border: 1px solid black;
     border-radius: 3vw;
@@ -232,7 +232,7 @@
 .gg5{
     position: relative;
     z-index: 2;
-    margin-top: 10vw;
+    margin-top: 5vw;
     margin-left: 5vw;
     border: 1px solid black;
     border-radius: 3vw;
@@ -315,7 +315,8 @@
 .sche{
     position: relative;
     margin-top: 5vw;
-    margin-left: 41vw;
+    margin-left: 38vw;
+    font-family: 'Agbalumo', sans-serif;
 }
 .schedule-con{
     padding: 2vw;
