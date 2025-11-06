@@ -69,9 +69,9 @@ export default function Home() {
          treatment of heart and blood vessel diseases.</p>
          <div className='gg22'></div>
          <h1 className='neu'>Neurologist</h1>
-         <h4 className='kk1'>(brain, spinal cord, nerves)</h4>
-         <img className='brain' src={brain}/>
-         <p className='med'>A neurologist is a medical<br/>
+         <h4 className='kk1k'>(brain, spinal cord, nerves)</h4>
+         <img className='braink' src={brain}/>
+         <p className='medk'>A neurologist is a medical<br/>
           specialist who diagnoses and treats <br/>
          disorders of the brain, spinal cord,<br/> and nervous system.</p>
           <div className='gg33'></div>
