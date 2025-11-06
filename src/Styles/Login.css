@@ -196,11 +196,11 @@
     top: -3vw;
 }
 .iik{
-     position: relative;
+    position: relative;
     z-index: 2;
     border: 1px solid white;
     width: 99vw;
-    height: 45vh;
+    height: 40vh;
     background-color: black;
 }
 .nai{
