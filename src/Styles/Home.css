@@ -132,7 +132,7 @@ h1{
 .gg22{
     position: relative;
     z-index: 2;
-    margin-top: -36vw;
+    margin-top: -37vw;
     margin-left: 52vw;
     border: 1px solid black;
     border-radius: 3vw;
@@ -152,7 +152,8 @@ h1{
     position: absolute;
     z-index: 3;
     margin-top: -36vw;
-    margin-left: 63vw;
+     font-family: 'Agbalumo', sans-serif;
+     margin-left: 63vw;
 }
 .brain{
     position: absolute;
@@ -168,7 +169,8 @@ h1{
     margin-top: -11vw;
     margin-left: 58vw;
     font-size: 1.3vw;
-    font-family: 'Latherrich', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
+
 }
 .gg3{
     position: relative;
