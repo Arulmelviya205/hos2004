@@ -3,6 +3,7 @@
 @import url('https://fonts.cdnfonts.com/css/oswald-variable');
 @import url('https://fonts.cdnfonts.com/css/modestic-sans');
 @import url('https://fonts.cdnfonts.com/css/baskerville');
+@import url('https://fonts.cdnfonts.com/css/agbalumo');
 *{
     margin: 0;
     padding: 0;
@@ -710,6 +711,7 @@ h1{
     margin-top: 5vw;
     margin-left: 39vw;
     color: brown;
+    font-family: 'Agbalumo', sans-serif;
 }
 .kk{
     position: relative;
@@ -717,7 +719,7 @@ h1{
     border: 1px solid black;
     border-radius: 3vw;
     width: 30vw;
-    height: 75vh;
+    height: 70vh;
     margin-left: 5vw;
     margin-top: 3vw;
     background-color:antiquewhite;
@@ -740,11 +742,12 @@ h1{
     margin-left: 12vw;
     margin-top: -8vw;
     font-size: 1.5vw;
+    font-family: 'Agbalumo', sans-serif;
 }
 .car1{
     position: absolute;
     z-index: 3;
-    margin-left: 12vw;
+    margin-left: 13vw;
     margin-top: -4vw;
     font-size: 1.5vw;
     color: grey;
@@ -755,7 +758,7 @@ h1{
     font-size: 1.5vw;
     margin-top: -25vw;
     color: black;
-    font-family: 'Latherrich', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
 }
 .kkk{
     position: relative;
@@ -799,9 +802,9 @@ h1{
     position: relative;
     font-size: 1.5vw;
     color: black;
-     font-family: 'Latherrich', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
      margin-top: -20vw;
-     margin-left: 3vw;
+     margin-left: 2vw;
 }
 .nnn{
      position: relative;
@@ -845,7 +848,7 @@ h1{
     position: relative;
     font-size: 1.5vw;
     color: black;
-    font-family: 'Latherrich', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
     margin-left: 40vw;
     margin-top: -25vw;
 }
@@ -891,7 +894,7 @@ h1{
     position: relative;
     font-size: 1.5vw;
     color: black;
-    font-family: 'Latherrich', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -27vw;
     margin-left: 2vw;
 
@@ -940,7 +943,8 @@ h1{
     color: black;
     margin-left: 40vw;
     margin-top: -28vw;
-     font-family: 'Latherrich', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
+    
 }
 .hh{
     position: relative;
@@ -984,8 +988,8 @@ h1{
     position: relative;
     font-size: 1.5vw;
     color: black;
-    font-family: 'Latherrich', sans-serif;
-    margin-left: 5vw;
+   font-family: 'Agbalumo', sans-serif;
+    margin-left: 2vw;
     margin-top: -20vw;
 }
 .bil{
