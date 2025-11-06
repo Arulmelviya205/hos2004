@@ -15,9 +15,10 @@
 .takp{
     position: relative;
     margin-left: 8vw;
-    top: -3.4vw;
+    top: -3vw;
+    font-size: 2vw;
     color: brown;
-    font-family: 'Agbalumo', sans-serif;
+   font-family: 'Merry Loves', sans-serif;
 }
 .ha{
     position: relative;
@@ -33,7 +34,7 @@
     z-index: 3;
     margin-top: -30vw;
     margin-left: 8vw;
-    font-family: 'Latherrich', sans-serif;
+   font-family: 'Agbalumo', sans-serif;
      font-size: 2vw;
     color:black;
 }
@@ -51,16 +52,17 @@
 .doc28{
     position: absolute;
     z-index: 4;
-    margin-top: -16vw;
+    margin-top: -16.4vw;
     margin-left: 15vw;
     font-size: 1.9vw;
     color: black;
-    font-family: 'Oswald Variable', sans-serif;
+   font-family: 'Agbalumo', sans-serif;
 }
 .dap{
     position: relative;
     margin-top: 5vw;
     margin-left: 40vw;
+    font-family: 'Agbalumo', sans-serif;
 }
 .gg1{
     position: relative;
@@ -70,7 +72,7 @@
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 90vh;
+    height: 80vh;
     background-color:antiquewhite;
 }
 .kk0{
@@ -86,6 +88,7 @@
     position: absolute;
     z-index: 3;
     margin-top: -36vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-left: 15vw;
 }
 .caro{
@@ -99,19 +102,20 @@
 .the{
     position: absolute;
     z-index: 3;
-    margin-top: -10vw;
+    margin-top: -12vw;
     margin-left: 10vw;
     font-size: 1.3vw;
+    font-family: 'Agbalumo', sans-serif;
 }
 .gg2{
     position: relative;
     z-index: 2;
-    margin-top: -43vw;
+    margin-top: -39vw;
     margin-left: 52vw;
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 90vh;
+    height: 80vh;
     background-color:antiquewhite;
 }
 .kk1{
@@ -125,6 +129,7 @@
 .neu{
     position: absolute;
     z-index: 3;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -36vw;
     margin-left: 63vw;
 }
@@ -138,19 +143,20 @@
 .med{
     position: absolute;
     z-index: 3;
-    margin-top: -10vw;
-    margin-left: 57vw;
+    margin-top: -12vw;
+    margin-left: 58vw;
     font-size: 1.3vw;
+    font-family: 'Agbalumo', sans-serif;
 }
 .gg3{
     position: relative;
     z-index: 2;
-    margin-top: 15vw;
+    margin-top: 10vw;
     margin-left: 5vw;
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 90vh;
+    height: 80vh;
     background-color:antiquewhite;
 }
 .kk2{
@@ -165,6 +171,7 @@
     position: absolute;
     z-index: 3;
     margin-top: -35vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-left: 15vw;
 }
 .ortho{
@@ -177,20 +184,20 @@
 .dis0{
     position: absolute;
     z-index: 3;
-    margin-top: -12vw;
+    margin-top: -14vw;
     margin-left: 7vw;
     font-size: 1.2vw;
-    font-family: 'Latherrich', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
 }
 .gg4{
     position: relative;
     z-index: 2;
-    margin-top: -43vw;
+    margin-top: -38vw;
     margin-left: 52vw;
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 90vh;
+    height: 80vh;
     background-color:antiquewhite;
 }
 .kk3{
@@ -217,25 +224,27 @@
 .who{
    position: absolute;
     z-index: 3;
-    margin-top: -10vw;
-    margin-left: 55vw;
+    margin-top: -13vw;
+    margin-left: 57vw;
     font-size: 1.2vw;
+    font-family: 'Agbalumo', sans-serif;
 }
 .gg5{
     position: relative;
     z-index: 2;
-    margin-top: 15vw;
+    margin-top: 10vw;
     margin-left: 5vw;
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 95vh;
+    height: 80vh;
     background-color:antiquewhite;
 }
 .der{
     position: absolute;
     z-index: 3;
     margin-top: -35vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-left: 15vw;
 }
 .kk4{
@@ -256,26 +265,27 @@
 .mat{
     position: absolute;
     z-index: 3;
-    margin-top: -10vw;
-    margin-left: 7vw;
+    margin-top: -14vw;
+    margin-left: 10vw;
     font-size: 1.2vw;
-    font-family: 'Latherrich', sans-serif;
+   font-family: 'Agbalumo', sans-serif;
 }
 .gg6{
      position: relative;
     z-index: 2;
-    margin-top: -43vw;
+    margin-top: -39vw;
     margin-left: 52vw;
     border: 1px solid black;
     border-radius: 3vw;
     width: 35vw;
-    height: 93vh;
+    height: 80vh;
     background-color:antiquewhite;
 }
 .nep{
     position: absolute;
     z-index: 3;
     margin-top: -35vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-left: 63vw;
 }
 .kk5{
@@ -297,10 +307,10 @@
 .kid1{
     position: absolute;
     z-index: 3;
-    margin-top: -10vw;
+    margin-top: -13vw;
     margin-left:55vw;
     font-size: 1.2vw;
-    font-family: 'Latherrich', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
 }
 .sche{
     position: relative;
