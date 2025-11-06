@@ -142,8 +142,8 @@ const submitEmail = () => {
     
   return (
     <div>
-      <img className='ho' src={hos}/>
-      <h1 className='ta'>Hospital</h1>
+      <img className='hok' src={hos}/>
+      <h1 className='takp'>Hospital</h1>
       <img className='ha' src={ha}/>
       <p className='doc1'>The administration and coordination of hospital operations to ensure efficient<br/>
        healthcare delivery and patient care.</p>
@@ -181,26 +181,26 @@ const submitEmail = () => {
          <h1 className='cian'>pediatrician</h1>
         <h4 className='kk3'>(children’s health)</h4>
         <img className='pedia' src={pedia}/>
-        <p className='who'>A pediatrician is a medical doctor who specializes in the<br/> health and medical<br/>
+        <p className='who'>A pediatrician is a medical doctor<br/> who specializes in the health and medical<br/>
           care of infants, children, and adolescents.<br/>
-          They monitor growth, development,
- and provide preventive<br/> care like vaccinations.</p>
+          They monitor growth, development,<br/>
+ and provide preventivecare like vaccinations.</p>
  <div className='gg5'></div>
  <h1 className='der'>Dermatology</h1>
  <h4 className='kk4'>(skin, hair, nails)</h4>
     <img className='der1' src={der}/>
- <p className='mat'>Dermatology is the branch of medicine that focuses<br/> on diagnosing<br/>
-  and treating conditions related to the skin, hair, and nails.<br/>
-It covers a wide range of issues, including acne, eczema,<br/>
+ <p className='mat'>Dermatology is the branch of medicine<br/> that focuses on diagnosing<br/>
+  and treating conditions related <br/>to the skin, hair, and nails.<br/>
+It covers a wide range of issues,<br/> including acne, eczema,<br/>
  psoriasis, infections, and skin cancers.</p>
  <div className='gg6'></div>
  <h1 className='nep'>Nephrology</h1>
  <h4 className='kk5'>(kidneys)</h4>
  <img className='kid' src={kid}/>
- <p className='kid1'>Nephrology is the medical specialty concerned with the<br/>
+ <p className='kid1'>Nephrology is the medical specialty concerned<br/> with the
   diagnosis and treatment<br/>
   of kidney-related diseases.
-It deals with conditions <br/>
+It deals with conditions<br/>
 such as chronic kidney disease,<br/>
  kidney stones, high blood pressure,<br/> and electrolyte imbalances.</p> 
   <video autoPlay loop muted  width='90%' style={{margin:"5vw"}}><source src={patient} type='video/mp4' className='kol'/></video>
