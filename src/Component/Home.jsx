@@ -74,7 +74,7 @@ export default function Home() {
          <p className='med'>A neurologist is a medical<br/>
           specialist who diagnoses and treats <br/>
          disorders of the brain, spinal cord,<br/> and nervous system.</p>
-          <div className='gg3'></div>
+          <div className='gg33'></div>
          <h1 className='pedics'>orthopedics</h1>
          <h4 className='kk2'>(bones, joints, muscles)</h4>
          <img className='ortho' src={ortho}/>
@@ -85,11 +85,11 @@ export default function Home() {
          It helps manage conditions such as fractures,<br/>
          arthritis, back pain,
          and sports injuries.</p>
-          <div className='gg4'></div>
+          <div className='gg44'></div>
          <h1 className='cian'>pediatrician</h1>
          <h4 className='kk3'>(children’s health)</h4>
          <img className='pedia' src={pedia}/>
-         <p className='who'>A pediatrician is a medical doctor who specializes in the<br/> health and medical<br/>
+         <p className='whok'>A pediatrician is a medical doctor who specializes in the<br/> health and medical<br/>
           care of infants, children, and adolescents.<br/>
           They monitor growth, development,
  and provide preventive<br/> care like vaccinations.</p>
