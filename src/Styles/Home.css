@@ -264,7 +264,7 @@ h1{
 .gg7{
     position: relative;
     z-index: 2;
-    margin-top: 15vw;
+    margin-top: 8vw;
     margin-left: 28vw;
     border: 1px solid black;
     border-radius: 3vw;
@@ -296,11 +296,11 @@ h1{
     margin-left: 34vw;
 }
 .matn{
- position: absolute;
+    position: absolute;
     z-index: 3;
-    margin-top: -11vw;
+    margin-top: -12vw;
     margin-left: 32vw;
-    font-size: 1.2vw;
+    font-size: 1.2vw;   
     font-family: 'Agbalumo', sans-serif;
 }
 .us{
