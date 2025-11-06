@@ -201,7 +201,7 @@ It covers a wide range of issues, including acne, eczema,<br/>
     <p className='gist3'>Looking for a trusted Pediatric Nephrologist near me?<br/>
      Dr. Shivangini Gupta at Apollo JBP Hospitals specializes in diagnosing and<br/>
       treating kidney-related conditions in children,<br/>
-      including urinary tract infections, nephrotic syndrome, and chronic kidney disease.<br/>
+      including urinary tract infections, nephrotic syndrome, and<br/> chronic kidney disease.<br/>
        With compassionate care and advanced pediatric <br/>
       expertise, she ensures accurate diagnosis, personalized treatment, and ongoing <br/>
       support for young patients and their families.</p>
