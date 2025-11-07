@@ -1,13 +1,19 @@
 .kolpk{
      position: relative;
      margin-left: 8vw;
-     top: 3.5vw;
+     top: 3vw;
      color: brown;
+     font-family: 'Merry Loves', sans-serif;
 }
 .kolp0k{
     position: relative;
     width: 4vw;
     margin-left: 3vw;
+}
+.kol{
+    position: relative;
+    margin: 5vw;
+    border-radius: 4vw;
 }
 .ser{
     position: relative;

@@ -7,7 +7,7 @@ export default function Billing() {
     <div>
       <h1 className='kolpk'>Hospital</h1>
       <img className='kolp0k' src={hos}/>
-      <video autoPlay loop muted  width='90%' style={{margin:"5vw"}}><source src={ture} type='video/mp4' className='kol'/></video>
+      <video autoPlay loop muted  width='90%' className='kol'><source src={ture} type='video/mp4' /></video>
       <div className='ser1'>
   <h2 className='ser'>Hospital Services & Charges</h2>
   <table className="ser0">

@@ -10,37 +10,41 @@
 .ta11{
      position: relative;
      margin-left: 8vw;
-     top: -3.4vw;
+     top: -3.3vw;
+     font-family: 'Merry Loves', sans-serif;
      color: brown;
 }
 .cck{
     position: relative;
     z-index: 2;
     width: 90vw;
-    height: 95vh;
-    margin-left: 4vw;
+    height: 100vh;
+    margin-left: 5vw;
 }
 .apy{
     position: absolute;
     z-index: 3;
     margin-top: -27vw;
-    margin-left: 5vw;
-    font-size: 1.5vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 8vw;
+    font-size: 1.6vw;
     color: black;
 }
 .apy0{
     position: absolute;
     z-index: 3;
     margin-top: -15vw;
-    margin-left: 5vw;
-    font-size: 1.5vw;
+    margin-left: 8vw;
+    font-size: 1.6vw;
+    font-family: 'Agbalumo', sans-serif;
     color: black;
 }
 .doctor{
     position: relative;
-    margin-left: 42vw;
+    margin-left: 40vw;
     margin-top: 5vw;
     font-size: 2.5vw;
+    font-family: 'Merry Loves', sans-serif;
 }
 .doctor:hover{
     color: brown;
@@ -71,6 +75,7 @@
 .raja{
     position:absolute;
     z-index: 3;
+    font-family: 'Agbalumo', sans-serif;
     margin-left: 5.7vw;
     margin-top: -8vw;
 }
@@ -110,6 +115,7 @@
     position: absolute;
     z-index: 3;
     margin-top: -8vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-left: 37vw;
 }
 .varma1{
@@ -148,6 +154,7 @@
     position:absolute;
     z-index: 3;
     margin-left: 77vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -8vw;
 }
 .anal{
@@ -186,6 +193,7 @@
     position: absolute;
     z-index: 3;
     margin-left: 8vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -7vw;
 }
 .nanoi{
@@ -224,6 +232,7 @@
     position: absolute;
     z-index: 3;
     margin-left: 37vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -7vw;
 }
 .urow{
@@ -262,6 +271,7 @@
     position: absolute;
     z-index: 3;
     margin-left: 74vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -7vw;
 }
 .cardioq{
@@ -300,6 +310,7 @@
     position: absolute;
     z-index: 3;
     margin-left: 6vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -7vw;
 }
 .radion{
@@ -338,6 +349,7 @@
     position: absolute;
     z-index: 3;
     margin-left: 41vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -7vw;
 }
 .gynab{
@@ -377,6 +389,7 @@
     position: absolute;
     z-index: 3;
     margin-left: 75vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -7vw;
 }
 .nep2{
@@ -415,6 +428,7 @@ cursor: pointer;
     position: absolute;
     z-index: 3;
     margin-left: 5vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -7vw;
 }
 .onco1{
@@ -453,6 +467,7 @@ cursor: pointer;
     position: absolute;
     z-index: 3;
     margin-left: 38vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -7vw;
 }
 .ctvs1{
@@ -491,6 +506,7 @@ cursor: pointer;
     position: absolute;
     z-index: 3;
     margin-left: 77vw;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -7vw;
 }
 .sree1{
@@ -515,14 +531,16 @@ cursor: pointer;
 .details{
     position: absolute;
     z-index: 3;
-    margin-top: -43vw;
-    margin-left: 35vw;
+    margin-top: -44vw;
+     font-family: 'Agbalumo', sans-serif;
+    margin-left: 34vw;
 }
 .nn{
     position: absolute;
     z-index: 3;
-    margin-left: 18vw;
-    margin-top: -38vw;
+    margin-left: 17.6vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-top: -38.5vw;
     font-size: 1.5vw;
 }
 .nn0{
@@ -544,8 +562,9 @@ cursor: pointer;
 .nam{
     position: absolute;
     z-index: 3;
-    margin-left: 18vw;
-    margin-top: -32.5vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 17.5vw;
+    margin-top: -32.7vw;
     font-size: 1.5vw;
 }
 .nam0{
@@ -567,8 +586,9 @@ cursor: pointer;
 .age{
     position: absolute;
     z-index: 3;
-    margin-left: 18vw;
-    margin-top: -26.7vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 17.5vw;
+    margin-top: -26.9vw;
     font-size: 1.5vw;
 }
 .age0{
@@ -590,8 +610,9 @@ cursor: pointer;
 .gen{
     position: absolute;
     z-index: 3;
-    margin-left: 18vw;
-    margin-top: -20vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 17.5vw;
+    margin-top: -20.5vw;
     font-size: 1.5vw;
 }
 .gen0{
@@ -613,8 +634,9 @@ cursor: pointer;
 .dob{
     position: absolute;
     z-index: 3;
-    margin-left: 18vw;
-    margin-top: -15.5vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 17.5vw;
+    margin-top: -15.8vw;
     font-size: 1.5vw;
 }
 .dob0{
@@ -636,8 +658,9 @@ cursor: pointer;
 .ema{
     position: absolute;
     z-index: 3;
-    margin-left: 59vw;
-    margin-top: -50.5vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 58.5vw;
+    margin-top: -50.8vw;
     font-size: 1.5vw;
 }
 .ema0{
@@ -659,8 +682,9 @@ cursor: pointer;
 .num{
     position: absolute;
     z-index: 3;
-    margin-left: 59vw;
-    margin-top: -45vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 58.5vw;
+    margin-top: -45.4vw;
     font-size: 1.5vw;
 }
 .num0{
@@ -682,8 +706,9 @@ cursor: pointer;
 .pro{
     position: absolute;
     z-index: 3;
-    margin-left: 59vw;
-    margin-top: -38.7vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 58.5vw;
+    margin-top: -38.9vw;
     font-size: 1.5vw;
 }
 .pro0{
@@ -705,8 +730,9 @@ cursor: pointer;
 .add{
     position: absolute;
     z-index: 3;
-    margin-left: 59vw;
-    margin-top: -32.4vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 58.5vw;
+    margin-top: -32.5vw;
     font-size: 1.5vw;
 }
 .add0{
@@ -728,8 +754,9 @@ cursor: pointer;
 .gro{
     position: absolute;
     z-index: 3;
-    margin-left: 59vw;
-    margin-top: -27.5vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 58.5vw;
+    margin-top: -27.9vw;
     font-size: 1.5vw;
 }
 .gro0{
@@ -762,6 +789,7 @@ cursor: pointer;
     width: 10vw;
     border-radius: 2vw;
     font-size: 1.3vw;
+    font-family: 'Agbalumo', sans-serif;
     background-color: green;
 }
 .path{
@@ -775,8 +803,9 @@ cursor: pointer;
 
 .data{
     position: relative;
-    margin-left: 40vw;
+    margin-left: 38vw;
     margin-top: -19vw;
+    font-family: 'Agbalumo', sans-serif;
 }
 
 table {
@@ -784,6 +813,8 @@ table {
   border-collapse: collapse;
   border-radius: 1vw;
   overflow: hidden;
+  font-family: 'Agbalumo', sans-serif;
+  margin-top: 5vw;
 }
 
 th, td {
@@ -810,7 +841,8 @@ tr:hover td {
 .da{
     position: relative;
     margin-top: 18vw;
-    margin-left: 40vw;
+    margin-left: 38vw;
+    font-family: 'Agbalumo', sans-serif;
 }
 .ss{
     position: relative;
@@ -826,8 +858,9 @@ tr:hover td {
 .rr{
     position: absolute;
     z-index: 3;
-    margin-top: -43vw;
-    margin-left: 18vw;
+    margin-top: -43.5vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 17.5vw;
     font-size: 1.5vw;
     color: brown;
 }
@@ -850,8 +883,9 @@ tr:hover td {
 .qq{
    position: absolute;
    z-index: 3;
-   margin-top: -35vw;
-   margin-left: 18vw;
+   margin-top: -35.9vw;
+   font-family: 'Agbalumo', sans-serif;
+   margin-left: 17.5vw;
    font-size: 1.5vw;
    color: brown;
 }
@@ -874,9 +908,10 @@ tr:hover td {
 .ssk{
     position: absolute;
     z-index: 3;
-   margin-top: -29vw;
-    margin-left: 18vw;
+   margin-top: -29.5vw;
+    margin-left: 17.5vw;
     font-size: 1.5vw;
+    font-family: 'Agbalumo', sans-serif;
     color: brown;
 }
 .ss0{
@@ -898,8 +933,9 @@ tr:hover td {
 .ggm{
     position: absolute;
     z-index: 3;
-    margin-top: -24vw;
-    margin-left: 18vw;
+    margin-top: -24.9vw;
+    margin-left: 17.5vw;
+    font-family: 'Agbalumo', sans-serif;
     font-size: 1.5vw;
     color: brown;
 }
@@ -922,8 +958,9 @@ tr:hover td {
 .ob{
     position: absolute;
     z-index: 3;
-    margin-top: -18vw;
-    margin-left: 18vw;
+    margin-top: -18.9vw;
+    margin-left: 17.5vw;
+    font-family: 'Agbalumo', sans-serif;
     font-size: 1.5vw;
     color:brown;
 }
@@ -946,9 +983,10 @@ tr:hover td {
 .ma{
     position: absolute;
     z-index: 3;
-    margin-top: -53.5vw;
-    margin-left: 58vw;
+    margin-top: -54vw;
+    margin-left: 57.5vw;
     font-size: 1.5vw;
+    font-family: 'Agbalumo', sans-serif;
     color: brown;
 }
 .ma1{
@@ -970,8 +1008,9 @@ tr:hover td {
 .mb{
     position: absolute;
     z-index: 3;
-    margin-top: -47vw;
-    margin-left: 58vw;
+    margin-top: -48vw;
+    margin-left: 57.5vw;
+    font-family: 'Agbalumo', sans-serif;
     font-size: 1.5vw;
     color: brown;
 }
@@ -994,10 +1033,11 @@ tr:hover td {
 .em{
     position: absolute;
     z-index: 3;
-    margin-top: -41vw;
-    margin-left: 58vw;
+    margin-top: -41.5vw;
+    margin-left: 57.5vw;
     font-size: 1.5vw;
     color: brown;
+    font-family: 'Agbalumo', sans-serif;
 }
 .em1{
     position: absolute;
@@ -1018,10 +1058,11 @@ tr:hover td {
 .ress{
     position: absolute;
     z-index: 3;
-    margin-left: 58vw;
-    margin-top: -35.5vw;
+    margin-left: 57.5vw;
+    margin-top: -35.9vw;
     font-size: 1.5vw;
     color: brown;
+    font-family: 'Agbalumo', sans-serif;
 }
 .ress1{
     position: absolute;
@@ -1042,10 +1083,11 @@ tr:hover td {
 .up{
     position: absolute;
     z-index: 3;
-    margin-left: 58vw;
-    margin-top: -30vw;
+    margin-left: 57.5vw;
+    margin-top: -30.5vw;
     font-size: 1.5vw;
     color: brown;
+    font-family: 'Agbalumo', sans-serif;
 }
 .up1{
     position: absolute;
@@ -1081,6 +1123,7 @@ tr:hover td {
     position: relative;
     margin-left: 9vw;
     margin-top: -10vw;
+    font-family: 'Merry Loves', sans-serif;
     color: brown;
 }
 .img01{
@@ -1100,6 +1143,7 @@ tr:hover td {
 .ont{
      position: absolute;
     z-index: 3;
+    font-family: 'Agbalumo', sans-serif;
     color: white;
     margin-top: -17vw;
     margin-left: 5vw;
@@ -1153,6 +1197,7 @@ tr:hover td {
     position: absolute;
     z-index: 3;
     margin-top: -17vw;
+    font-family: 'Agbalumo', sans-serif;
     color: white;
     margin-left: 35vw;
 }

@@ -24,24 +24,24 @@
     position: relative;
     z-index: 2;
     width: 90vw;
-    height: 100vh;
-    margin-left: 4vw;
+    height: 110vh;
+    margin-left: 5vw;
     border-radius: 3vw;
     margin-top: 2vw;
 }
 .doc1{
     position: absolute;
     z-index: 3;
-    margin-top: -30vw;
+    margin-top: -34vw;
     margin-left: 8vw;
-   font-family: 'Agbalumo', sans-serif;
-     font-size: 2vw;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 2vw;
     color:black;
 }
 .gg{
     position: absolute;
     z-index: 3;
-    margin-top: -17vw;
+    margin-top: -23vw;
     margin-left: 10vw;
     border: 1px solid black;
     border-radius: 3vw;
@@ -52,7 +52,7 @@
 .doc28{
     position: absolute;
     z-index: 4;
-    margin-top: -16.4vw;
+    margin-top: -22.3vw;
     margin-left: 15vw;
     font-size: 1.9vw;
     color: black;
@@ -352,7 +352,8 @@
 .spi{
     position: relative;
     margin-left: 9vw;
-    margin-top:8vw;
+    margin-top:7vw;
+    font-family: 'Merry Loves', sans-serif;
     color: brown;
 }
 .spi0{
@@ -373,6 +374,7 @@
     position: absolute;
     z-index: 3;
     color: white;
+    font-family: 'Agbalumo', sans-serif;
     margin-top: -17vw;
     margin-left: 5vw;
 }
@@ -389,7 +391,7 @@
     z-index: 3;
     color: white;
     font-size: 1.5vw;
-    margin-left: 3vw;
+     margin-left: 3vw;
     margin-top: -10vw;
 }
 .pol2{
@@ -410,7 +412,7 @@
 .rto0{
     position: absolute;
     z-index: 3;
-    width: 2.5vw;
+     width: 2.5vw;
     margin-left: 9vw;
     margin-top: -3.4vw;
 }
@@ -426,6 +428,7 @@
     z-index: 3;
     margin-top: -17vw;
     color: white;
+    font-family: 'Agbalumo', sans-serif;
     margin-left: 35vw;
 }
 .xol0{

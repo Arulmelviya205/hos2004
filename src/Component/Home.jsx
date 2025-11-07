@@ -14,7 +14,7 @@ import apo from '../assets/images/apo.jpg'
 import doctvideo from '../assets/videos/doct.mp4'
 import nam1 from '../assets/images/nam1.jpg'
 import pho1 from '../assets/images/pho1.jpg'
-import depart from '../assets/images/depart.jpg'
+import departimg from '../assets/images/departimg.jpg'
 import ema0 from '../assets/images/ema0.jpg'
 import prob0 from '../assets/images/prob0.jpg'
 import health from '../assets/images/health.jpg'
@@ -103,13 +103,13 @@ It covers a wide range of issues, including acne, eczema,<br/>
  psoriasis, infections, and skin cancers.</p>
  <h1 className='us'>Contact us</h1>
    <img className='img21' src={us}/> 
-    <video autoPlay loop muted  width='80%' style={{margin:"5vw"}}><source src={doctvideo} type='video/mp4' className='pat01'/></video>
+    <video autoPlay loop muted  width='90%' style={{margin:"2vw"}}><source src={doctvideo} type='video/mp4' className='pat01'/></video>
     <div className='loo'></div>
      <img className='apo0' src={apo}/>
      <img className='name1'  src={nam1}/>
      <img className='pho1' src={pho1}/>
      <img className='email0' src={ema0}/>
-     <img className='depart1' src={depart}/>
+     <img className='depart1' src={departimg}/>
      <img className='prob1' src={prob0}/>
     
     <h1 className='apo'>Appointment form</h1>

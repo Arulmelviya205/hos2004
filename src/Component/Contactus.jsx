@@ -7,7 +7,7 @@ import apo from '../assets/images/apo.jpg'
 import nam1 from '../assets/images/nam1.jpg'
 import pho1 from '../assets/images/pho1.jpg'
 import ema0 from '../assets/images/ema0.jpg'
-import depart from '../assets/images/depart.jpg'
+import departimg from '../assets/images/departimg.jpg'
 import prob0 from '../assets/images/prob0.jpg'
 import health from '../assets/images/health.jpg'
 import host from '../assets/images/host.jpg'
@@ -33,7 +33,7 @@ import face from '../assets/images/face.jpg'
 import insta from '../assets/images/insta.jpg'
 import goo from '../assets/images/goo.jpg'
  export default function Contactus() {
-  const [Appointmentid, setAppoinmentid] = useState("");
+const [Appointmentid, setAppoinmentid] = useState("");
 const [name, setName] = useState("");
 const [phone, setPhone] = useState("");
 const [email, setEmail] = useState("");
@@ -56,20 +56,21 @@ const handleSubmit = (e) => {
   setDepart("");
   setProblem("");
 };
-
+    const [Email, setemail] = useState("");
+ 
+ const submitEmail = () => {
+   if (Email === "") {
+     alert("Please enter an email.");
+   } else if (!Email.includes("@") || !Email.includes(".")) {
+     alert("Please enter a valid email address.");
+   } else {
+     alert("Submitted Successfully");
+     setEmail("");
+   }
+ };
    
 
-  const [Email, setemail] = useState("");
-  const submitEmail = () => {
-    if (Email === "") {
-      alert("Please enter an email.");
-    } else if (!Email.includes("@") || !Email.includes(".")) {
-      alert("Please enter a valid email address.");
-    } else {
-      alert("Submitted Successfully");
-      setemail(""); 
-    }
-  
+ 
   return (
     <div>
       <img className='ho' src={hos}/>
@@ -102,7 +103,7 @@ const handleSubmit = (e) => {
     <option>urology</option>
     <option>Nephrology</option>
    </select>
-   <img className='sel' src={depart}/>
+   <img className='sel' src={departimg}/>
    <label className='lem'>Problem:</label>
    <input type='text' value={problem} onChange={(e)=>setProblem(e.target.value)} className='lem1'/>
    <img className='lem2' src={prob0}/>
@@ -184,5 +185,5 @@ const handleSubmit = (e) => {
    </div>
    
   )
-}
  }
+  

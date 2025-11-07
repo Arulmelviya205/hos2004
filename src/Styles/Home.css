@@ -33,12 +33,13 @@ h1{
     position: relative;
     z-index: 2;
     width: 100vw;
+    
     height: 100vh;
 }
 .care{
     position:absolute;
     z-index: 3;
-    margin-top: -42vw;
+    margin-top: -44vw;
     margin-left: 5vw;
     font-size: 2vw;
     color:white;
