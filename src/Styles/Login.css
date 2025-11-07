@@ -11,40 +11,43 @@
     width: 4vw;
     margin-left: 3vw;
 }
-.dd{
+.dddk{
     position: relative;
     z-index: 2;
     border: 1px solid black;
-    width: 80vw;
-    height: 120vh;
-    margin-left: 10vw;
-    margin-top: 8vw;
-    background-color:cornflowerblue;
+    border-radius: 5vw;
+    width: 95vw;
+    height: 115vh;
+    margin-left: 2vw;
+    margin-top: 5vw;
+    background-color:ivory;
+  
+
 }
 .login0{
     position: absolute;
     z-index: 3;
-    width: 40vw;
+    width: 55vw;
     border-radius: 5vw;
-    height: 100vh;
-    margin-top: -49vw;
-    margin-left: 13vw;
+    height: 115vh;
+    margin-top: -55.6vw;
+    margin-left: 2.1vw;
 }
 .gin{
     position: absolute;
     z-index: 3;
     color:black;
-    margin-left: 66.5vw;
-    margin-top: -47vw;
+    margin-left: 75vw;
+    margin-top: -52vw;
 }
 .bel{
     position: absolute;
     z-index: 3;
-    margin-left: 60vw;
-    margin-top: -40vw;
+    margin-left: 70vw;
+    margin-top: -45.5vw;
     font-size: 2vw;
     color: brown;
-    font-family: 'Delius Swash Caps', sans-serif;
+   font-family: 'Agbalumo', sans-serif;
 }
 .bel0{
     position: absolute;
@@ -52,24 +55,24 @@
     width: 12vw;
     height: 3vh;
     border-radius: 1vw;
-    margin-left: 65vw;
-    margin-top: -35vw;
+    margin-left: 75vw;
+    margin-top: -40vw;
 }
 .namk{
     position: absolute;
     z-index: 3;
     width: 2.5vw;
-    margin-left: 57vw;
-    margin-top: -40vw;
+    margin-left: 67vw;
+    margin-top: -45vw;
 }
 .mai{
     position: absolute;
     z-index: 3;
-    margin-left: 60vw;
-    margin-top: -30vw;
+    margin-left: 70vw;
+    margin-top: -35.5vw;
     font-size: 2vw;
     color: brown;
-    font-family: 'Delius Swash Caps', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
 }
 .mai0{
     position: absolute;
@@ -77,51 +80,52 @@
      width: 12vw;
     height: 3vh;
     border-radius: 1vw;
-    margin-left: 65vw;
-    margin-top: -26vw;
+    margin-left: 75vw;
+    margin-top: -31vw;
 }
 .mai1{
     position: absolute;
     z-index: 3;
     width: 2.5vw;
-    margin-left: 57vw;
-    margin-top: -30vw;
+    margin-left: 67vw;
+    margin-top: -35vw;
 }
 .ord{
     position: absolute;
     z-index: 3;
-    margin-left: 60vw;
-    margin-top: -21vw;
+    margin-left: 70vw;
+    margin-top: -25.5vw;
     font-size: 2vw;
     color: brown;
-    font-family: 'Delius Swash Caps', sans-serif;
+    font-family: 'Agbalumo', sans-serif;
 }
 .ord0{
     position: absolute;
     z-index: 3;
-     width: 12vw;
+    width: 12vw;
     height: 8vh;
     border-radius: 1vw;
-    margin-left: 65vw;
-    margin-top: -16vw;
+    margin-left: 75vw;
+    margin-top: -20vw;
 }
 .ord1{
     position: absolute;
     z-index: 3;
     width: 2.5vw;
-    margin-left: 57vw;
-    margin-top: -21vw;
+    margin-left: 67vw;
+    margin-top: -25vw;
 }
 
 .mit{
     position: absolute;
     z-index: 3;
-    width: 6vw;
+    width: 10vw;
     border-radius: 3vw;
-    font-size: 1.1vw;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 1.5vw;
     background-color: green;
-    margin-left: 64vw;
-    margin-top: -11vw;
+    margin-left: 70vw;
+    margin-top: -13vw;
 }
 .kn{
     position: absolute;
@@ -131,7 +135,7 @@
     width: 5vw;
     height: 5vw;
     background-color:skyblue;
-    margin-left: 57vw;
+    margin-left: 64vw;
     margin-top: -7vw;
 }
 .kn:hover{
@@ -141,7 +145,7 @@
     position: absolute;
     z-index: 4;
     width: 2.6vw;
-    margin-left: 58.4vw;
+    margin-left: 65.2vw;
     margin-top: -6vw;
 }
 .kn0{
@@ -152,7 +156,7 @@
     width: 5vw;
     height: 5vw;
     background-color:palevioletred;
-    margin-left: 65vw;
+    margin-left: 73vw;
     margin-top: -7vw;
 }
 .kn0:hover{
@@ -162,7 +166,7 @@
     position: absolute;
     z-index: 4;
     width: 2.6vw;
-    margin-left: 66.3vw;
+    margin-left: 74.3vw;
     margin-top: -6vw;
 }
 .kn1{
@@ -173,14 +177,14 @@
     width: 5vw;
     height: 5vw;
     background-color:white;
-    margin-left: 73vw;
+    margin-left: 82vw;
     margin-top: -7vw;
 }
 .goh{
     position: absolute;
     z-index: 4;
     width: 2.6vw;
-    margin-left: 74.3vw;
+    margin-left: 83.5vw;
     margin-top: -6vw;
 }
 .pi0kk{
@@ -419,11 +423,11 @@
    width: 10vw;
    margin-left: 2vw;
 }
-.dd{
+.dddk{
     position: relative;
     z-index: 2;
     border: 1px solid black;
-    width: 115vw;
+    width: 100vw;
     height: 120vh;
     margin-left: 2vw;
     margin-top: 8vw;
@@ -436,7 +440,7 @@
     width: 80vw;
     border-radius: 5vw;
     height: 50vh;
-    margin-top: -240vw;
+    margin-top: -270vw;
     margin-left: 13vw;
 }
 .gin{
@@ -444,17 +448,9 @@
     z-index: 3;
     color:black;
     margin-left: 45vw;
-    margin-top: -253vw;
+    margin-top: 253vw;
 }
-.bel{
-    position: absolute;
-    z-index: 3;
-    margin-left: 30vw;
-    margin-top: -115vw;
-    font-size: 5vw;
-    color: brown;
-    font-family: 'Delius Swash Caps', sans-serif;
-}
+
 .bel0{
     position: absolute;
     z-index: 3;
@@ -529,7 +525,8 @@
     background-color: green;
     margin-left: 35vw;
     margin-top: -30vw;
-}
+} 
+
 .kn{
     position: absolute;
     z-index: 3;

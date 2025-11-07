@@ -103,7 +103,7 @@ It covers a wide range of issues, including acne, eczema,<br/>
  psoriasis, infections, and skin cancers.</p>
  <h1 className='us'>Contact us</h1>
    <img className='img21' src={us}/> 
-    <video autoPlay loop muted  width='90%' style={{margin:"2vw"}}><source src={doctvideo} type='video/mp4' className='pat01'/></video>
+    <video autoPlay loop muted  width='90%' style={{margin:"5vw"}}><source src={doctvideo} type='video/mp4' className='pat01'/></video>
     <div className='loo'></div>
      <img className='apo0' src={apo}/>
      <img className='name1'  src={nam1}/>

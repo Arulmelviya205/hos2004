@@ -203,7 +203,7 @@ It covers a wide range of issues,<br/> including acne, eczema,<br/>
 It deals with conditions<br/>
 such as chronic kidney disease,<br/>
  kidney stones, high blood pressure,<br/> and electrolyte imbalances.</p> 
-  <video autoPlay loop muted  width='90%' style={{margin:"5vw"}}><source src={patient} type='video/mp4' className='kol'/></video>
+  <video autoPlay loop muted  width='80%' style={{margin:"8vw"}}><source src={patient} type='video/mp4' className='kol'/></video>
   <h1 className='sche'>Doctor schedule</h1>
   <div className='schedule-con'>
    <table className="schedule-table">

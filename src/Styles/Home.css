@@ -19,7 +19,7 @@ body{
     margin-left: 3vw;
 }
 h1{
- font-family: 'PetitaMedium', sans-serif;
+ font-family: 'Agbalumo', sans-serif;
 }
 .tal{
     position: relative;
@@ -76,18 +76,19 @@ h1{
     border-radius: 3vw;
     width: 20vw;
     height: 10vh;
-    background-color:white;
+    background-color:black;
 }
+
 .coo1{
      position: absolute;
     z-index: 4;
-    margin-top: 6vw;
+    margin-top: 5.6vw;
     margin-left: 15vw;
     font-size: 1.9vw;
-    color: black;
-    font-family: 'Oswald Variable', sans-serif;
-                                                
-}
+    color:white;
+   font-family: 'Agbalumo', sans-serif;
+}  
+                                     
 .dap1{
     position: relative;
     margin-top: 13vw;

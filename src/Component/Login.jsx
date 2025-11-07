@@ -10,7 +10,7 @@ import insta from '../assets/images/insta.jpg'
 import goo from '../assets/images/goo.jpg'
 import emailjs from '@emailjs/browser';
 
-export default function Login() {
+ export default function Login(){
 
   
 
@@ -20,18 +20,21 @@ export default function Login() {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_service_wue1pqf',
-         'YOUR_template_4hoz438', {
-        publickey:
+      .sendForm(
+         'YOUR_service_wue1pqf',
+         'YOUR_template_4hoz438', 
+      form.current,
         'zlh6YHfECaW1NmnbX',
-      })
+      )
       .then(
-        () => {
-          console.log('SUCCESS!');
+        (result) => {
+          console.log(result.text);
           alert('Message sent successfully!');
+          e.target.reset();
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log(error.text);
+           alert("Failed to send message. Please try again.");
         },
       );
     };
@@ -51,7 +54,7 @@ export default function Login() {
     <div>
       <h1 className='pit'>Hospital</h1>
       <img className='pit0' src={hos}/>
-      <div className='dd'></div>
+      <div className='dddk'></div>
       <img className='login0' src={login0}/>
       <img className='namk' src={qq}/>
       <img className='mai1' src={ma}/>
@@ -60,12 +63,12 @@ export default function Login() {
 
         <form ref={form} onSubmit={sendEmail}>
       <label className='bel'>Username:</label>
-      <input type='text' name="user_name"className='bel0'/>
+      <input type='text' name="user_name"className='bel0' required/>
       <label className='mai'>Email:</label>
-      <input type='email'  name="user_email"className='mai0'/>
+      <input type='email'  name="user_email"className='mai0' required/>
       <label className='ord'>send message:</label>
-      <textarea name="message" className='ord0'/>
-      <input type='submit' className='mit' value="send"/>
+      <textarea name="message" className='ord0' rows="5" required/>
+      <input type='submit' className='mit' value="send" />
       </form>
       <div className='kn'></div>
       <img className='fac' src={face}/>
@@ -105,3 +108,4 @@ export default function Login() {
     </div>
   )
 }
+

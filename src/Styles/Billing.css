@@ -24,3 +24,12 @@
     position: relative;
     margin-top: 5vw;
 }
+.bel{
+    position: absolute;
+    z-index: 3;
+    margin-left: 30vw;
+    margin-top: -115vw;
+    font-size: 5vw;
+    color: brown;
+    font-family: 'Delius Swash Caps', sans-serif;
+}

@@ -65,7 +65,7 @@ const handleSubmit = (e) => {
      alert("Please enter a valid email address.");
    } else {
      alert("Submitted Successfully");
-     setEmail("");
+     setemail("");
    }
  };
    
