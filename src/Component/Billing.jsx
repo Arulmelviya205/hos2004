@@ -3,6 +3,7 @@ import '../Styles/Billing.css'
 import hos from '../assets/images/hos.jpg'
 import ture from '../assets/videos/ture.mp4'
 export default function Billing() {
+   
   return (
     <div>
       <h1 className='kolpk'>Hospital</h1>
