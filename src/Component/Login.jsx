@@ -24,7 +24,7 @@ import emailjs from '@emailjs/browser';
          'YOUR_service_wue1pqf',
          'YOUR_template_4hoz438', 
       form.current,
-        'zlh6YHfECaW1NmnbX',
+        'zlh6YHfECaW1NmnbX'
       )
       .then(
         (result) => {

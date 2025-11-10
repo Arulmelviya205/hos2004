@@ -2,193 +2,144 @@
 
 @import url('https://fonts.cdnfonts.com/css/petitabold');
 @import url('https://fonts.cdnfonts.com/css/agbalumo');
-   *{
-    margin: 0;
-    padding: 0;
+
+*{
     overflow-x: hidden;
     text-decoration: none;
 }
-
-h2{
-    color: black;
-    font-family: 'Agbalumo', sans-serif;
+.navbar {
+  position: relative;
 }
-h2:hover{
-    color: brown;
+
+/* Default (for laptop/tablet) */
+.menu-btn {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: black;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.nav-links li a:hover {
+  color: brown;
 }
 .home{
-    position: relative;
-    margin-left: 25vw;
-    margin-top: 1vw;
-    text-decoration: none;
-    font-size: 1.4vw;
+position: relative;
+margin-left: 25vw;
+margin-top: 1vw;
+font-family: 'Agbalumo', sans-serif;
 }
-
-.about{
-    position: relative;
-    margin-left: 40vw;
-    margin-top: -3vw;
-    font-size: 1.4vw;
-}
-.contact{
-    position: relative;
-    margin-left: 53.5vw;
-    margin-top: -3vw;
-    font-size: 1.4vw;
-}
-.patient{
-    position: relative;
-    margin-left: 69vw;
-    margin-top: -3vw;
-    font-size: 1.4vw;
-}
-.bill{
-    position: relative;
-    margin-left: 82vw;
-    margin-top: -3vw;
-    font-size: 1.4vw;
-}
-.login{
-    position: relative;
-    margin-left: 93vw;
-    margin-top: -3vw;
-    font-size: 1.4vw;
-}
-
 .img{
     position: relative;
     width: 2.5vw;
     margin-left: 22vw;
-    top: -3.2vw;
+    top: -2.8vw;
+}
+.about{
+    position: relative;
+    margin-left: 5vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-top:1vw;
 }
 .img1{
+   position: relative;
+   width: 2.3vw;
+   margin-left: 10vw;
+   top: -2.5vw;
+}
+.contact{
     position: relative;
-    width: 2.1vw;
-    margin-left: 13vw;
-    top: -3vw;
+    margin-top: 1vw;
+    margin-left: 5vw;
+    font-family: 'Agbalumo', sans-serif;
 }
 .img2{
     position: relative;
-    width: 2.5vw;
-    margin-left: 11vw;
-    top: -2.8vw;
+    width: 2.4vw;
+    margin-left: 10vw;
+    top: -2.5vw;
+}
+.patient{
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 5vw;
+     font-family: 'Agbalumo', sans-serif;
 }
 .img3{
     position: relative;
     width: 2.5vw;
-    margin-left: 13vw;
-    top: -2.9vw;
+    margin-left: 14.5vw;
+    top: -2.5vw;
+}
+.bill{
+    position: relative;
+    margin-top: 1vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 4vw;
 }
 .img4{
     position: relative;
-    width: 2.2vw;
-    margin-left: 11vw;
-    top: -2.8vw;
+    width: 2.5vw;
+    margin-left: 10.5vw;
+    top: -2.5vw;
+}
+.login{
+    position: relative;
+    margin-top: 1vw;
+     font-family: 'Agbalumo', sans-serif;
+     margin-left: 5vw;
 }
 .img5{
     position: relative;
     width: 2.5vw;
-    margin-left: 8vw;
-    top: -2.4vw;
-}
- 
- @media  screen and (max-width:600px) {
-    
- *{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    text-decoration: none;
-}
-    h2{
-    color: black;
-    
-}
-    h2:hover{
-    color: brown;
-}
-   .home{
-    position: relative;
-    font-size: 2vw;
-    margin-left: 5vw;
-}
-    .img{
-    position: relative;
-    width: 4.2vw;
-    margin-left: 0vw;
-    top: -12vw;
-}
-   .about{
-    position: relative;
-    font-size: 2vw;
-    margin-left: 21vw;
-    top: -1vw;
-}
-
-    .img1{
-    position: relative;
-    width: 4vw;
-    margin-left: 12vw;
-    top: -11.5vw;
-}
-    .contact{
-     position: relative;
-     margin-left: 37vw;
-     top: -2.5vw;
-     font-size: 2vw;
-}
-
-    .img2{
-    position: relative;
-    width: 4.5vw;
-    margin-left: 12vw;
-    top: -11vw;
-}
-   
-.patient{
-     position: relative;
-     margin-left: 59vw;
-     top: -3.5vw;
-     font-size: 2vw;
-}
-   .img3{
-    position: relative;
-    width: 4.5vw;
-    margin-left: 17vw;
-    top: -11vw;
-}
-  .bill{
-   position: relative;
-     margin-left: 75vw;
-     top: -4.5vw;
-     font-size: 2vw;
-}
-    .img4{
-    position: relative;
-    width: 4.4vw;
-    margin-left: 12vw;
-    top: -10.5vw;
-}
-
-.login{
-    position: relative;
-     margin-left: 90vw;
-     top: -5.9vw;
-     font-size: 2vw;
-}
-.img5{
-    position: relative;
-    width: 4.5vw;
     margin-left: 10vw;
-    top: -9.9vw;
+    top: -2.5vw;
 }
+/* Mobile view */
+@media (max-width: 600px) {
+  .menu-btn {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+    margin-left: 90vw;
+    margin-top: 2vw;
+  }
 
+  .nav-links {
+    position: fixed;
+    left: -100vw;
+    height: 15vh;
+    width: 70vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 5vw;
+    transition: left 0.3s ease;
+    z-index: 1000;
+  }
 
+  .nav-links.open {
+    left: 0;
+  }
 
- }
+  .nav-links li a {
+    font-size: 3vw;
+    color: black;
+    text-decoration: none;
+  }
 
-    
-
-
- 
-
+  .nav-links li a:hover {
+    color: brown;
+  }
+}
