@@ -261,9 +261,9 @@ It covers a wide range of issues, including acne, eczema,<br/>
     <h1 className='bil'>Billing</h1> 
     <img className='bili' src={bill}/>
      <video autoPlay loop muted   className='at01'><source src={billo} type='video/mp4' /></video> 
-     <div className='ser11'>
-  <h2 className='servik'>Services & Charges</h2>
-  <table className="ser0k">
+     <div className='ser11k'>
+     <h2 className='charg'>Services & Charges</h2>
+     <table className="ser0k">
     <thead> 
       <tr>
         <th>Service ID</th>

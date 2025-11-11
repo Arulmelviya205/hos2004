@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import '../Styles/Login.css'
 import qq from '../assets/images/qq.jpg'
 import hos from '../assets/images/hos.jpg'
@@ -8,36 +8,49 @@ import pass from '../assets/images/pass.jpg'
 import face from '../assets/images/face.jpg'
 import insta from '../assets/images/insta.jpg'
 import goo from '../assets/images/goo.jpg'
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 
  export default function Login(){
-
-  
-
-  const form = useRef();
-
-  const sendEmail = (e) => {
+const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+ 
+  const handleSubmit = (e) => {
     e.preventDefault();
 
+    const params = {
+      form_name: formData.name,
+      form_email: formData.email,
+      message: formData.message,
+      username:formData.name,
+    };
+
     emailjs
-      .sendForm(
-         'YOUR_service_wue1pqf',
-         'YOUR_template_4hoz438', 
-      form.current,
-        'zlh6YHfECaW1NmnbX'
+      .send(
+        "service_wue1pqf", // Replace with your EmailJS service ID
+        "template_4hoz438", // Replace with your EmailJS template ID
+        params,
+        "zlh6YHfECaW1NmnbX" // Replace with your EmailJS public key
       )
       .then(
-        (result) => {
-          console.log(result.text);
-          alert('Message sent successfully!');
-          e.target.reset();
+        () => {
+          alert("✅ Your message has been sent successfully!");
+          setFormData({
+            name: "",
+            email: "",
+            message: "",
+          });
         },
         (error) => {
-          console.log(error.text);
-           alert("Failed to send message. Please try again.");
-        },
+          console.error(error);
+          alert("❌ Failed to send message. Please try again later.");
+        }
       );
-    };
+  };
+
+ 
      const [Email, setemail] = useState("");
           
             const submitEmail = () => {
@@ -47,7 +60,7 @@ import emailjs from '@emailjs/browser';
                 alert("Please enter a valid email address.");
               } else {
                 alert("Submitted Successfully");
-                setEmail(""); 
+                setemail(""); 
               }
             }
   return (
@@ -61,14 +74,15 @@ import emailjs from '@emailjs/browser';
       <img className='ord1' src={pass}/>
        <h1 className='gin'>login</h1>
 
-        <form ref={form} onSubmit={sendEmail}>
-      <label className='bel'>Username:</label>
-      <input type='text' name="user_name"className='bel0' required/>
+        <form onSubmit={handleSubmit}>
+      <label className='bel'>Name:</label>
+      <input type='text' name="name" value={formData.name} onChange={(e)=>setFormData({...formData,name:e.target.value})} className='bel0' required/>
       <label className='mai'>Email:</label>
-      <input type='email'  name="user_email"className='mai0' required/>
+      <input type='email'  name="email" value={formData.email} onChange={(e)=>setFormData({...formData,email:e.target.value})}className='mai0' required/>
       <label className='ord'>send message:</label>
-      <textarea name="message" className='ord0' rows="5" required/>
-      <input type='submit' className='mit' value="send" />
+      <textarea name="message" value={formData.message} onChange={(e)=>setFormData({...formData,message:e.target.value})} className='ord0' required></textarea>
+      <button type='submit' className='mit'>send</button>
+      
       </form>
       <div className='kn'></div>
       <img className='fac' src={face}/>

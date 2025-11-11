@@ -33,4 +33,487 @@
     color: brown;
     font-family: 'Delius Swash Caps', sans-serif;
 }
+.con{
+    position: relative;
+    margin-top: 3vw;
+    margin-left: 40vw;
+}
+.bill-container {
+  width: 80vw;
+  min-height: 90vh;
+  margin-top: 5vw;
+  margin-left: 8vw;
+  background-color: #f4faff;
+  border-radius: 2vw;
+  border: 2px solid black;
+  padding: 3vh 3vw;
+ }
+ 
+.patient-details h3 {
+  font-size: 1.2vw;
+  color:black;
+  font-family: 'Agbalumo', sans-serif;
+}
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+  gap: 1.2vw;
+  margin-top: 1vh;
+}
+.input-grid input {
+  padding: 1vh;
+  border: 0.15vw solid black;
+  border-radius: 0.8vw;
+  font-size: 1vw;
+  background-color: antiquewhite;
+}
+.table-title {
+  margin-top: 5vw;
+  font-size: 1.3vw;
+  color:black;
+  font-family: 'Agbalumo', sans-serif;
+  margin-left: 30vw;
+}
+.bill-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 3vw;
+  background-color: white;
+  font-size: 1vw;
+}
+.bill-table th, .bill-table td {
+  border: 2px solid black;
+  padding: 1vh;
+  text-align: center;
+}
+.bill-table th {
+  background-color:black;
+  color: white;
+}
+
+.bill-table input {
+  width: 90%;
+  padding: 0.5vh;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 1vw;
+}
+.add-btn {
+  background-color:black;
+  color: white;
+  border: none;
+  padding: 1vh 2vw;
+  border-radius: 1vw;
+  cursor: pointer;
+  margin-top: 2vw;
+  margin-left: 30vw;
+   font-family: 'Agbalumo', sans-serif;
+  font-size: 1vw;
+}
+.add-btn:hover {
+  background-color:#0096c7;
+}
+.bill-summary {
+  text-align: right;
+  font-family: 'Agbalumo', sans-serif;
+  margin-top: 3vh;
+  font-size: 1.2vw;
+  
+}
+
+.bill-summary p {
+  margin: 0.5vh 0;
+}
+.verified-row {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  margin-top: 2vh;
+  font-size: 1vw;
+   font-family: 'Agbalumo', sans-serif;
+}
+
+.verified-row label {
+  min-width: 25vw;
+}
+
+.verified-row input {
+  flex: 1;
+  padding: 1vh;
+   font-family: 'Agbalumo', sans-serif;
+  border: 0.15vw solid #cce7ff;
+  border-radius: 0.8vw;
+  font-size: 1vw;
+}
+
+
+.signature-section {
+  display: flex;
+  gap: 3vw;
+   font-family: 'Agbalumo', sans-serif;
+  margin-top: 3vh;
+  justify-content: space-between;
+}
+
+.sig-box {
+  width: 28%;
+  min-height: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+}
+
+.sig-title {
+  font-size: 1vw;
+  color: #0077b6;
+  margin-bottom: 1vh;
+}
+
+.sig-line {
+  width: 90%;
+  border-top: 0.12vw solid #333;
+  margin-top: 2.5vh;
+  padding-top: 1vh;
+  text-align: center;
+  font-size: 0.95vw;
+  color: #333;
+  opacity: 0.9;
+}
+.sig-input {
+  width: 90%;
+  border: none;
+  border-bottom: 0.15vw solid #333;
+  text-align: center;
+  font-size: 1vw;
+  padding: 1vh 0;
+  background: transparent;
+  outline: none;
+}
+.sig-input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.sig-sub {
+  font-size: 0.9vw;
+  margin-top: 1vh;
+  color: #666;
+}
+
+.bill-footer {
+  text-align: center;
+  margin-top: 3vh;
+}
+
+.bill-footer button {
+  background-color:black;
+  color: white;
+  border: none;
+  padding: 1.2vh 3vw;
+  border-radius: 1vw;
+  cursor: pointer;
+  font-size: 1.1vw;
+   font-family: 'Agbalumo', sans-serif;
+}
+
+.bill-footer button:hover {
+  background-color: #005f8a;
+}
+.contact-desc{
+    position: relative;
+    margin-top: 5vw;
+    margin-left: 15vw;
+    font-size: 1.5vw;
+     font-family: 'Agbalumo', sans-serif;
+}
+.contact-info{
+    position: relative;
+    border: 2px solid black;
+    width: 40vw;
+    height: 25vh;
+    margin-top: 5vw;
+    margin-left: 30vw;
+    border-radius: 5vw;
+    background-color: black;
+}
+.contact-info:hover{
+    background-color:lightseagreen;
+}
+.chenn{
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 2vw;
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+    font-size: 1.2vw;
+}
+.chenn0{
+    position: absolute;
+    color: white;
+     font-family: 'Agbalumo', sans-serif;
+     font-size: 1.2vw;
+     margin-left: 8vw;
+     margin-top: 4vw;
+}
+.chenn1{
+    position: absolute;
+    color: white;
+     font-family: 'Agbalumo', sans-serif;
+     font-size: 1.2vw;
+     margin-left: 8vw;
+     margin-top: 6vw;
+}
+.chenn2{
+    position: absolute;
+    color: white;
+     font-family: 'Agbalumo', sans-serif;
+     font-size: 1.2vw;
+     margin-left: 8vw;
+     margin-top: 8vw;
+}
+.rong{
+   position: relative;
+    width: 3.5vw;
+    margin-left: 5vw;
+    top: 8vw;
+}
+.rong0{
+    position: relative;
+    margin-left: 9vw;
+    margin-top:4vw;
+    color: brown;
+}
+.ppp{
+    position: relative;
+    z-index: 2;
+    border: 1px solid white;
+    width: 99vw;
+    height: 40vh;
+    margin-top: 3vw;
+    background-color: black;
+}
+.ong{
+    position: absolute;
+    z-index: 3;
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+    margin-top: -18vw;
+    margin-left: 5vw;
+}
+.ong0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -13vw;
+    color: white;
+    margin-left: 3vw;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 1.5vw;
+}
+.ong1{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 3vw;
+    margin-top: -10vw;
+}
+.ong2{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -7vw;
+    font-size: 1.5vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 3vw;
+}
+.pkl{
+   position: absolute;
+    z-index: 3;
+    width: 2.8vw;
+    margin-left: 5vw;
+    margin-top: -3.7vw;
+}
+.pkl0{
+   position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 9vw;
+    margin-top: -3.4vw;
+}
+.pkl1{
+    position: absolute;
+    z-index: 3;
+    width: 2.5vw;
+    margin-left: 13vw;
+    margin-top: -3.4vw;
+}
+.inkk{
+    position: absolute;
+    z-index: 3;
+    margin-top: -17vw;
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+    margin-left: 35vw;
+}
+.inkk0{
+   position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -13vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left:35vw;
+    font-size: 1.5vw;
+}
+.inkk1{
+      position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    margin-left: 35vw;
+    border-radius: 2vw;
+    width: 12vw;
+    height: 4vh;
+}
+.tookk{
+    position: absolute;
+    z-index: 3;
+    width: 9vw;
+    height: 3.5vh;
+    font-size: 1vw;
+    font-family: 'Agbalumo', sans-serif;
+    border-radius: 2vw;
+    margin-top: -5vw;
+    margin-left: 35vw;
+}
+.yoyy{
+    position: absolute;
+    z-index: 3;
+    margin-left: 55vw;
+    color: white;
+    margin-top: -17vw;
+}
+.yoyy0{
+      position: absolute;
+    z-index: 3;
+    margin-left: 72vw;
+    color: white;
+    margin-top: -16.8vw;
+}
+.yoyy1{
+    position: absolute;
+    z-index: 3;
+    margin-left: 85vw;
+    color: white;
+    margin-top: -16.8vw;
+}
+.era{
+     position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -13vw;
+    margin-left: 55vw;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 1.4vw;
+}
+.era0{
+      position: absolute;
+    z-index: 3;
+    color: white;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 68vw;
+    margin-top: -13vw;
+    font-size: 1.4vw;
+}
+.era1{
+     position: absolute;
+    z-index: 3;
+    font-size: 1.3vw;
+    color: white;
+    font-family: 'Agbalumo', sans-serif;
+    margin-top: -13vw;
+    margin-left: 84vw;
+}
+.hi{
+     position: absolute;
+    z-index: 3;
+    color: white;
+    margin-left:55vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-top: -10vw;
+    font-size: 1.4vw;
+}
+.hi0{
+     position: absolute;
+    z-index: 3;
+    margin-top: -10vw;
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+    margin-left: 71vw;
+    font-size: 1.3vw;
+}
+.hi1{
+     position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 87vw;
+    margin-top: -10vw;
+}
+.macy{
+    position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    color: white;
+    margin-left: 55vw;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 1.4vw;
+}
+.macy0{
+   position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    color: white;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 68vw;
+    font-size: 1.4vw;
+}
+.macy1{
+   position: absolute;
+    z-index: 3;
+    margin-top: -7vw;
+    margin-left:83vw;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 1.3vw;
+    color: white;
+}
+.hkp{
+     position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 54.6vw;
+    color: white;
+    font-size: 1.4vw;
+}
+.hkp0{
+  position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    font-family: 'Agbalumo', sans-serif;
+    margin-left: 68vw;
+    color: white;
+    font-size: 1.4vw;
+}
+.hkp1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -3.7vw;
+    margin-left: 83vw;
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+    font-size: 1.4vw;
+}
 

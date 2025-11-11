@@ -8,14 +8,16 @@
     text-decoration: none;
 }
 .navbar {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color:white;
+  overflow-y: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
-
-/* Default (for laptop/tablet) */
-.menu-btn {
-  display: none;
-}
-
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -23,67 +25,80 @@
 }
 
 .nav-links li a {
-  color: black;
   text-decoration: none;
-  font-size: 2vw;
+  color:black;
+  transition: 0.3s;
 }
 
 .nav-links li a:hover {
   color: brown;
 }
-.home{
-position: relative;
-margin-left: 25vw;
+
+/* 📱 Mobile menu button */
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+ .home{
+position: absolute;
+margin-left: -5.5vw;
 margin-top: 1vw;
+font-size: 1.8vw;
 font-family: 'Agbalumo', sans-serif;
 }
 .img{
-    position: relative;
-    width: 2.5vw;
-    margin-left: 22vw;
-    top: -2.8vw;
+    position: absolute;
+    width: 2.3vw;
+    margin-left: 11.9vw;
+    top: 2.2vw;
 }
 .about{
-    position: relative;
-    margin-left: 5vw;
+    position: absolute;
+    margin-left: 29vw;
+    font-size: 1.8vw;
     font-family: 'Agbalumo', sans-serif;
     margin-top:1vw;
 }
 .img1{
-   position: relative;
-   width: 2.3vw;
-   margin-left: 10vw;
-   top: -2.5vw;
+   position: absolute;
+   width: 2.2vw;
+   margin-left: 27.5vw;
+   top: 2.2vw;
 }
 .contact{
-    position: relative;
-    margin-top: 1vw;
-    margin-left: 5vw;
+     position: absolute;
+    margin-left: 40vw;
+    font-size: 1.8vw;
     font-family: 'Agbalumo', sans-serif;
+    margin-top:1vw;
 }
 .img2{
-    position: relative;
+    position: absolute;
     width: 2.4vw;
-    margin-left: 10vw;
-    top: -2.5vw;
+    margin-left: 43vw;
+    top: 2.2vw;
 }
 .patient{
-    position: relative;
+    position: absolute;
     margin-top: 1vw;
-    margin-left: 5vw;
+    margin-left: 55vw;
+    font-size: 1.8vw;
      font-family: 'Agbalumo', sans-serif;
 }
 .img3{
-    position: relative;
+    position:absolute;
     width: 2.5vw;
-    margin-left: 14.5vw;
-    top: -2.5vw;
+    margin-left: 69vw;
+    top: 2.2vw;
 }
 .bill{
-    position: relative;
+    position: absolute;
     margin-top: 1vw;
+    font-size: 1.8vw;
     font-family: 'Agbalumo', sans-serif;
-    margin-left: 4vw;
+    margin-left: 65vw;
 }
 .img4{
     position: relative;
@@ -103,28 +118,24 @@ font-family: 'Agbalumo', sans-serif;
     margin-left: 10vw;
     top: -2.5vw;
 }
-/* Mobile view */
+
 @media (max-width: 600px) {
-  .menu-btn {
+   .menu-btn {
     display: block;
-    background: none;
-    border: none;
-    cursor: pointer;
     z-index: 1001;
-    margin-left: 90vw;
-    margin-top: 2vw;
   }
 
   .nav-links {
     position: fixed;
+    top: 0;
     left: -100vw;
-    height: 15vh;
+    height: 100vh;
     width: 70vw;
     background-color: white;
-    display: flex;
     flex-direction: column;
     align-items: start;
     padding: 5vw;
+    gap: 2rem;
     transition: left 0.3s ease;
     z-index: 1000;
   }
@@ -134,12 +145,8 @@ font-family: 'Agbalumo', sans-serif;
   }
 
   .nav-links li a {
-    font-size: 3vw;
-    color: black;
-    text-decoration: none;
+    font-size: 4vw;
   }
 
-  .nav-links li a:hover {
-    color: brown;
-  }
+ 
 }

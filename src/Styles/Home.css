@@ -13,7 +13,8 @@ body{
 }
 .hos{
     position: relative;
-    width: 4vw;
+    width: 3.5vw;
+    top: 1vw;
     margin-left: 3vw;
 }
 h1{
@@ -24,8 +25,8 @@ h2{
 }
 .tal{
     position: relative;
-    margin-left: 8vw;
-    top: -3.3vw;
+    margin-left: 7vw;
+    top: -2vw;
     font-size: 2vw;
     font-family: 'Merry Loves', sans-serif;
     color: brown;
@@ -1034,7 +1035,7 @@ h2{
     width: 100%;
     margin-left: 2vw;
 }
-.servik{
+.charg{
     position: relative;
     margin-top: 5vw;
     margin-left: 40vw;
@@ -2322,12 +2323,15 @@ h2{
     position: relative;
     width: 90%;
     margin-left: 5vw;
-    margin-top: -65vw;
+    margin-top: -60vw;
 }
-.servik{
+.ser11k{
     position: relative;
-    margin-left: 30vw;
-    
+     margin-top: -58vw;
+}
+.charg{
+    position: relative;
+    margin-left: 25vw;
 }
 .os{
     position: relative;
