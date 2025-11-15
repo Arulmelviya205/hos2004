@@ -8,7 +8,7 @@ import pass from '../assets/images/pass.jpg'
 import face from '../assets/images/face.jpg'
 import insta from '../assets/images/insta.jpg'
 import goo from '../assets/images/goo.jpg'
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
  export default function Login(){
 const [formData, setFormData] = useState({
@@ -16,21 +16,26 @@ const [formData, setFormData] = useState({
     email: "",
     message: "",
   });
- 
+ const handleChange = (e) => {
+    setFormData({ 
+      ...formData, 
+      [e.target.name]: e.target.value 
+    });
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
 
     const params = {
-      form_name: formData.name,
-      form_email: formData.email,
+      name: formData.name,
+      email: formData.email,
       message: formData.message,
-      username:formData.name,
+      
     };
 
     emailjs
       .send(
         "service_wue1pqf", // Replace with your EmailJS service ID
-        "template_4hoz438", // Replace with your EmailJS template ID
+        "template_vmj3zs7", // Replace with your EmailJS template ID
         params,
         "zlh6YHfECaW1NmnbX" // Replace with your EmailJS public key
       )
@@ -74,13 +79,13 @@ const [formData, setFormData] = useState({
       <img className='ord1' src={pass}/>
        <h1 className='gin'>login</h1>
 
-        <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
       <label className='bel'>Name:</label>
-      <input type='text' name="name" value={formData.name} onChange={(e)=>setFormData({...formData,name:e.target.value})} className='bel0' required/>
+      <input type='text' name="name" value={formData.name} onChange={handleChange} className='bel0' required/>
       <label className='mai'>Email:</label>
-      <input type='email'  name="email" value={formData.email} onChange={(e)=>setFormData({...formData,email:e.target.value})}className='mai0' required/>
+      <input type='email'  name="email" value={formData.email} onChange={handleChange}className='mai0' required/>
       <label className='ord'>send message:</label>
-      <textarea name="message" value={formData.message} onChange={(e)=>setFormData({...formData,message:e.target.value})} className='ord0' required></textarea>
+      <textarea name="message" value={formData.message} onChange={handleChange} className='ord0' required></textarea>
       <button type='submit' className='mit'>send</button>
       
       </form>

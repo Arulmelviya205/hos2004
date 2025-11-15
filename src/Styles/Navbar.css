@@ -3,150 +3,189 @@
 @import url('https://fonts.cdnfonts.com/css/petitabold');
 @import url('https://fonts.cdnfonts.com/css/agbalumo');
 
-*{
-    overflow-x: hidden;
-    text-decoration: none;
-}
 .navbar {
+  width: 100vw;
+  height: 10vh;
+  background: #222;
+  color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color:white;
-  overflow-y: hidden;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+  justify-content: space-between;
+  padding: 0 2vw;
 }
 .nav-links {
-  display: flex;
-  gap: 2rem;
   list-style: none;
+  display: flex;
+  gap: 3vw;
 }
-
-.nav-links li a {
-  text-decoration: none;
-  color:black;
-  transition: 0.3s;
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 3vw;
 }
-
-.nav-links li a:hover {
-  color: brown;
-}
-
-/* 📱 Mobile menu button */
-.menu-btn {
+.close-btn{
   display: none;
-  background: none;
-  border: none;
+}
+.nav-links li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  font-size: 1.8vh;
+}
+.hamburger {
+  font-size: 3.5vh;
+  display: none;
   cursor: pointer;
 }
- .home{
-position: absolute;
-margin-left: -5.5vw;
-margin-top: 1vw;
-font-size: 1.8vw;
-font-family: 'Agbalumo', sans-serif;
+.mobile-menu{
+  display: none;
 }
-.img{
-    position: absolute;
-    width: 2.3vw;
-    margin-left: 11.9vw;
-    top: 2.2vw;
+.home {
+  position: absolute;
+  color: white;
+  font-size: 1.7vw;
+  font-weight: 600;
+  padding: 0.8vh 1.2vw;
+  text-decoration: none;
+  font-family: 'Agbalumo', sans-serif;
+  transition: 0.3s ease;
+  margin-left: 15vw;
+}
+.home:hover {
+  color:#fff;
+  transform: translateY(-2px);
 }
 .about{
-    position: absolute;
-    margin-left: 29vw;
-    font-size: 1.8vw;
-    font-family: 'Agbalumo', sans-serif;
-    margin-top:1vw;
+  position: absolute;
+  color: white;
+  font-size: 1.7vw;
+  font-weight: 600;
+  padding: 0.8vh 1.2vw;
+  text-decoration: none;
+  font-family: 'Agbalumo', sans-serif;
+  transition: 0.3s ease;
+  margin-left:26vw;
 }
-.img1{
-   position: absolute;
-   width: 2.2vw;
-   margin-left: 27.5vw;
-   top: 2.2vw;
+.about:hover {
+  color: #fff;
+  transform: translateY(-2px);
 }
 .contact{
-     position: absolute;
-    margin-left: 40vw;
-    font-size: 1.8vw;
-    font-family: 'Agbalumo', sans-serif;
-    margin-top:1vw;
+  position: absolute;
+  color: white;
+  font-size: 1.7vw;
+  font-weight: 600;
+  padding: 0.8vh 1.2vw;
+  text-decoration: none;
+  font-family: 'Agbalumo', sans-serif;
+  transition: 0.3s ease;
+  margin-left: 36vw;
 }
-.img2{
-    position: absolute;
-    width: 2.4vw;
-    margin-left: 43vw;
-    top: 2.2vw;
+.contact:hover{
+   color: #fff;
+  transform: translateY(-2px);
 }
 .patient{
-    position: absolute;
-    margin-top: 1vw;
-    margin-left: 55vw;
-    font-size: 1.8vw;
-     font-family: 'Agbalumo', sans-serif;
+  position: absolute;
+  color: white;
+  font-size: 1.7vw;
+  font-weight: 600;
+  padding: 0.8vh 1.2vw;
+  text-decoration: none;
+  font-family: 'Agbalumo', sans-serif;
+  transition: 0.3s ease;
+  margin-left: 49vw;
 }
-.img3{
-    position:absolute;
-    width: 2.5vw;
-    margin-left: 69vw;
-    top: 2.2vw;
+.patient:hover{
+  color: #fff;
+  transform: translateY(-2px);
 }
-.bill{
-    position: absolute;
-    margin-top: 1vw;
-    font-size: 1.8vw;
-    font-family: 'Agbalumo', sans-serif;
-    margin-left: 65vw;
+.billing{
+  position: absolute;
+  color: white;
+  font-size: 1.7vw;
+  font-weight: 600;
+  padding: 0.8vh 1.2vw;
+  text-decoration: none;
+  font-family: 'Agbalumo', sans-serif;
+  transition: 0.3s ease;
+  margin-left:60vw
 }
-.img4{
-    position: relative;
-    width: 2.5vw;
-    margin-left: 10.5vw;
-    top: -2.5vw;
+.billing:hover{
+   color: #fff;
+  transform: translateY(-2px);
 }
 .login{
-    position: relative;
-    margin-top: 1vw;
-     font-family: 'Agbalumo', sans-serif;
-     margin-left: 5vw;
+  position: absolute;
+   color: white;
+  font-size: 1.7vw;
+  font-weight: 600;
+  padding: 0.8vh 1.2vw;
+  text-decoration: none;
+  font-family: 'Agbalumo', sans-serif;
+  transition: 0.3s ease;
+  margin-left:70vw;
 }
-.img5{
-    position: relative;
-    width: 2.5vw;
-    margin-left: 10vw;
-    top: -2.5vw;
+.login:hover{
+   color: #fff;
+  transform: translateY(-2px);
 }
-
 @media (max-width: 600px) {
-   .menu-btn {
-    display: block;
-    z-index: 1001;
+  .navbar {
+    height: 8vh;          /* little smaller navbar for mobile */
+    padding: 0 4vw;       /* more spacing */
   }
 
   .nav-links {
-    position: fixed;
-    top: 0;
-    left: -100vw;
-    height: 100vh;
-    width: 70vw;
-    background-color: white;
-    flex-direction: column;
-    align-items: start;
-    padding: 5vw;
-    gap: 2rem;
-    transition: left 0.3s ease;
-    z-index: 1000;
+    display: none;
   }
 
-  .nav-links.open {
-    left: 0;
+  .hamburger {
+    display: block;
   }
+  .sidebar {
+ position: absolute;     /* navbar kula varanum-na absolute use pannum */
+  top: 10vh;              /* navbar height keela start */
+  left: -60vw;            /* hide */
+  width: 60vw;            /* small width */
+  height: 30vh;           /* box size small */
+  background: #111;
+  color: white;
+  transition: 0.3s ease;
+  padding: 2vh 3vw;
+  border-radius: 10px;
+  z-index: 999;
+}
 
-  .nav-links li a {
-    font-size: 4vw;
-  }
+.sidebar.open {
+  left: 0;
+}
 
- 
+.sidebar ul {
+  list-style: none;
+  padding-left: 3vw;
+}
+
+.sidebar li {
+  padding: 2.5vh 0;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  font-size: 2vh;
+}
+.close-btn {
+  position: absolute;
+  top: 2vh;
+  right: 3vw;
+  font-size: 4vh;
+  display: block;
+  cursor: pointer;
+  color: white;
+}
+.mobile-menu{
+  display: block;
+}
 }

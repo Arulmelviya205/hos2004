@@ -388,6 +388,7 @@
     z-index: 3;
     margin-top: -13vw;
     color: white;
+      font-family: 'Agbalumo', sans-serif;
     margin-left: 3vw;
     font-size: 1.5vw;
 }
@@ -396,6 +397,7 @@
     z-index: 3;
     color: white;
     font-size: 1.5vw;
+      font-family: 'Agbalumo', sans-serif;
      margin-left: 3vw;
     margin-top: -10vw;
 }
@@ -404,6 +406,7 @@
     z-index: 3;
     color: white;
     margin-top: -7vw;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1.5vw;
     margin-left: 3vw;
 }
@@ -440,6 +443,7 @@
     position: absolute;
     z-index: 3;
     color: white;
+      font-family: 'Agbalumo', sans-serif;
     margin-top: -13vw;
     margin-left:35vw;
     font-size: 1.5vw;
@@ -457,6 +461,7 @@
     z-index: 3;
     width: 9vw;
     height: 3.5vh;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1vw;
     border-radius: 2vw;
     margin-top: -5vw;
@@ -472,7 +477,7 @@
 .dod0{
     position: absolute;
     z-index: 3;
-    margin-left: 73vw;
+    margin-left: 72vw;
     color: white;
     margin-top: -16.8vw;
 }
@@ -489,14 +494,16 @@
     color: white;
     margin-top: -13vw;
     margin-left: 55vw;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1.4vw;
 }
 .uuu0{
     position: absolute;
     z-index: 3;
     color: white;
-    margin-left: 70vw;
+    margin-left: 68vw;
     margin-top: -13vw;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1.4vw;
 }
 .uuu1{
@@ -506,6 +513,7 @@
     color: white;
     margin-top: -13vw;
     margin-left: 84vw;
+      font-family: 'Agbalumo', sans-serif;
 }
 .zzz{
     position: absolute;
@@ -513,6 +521,7 @@
     color: white;
     margin-left:55vw;
     margin-top: -10vw;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1.4vw;
 }
 .zz0{
@@ -520,7 +529,8 @@
     z-index: 3;
     margin-top: -10vw;
     color: white;
-    margin-left: 72vw;
+    margin-left: 71vw;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1.3vw;
 }
 .zz1{
@@ -528,6 +538,7 @@
     z-index: 3;
     color: white;
     font-size: 1.3vw;
+      font-family: 'Agbalumo', sans-serif;
     margin-left: 86vw;
     margin-top: -10vw;
 }
@@ -537,6 +548,7 @@
     margin-top: -7vw;
     color: white;
     margin-left: 55vw;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1.4vw;
 }
 .nom0{
@@ -544,7 +556,8 @@
     z-index: 3;
     margin-top: -7vw;
     color: white;
-    margin-left: 70vw;
+    margin-left: 68vw;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1.4vw;
 }
 .nom1{
@@ -553,6 +566,7 @@
     margin-top: -7vw;
     margin-left:83vw;
     font-size: 1.3vw;
+      font-family: 'Agbalumo', sans-serif;
     color: white;
 }
 .uko{
@@ -561,13 +575,15 @@
     margin-top: -3.7vw;
     margin-left: 54.6vw;
     color: white;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1.4vw;
 }
 .uko0{
     position: absolute;
     z-index: 3;
     margin-top: -3.7vw;
-    margin-left: 69vw;
+    margin-left: 68vw;
+      font-family: 'Agbalumo', sans-serif;
     color: white;
     font-size: 1.4vw;
 }
@@ -577,6 +593,7 @@
     margin-top: -3.7vw;
     margin-left: 83vw;
     color: white;
+      font-family: 'Agbalumo', sans-serif;
     font-size: 1.4vw;
 }
 @media screen and (max-width:600px){

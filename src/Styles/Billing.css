@@ -230,17 +230,19 @@
 }
 .contact-info{
     position: relative;
-    border: 2px solid black;
+    border: 2px soild black;
     width: 40vw;
     height: 25vh;
     margin-top: 5vw;
     margin-left: 30vw;
-    border-radius: 5vw;
+    color: white;
+    border-radius:1vw;
     background-color: black;
 }
 .contact-info:hover{
-    background-color:lightseagreen;
+    background-color:lightgrey;
 }
+
 .chenn{
     position: absolute;
     margin-left: 8vw;
@@ -515,5 +517,204 @@
     font-family: 'Agbalumo', sans-serif;
     color: white;
     font-size: 1.4vw;
+}
+@media screen and (max-width:600px){
+  *{
+    overflow-x: hidden;
+  }
+  .kolpk{
+     position: relative;
+     margin-left: 12vw;
+     top: 6.5vw;
+     font-size: 5vw;
+     color: brown;
+     font-family: 'Merry Loves', sans-serif;
+}
+.kolp0k{
+    position: relative;
+    width: 7vw;
+    margin-left: 3vw;
+}
+.kol{
+    position: relative;
+    margin: 5vw;
+    border-radius: 4vw;
+}
+.ser{
+    position: relative;
+    margin-top: 3vw;
+    font-size: 4.5vw;
+    margin-left: 23vw;
+}
+.ser0{
+    position: relative;
+    margin-top: 5vw;
+}
+.con{
+    position: relative;
+    margin-top: 5vw;
+    font-size: 4.5vw;
+    margin-left: 38vw;
+}
+.bill-container {
+    width: 90vw;
+    padding:  4vw;
+    margin-left: 1.5vw;
+    
+  }
+  .patient-details {
+    padding: 2vh 3vw;
+  }
+
+  .patient-details h3 {
+    font-size: 4vw;
+  }
+   .input-grid {
+    grid-template-columns: 1fr;
+    gap: 3vh;
+  }
+
+  .input-grid input {
+    font-size: 3.5vw;
+    padding: 1.5vh;
+  }
+   .table-title {
+    font-size: 4vw;
+    margin-top: 3vh;
+  }
+   .bill-table {
+    font-size: 3.2vw;
+  }
+
+  .bill-table th,
+  .bill-table td {
+    padding: 1.2vh;
+  }
+
+  .bill-table input {
+    font-size: 3vw;
+  }
+   .add-btn {
+    width: 70%;
+    font-size: 3.5vw;
+    padding: 2vh;
+    margin-left: 8vw;
+    border-radius: 2vw;
+    margin-top: 3vw;
+  }
+  .bill-summary {
+    font-size: 3.5vw;
+    text-align: left;
+  }
+  .verified-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+    font-size: 3vw;
+  }
+
+  .verified-row label {
+    min-width: auto;
+    font-size: 3.5vw;
+  }
+
+  .verified-row input {
+    width: 100%;
+    font-size: 3.2vw;
+    border-radius: 2vw;
+  }
+  .signature-section {
+    flex-direction: column;
+    gap: 4vh;
+    align-items: center;
+    margin-top: 4vh;
+  }
+
+  .sig-box {
+    width: 80%;
+    min-height: 15vh;
+  }
+
+  .sig-title {
+    font-size: 3.5vw;
+  }
+
+  .sig-line {
+    width: 100%;
+    margin-top: 3vh;
+    font-size: 3vw;
+  }
+
+  .sig-input {
+    font-size: 3.2vw;
+    width: 100%;
+    padding: 1.5vh 0;
+  }
+
+  .sig-sub {
+    font-size: 3vw;
+    margin-top: 1vh;
+  }
+  .bill-footer button {
+    width: 70%;
+    font-size: 4vw;
+    padding: 2vh 0;
+    border-radius: 2vw;
+  }
+  .contact-desc{
+    position: relative;
+    margin-top: 10vw;
+    margin-left:2vw;
+    font-size: 2vw;
+     font-family: 'Agbalumo', sans-serif;
+}
+.contact-info{
+    position: relative;
+    border: 2px solid black;
+    width: 45vw;
+    height: 10vh;
+    margin-top: 5vw;
+    margin-left: 25vw;
+    border-radius:1vw;
+    background-color: black;
+}
+.contact-info:hover{
+    background-color:lightseagreen;
+}
+.chenn{
+    position: absolute;
+    margin-left: 2vw;
+    margin-top: 4vw;
+    font-family: 'Agbalumo', sans-serif;
+    color: white;
+    font-size: 2vw;
+}
+.chenn0{
+    position: absolute;
+    color: white;
+     font-family: 'Agbalumo', sans-serif;
+     font-size: 2vw;
+     margin-left: 7vw;
+     margin-top: 8vw;
+}
+.chenn1{
+    position: absolute;
+    color: white;
+     font-family: 'Agbalumo', sans-serif;
+     font-size: 2vw;
+     margin-left: 7vw;
+     margin-top: 11vw;
+}
+.chenn2{
+    position: absolute;
+    color: white;
+     font-family: 'Agbalumo', sans-serif;
+     font-size: 2vw;
+     margin-left: 3vw;
+     margin-top: 15vw;
+}
+
+
+
 }
 
