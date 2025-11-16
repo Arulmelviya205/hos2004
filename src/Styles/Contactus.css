@@ -806,9 +806,9 @@
 .noo{
     position: absolute;
     z-index: 3;
-    width: 20vw;
-    border-radius: 0.5vw;
-    height: 4vh;
+    width: 35vw;
+    border-radius: 2vw;
+    height: 2.5vh;
     margin-left: 25vw;
     margin-top: -180vw;
     background-color: antiquewhite;

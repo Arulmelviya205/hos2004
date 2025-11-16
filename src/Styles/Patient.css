@@ -2156,6 +2156,7 @@ cursor: pointer;
     position: absolute;
     z-index: 3;
     margin-left: 35vw;
+    height: 2vh;
     margin-top: -100vw;
     width: 20vw;
     border-radius: 2vw;
