@@ -148,7 +148,7 @@ const submitEmail = () => {
       <p className='doc1'>The administration and coordination of hospital operations to ensure efficient<br/>
        healthcare delivery and patient care.</p>
         <div className='gg'></div>
-      <h1 className="doc28k" to="/home">Learn more</h1>
+      <h1 className="doc28k" to ="/home">Learn more</h1>
           <h1 className='dap'>Department</h1>
             <div className='gg1'></div>
             <h4 className='kk0'>(heart and blood vessels)</h4>

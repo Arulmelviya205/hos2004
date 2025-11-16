@@ -82,10 +82,11 @@ h2{
 }
 
 .coo1{
-     position: absolute;
+    position: absolute;
     z-index: 4;
     margin-top: 5.6vw;
     margin-left: 15vw;
+    text-decoration: none;
     font-size: 1.9vw;
     color:white;
    font-family: 'Agbalumo', sans-serif;
@@ -352,9 +353,9 @@ h2{
 .apo2{
     position: absolute;
     z-index: 3;
-    width: 15vw;
-    height: 4vh;
-    border-radius: 2vw;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.5vw;
     margin-left: 32vw;
     margin-top: -59vw;
 }
@@ -377,9 +378,9 @@ h2{
 .name0{
     position: absolute;
     z-index: 3;
-     width: 15vw;
-    height: 4vh;
-    border-radius: 2vw;
+     width: 20vw;
+    height: 5vh;
+    border-radius: 0.5vw;
     margin-left: 32vw;
     margin-top: -49vw;
 }
@@ -402,9 +403,9 @@ h2{
 .phone1{
     position: absolute;
     z-index: 3;
-    border-radius: 2vw;
-    width: 15vw;
-    height: 4vh;
+    border-radius: 0.5vw;
+    width: 20vw;
+    height: 5vh;
     margin-left: 32vw;
     margin-top: -39vw;
 }
@@ -428,9 +429,9 @@ h2{
 .depart0{
     position: absolute;
     z-index: 3;
-    width: 15vw;
-    height: 4vh;
-    border-radius: 2vw;
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.5vw;
     margin-left: 32vw;
     margin-top: -29vw;
 }
@@ -453,9 +454,9 @@ h2{
 .email1{
     position: absolute;
     z-index: 3;
-     width: 15vw;
-    height: 4vh;
-    border-radius: 2vw;
+     width: 20vw;
+    height: 5vh;
+    border-radius: 0.5vw;
     margin-left: 32vw;
     margin-top: -19vw;
 }
@@ -478,9 +479,9 @@ h2{
 .prob0{
     position: absolute;
     z-index: 3;
-     width: 15vw;
-    height: 4vh;
-    border-radius: 2vw;
+     width: 20vw;
+    height: 5vh;
+    border-radius: 0.5vw;
     margin-top: -10vw;
     margin-left: 32vw;
 }
@@ -496,7 +497,7 @@ h2{
     z-index: 3;
     width: 13vw;
     height: 5vh;
-    border-radius: 2vw;
+    border-radius: 0.5vw;
     font-size: 1.3vw;
      font-family: 'Agbalumo', sans-serif;
     margin-left: 35vw;
@@ -511,7 +512,7 @@ h2{
     height: 103vh;
     border: 1px solid black;
     border-radius: 2vw;
-    background-color: white;
+    background-color:lightgrey;
     margin-top: 5vw;
     margin-left: 10vw;
 }

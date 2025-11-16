@@ -10,15 +10,18 @@
   color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-between;
   padding: 0 2vw;
+  position: sticky;
+  z-index: 1000;
 }
-.nav-links {
+.nav-link{
   list-style: none;
   display: flex;
   gap: 3vw;
+  padding: 0;
 }
-.nav-links {
+.nav-link {
   list-style: none;
   display: flex;
   gap: 3vw;
@@ -26,7 +29,7 @@
 .close-btn{
   display: none;
 }
-.nav-links li {
+ .nav-link li {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -133,8 +136,10 @@
 }
 @media (max-width: 600px) {
   .navbar {
-    height: 8vh;          /* little smaller navbar for mobile */
-    padding: 0 4vw;       /* more spacing */
+    width: 100%;
+    justify-content: space-between!important;         /* little smaller navbar for mobile */
+    padding: 0 3vh;  
+    display: none;     /* more spacing */
   }
 
   .nav-links {
@@ -143,15 +148,16 @@
 
   .hamburger {
     display: block;
+
   }
-  .sidebar {
- position: absolute;     /* navbar kula varanum-na absolute use pannum */
-  top: 10vh;              /* navbar height keela start */
-  left: -60vw;            /* hide */
-  width: 60vw;            /* small width */
-  height: 30vh;           /* box size small */
-  background: #111;
-  color: white;
+   .sidebar {
+ position: absolute;      
+  top: 10vh;               
+  left: -60vw;             
+  width: 40vw;             
+  height: 20vh;           
+  background:white;
+  color:black;
   transition: 0.3s ease;
   padding: 2vh 3vw;
   border-radius: 10px;
@@ -169,13 +175,12 @@
 
 .sidebar li {
   padding: 2.5vh 0;
-  border-bottom: 1px solid #333;
   cursor: pointer;
   display: flex;
   align-items: center;
   gap: 2vw;
   font-size: 2vh;
-}
+} 
 .close-btn {
   position: absolute;
   top: 2vh;
@@ -183,9 +188,63 @@
   font-size: 4vh;
   display: block;
   cursor: pointer;
-  color: white;
+  color:black;
 }
 .mobile-menu{
   display: block;
+}
+.home1{
+  position: absolute;
+  font-size: 4.5vw;
+  text-decoration: none;
+  color: black;
+  margin-top: 2vw;
+  margin-left: 5vw;
+  font-family: 'Agbalumo', sans-serif;
+}
+.about1{
+  position: absolute;
+  font-size: 4.5vw;
+  text-decoration: none;
+  color: black;
+  margin-top: -5vw;
+  margin-left: 5vw;
+  font-family: 'Agbalumo', sans-serif;
+}
+.contact1{
+   position: absolute;
+  font-size: 4.5vw;
+  text-decoration: none;
+  color: black;
+  margin-top: -14vw;
+  margin-left: 4vw;
+  font-family: 'Agbalumo', sans-serif;
+}
+.patient1{
+   position: absolute;
+  font-size: 4.5vw;
+  text-decoration: none;
+  color: black;
+  margin-top: -21vw;
+  margin-left: 4vw;
+  font-family: 'Agbalumo', sans-serif;
+}
+.billing1{
+   position: absolute;
+  font-size: 4.5vw;
+  text-decoration: none;
+  color: black;
+  margin-top: -29vw;
+  margin-left: 4vw;
+  font-family: 'Agbalumo', sans-serif;
+}
+.login1{
+   position: absolute;
+  font-size: 4.5vw;
+  text-decoration: none;
+  color: black;
+  margin-top: -39vw;
+  margin-left: 4vw;
+  font-family: 'Agbalumo', sans-serif;
 }
 }

@@ -665,7 +665,7 @@
     position: relative;
     margin-top: 10vw;
     margin-left:2vw;
-    font-size: 2vw;
+    font-size: 2.8vw;
      font-family: 'Agbalumo', sans-serif;
 }
 .contact-info{
@@ -713,8 +713,244 @@
      margin-left: 3vw;
      margin-top: 15vw;
 }
-
-
-
+.rong{
+     position: relative;
+    width: 8vw;
+    margin-left: 2vw;
+    top: 13vw;
+}
+.rong0{
+    position: relative;
+    margin-left: 12vw;
+    margin-top: vw;
+    font-size: 5.8vw;
+    color: brown;
+}
+.ppp{
+    position: relative;
+    z-index: 2;
+    border: 1px solid white;
+    width: 100vw;
+    height: 120vh;
+    background-color: black;
+}
+.ong{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -250vw;
+    margin-left: 5vw;
+}
+.ong0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -235vw;
+     font-family: 'Forever Dreaming', sans-serif;
+    color: white;
+    margin-left: 3vw;
+    font-size: 4.5vw;
+}
+.ong1{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 4.5vw;
+     font-family: 'Forever Dreaming', sans-serif;
+    margin-left: 3vw;
+    margin-top: -225vw;
+}
+.ong2{
+     position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -215vw;
+     font-family: 'Forever Dreaming', sans-serif;
+    font-size: 4.5vw;
+    margin-left: 3vw;
+}
+.pkl{
+     position: absolute;
+    z-index: 3;
+    width: 10vw;
+    margin-left: 5vw;
+    margin-top: -205vw;
+}
+.pkl0{
+    position: absolute;
+    z-index: 3;
+    width: 9vw;
+    margin-left: 19vw;
+    margin-top: -204vw;
+}
+.pkl1{
+    position: absolute;
+    z-index: 3;
+    width: 9vw;
+    margin-left: 32vw;
+    margin-top: -204vw;
+}
+.inkk{
+    position: absolute;
+    z-index: 3;
+    margin-top: -190vw;
+    color: white;
+    margin-left: 35vw;
+}
+.inkk0{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-top: -170vw;
+    margin-left:25vw;
+    font-size: 5vw
+}
+.inkk1{
+     position: absolute;
+    z-index: 3;
+    margin-top: -160vw;
+    margin-left: 35vw;
+    border-radius: 2vw;
+    width: 35vw;
+    height: 3vh;
+}
+.tookk{
+    position: absolute;
+    z-index: 3;
+    width: 20vw;
+    height: 3vh;
+    font-size: 3vw;
+    border-radius: 2vw;
+    margin-top: -148vw;
+    margin-left: 35vw;
+}
+.yoyy{
+       position: absolute;
+    z-index: 3;
+    margin-left: 10vw;
+    color: white;
+    margin-top: -135vw;
+}
+.era{
+    position: absolute;
+    z-index: 3;
+    color: white;
+     font-family: 'Forever Dreaming', sans-serif;
+    margin-top: -124vw;
+    margin-left: 25vw;
+    font-size: 5vw;
+}
+.hi{
+    position: absolute;
+    z-index: 3;
+    color: white;
+    margin-left:25vw;
+     font-family: 'Forever Dreaming', sans-serif;
+    margin-top: -116vw;
+    font-size: 5vw;
+}
+.macy{
+     position: absolute;
+    z-index: 3;
+    margin-top: -109vw;
+     font-family: 'Forever Dreaming', sans-serif;
+    color: white;
+    margin-left: 25vw;
+    font-size: 5vw;
+}
+.hkp{
+    position: absolute;
+    z-index: 3;
+    margin-top: -102vw;
+    margin-left: 25vw;
+    color: white;
+     font-family: 'Forever Dreaming', sans-serif;
+    font-size: 5vw;
+}
+.yoyy0{
+        position: absolute;
+    z-index: 3;
+    margin-left: 10vw;
+    color: white;
+    margin-top: -95vw;
+}
+.era0{
+      position: absolute;
+    z-index: 3;
+    color: white;
+     font-family: 'Forever Dreaming', sans-serif;
+    margin-left: 24vw;
+    margin-top: -87vw;
+    font-size: 5vw;
+}
+.hi0{
+    position: absolute;
+    z-index: 3;
+    margin-top: -80vw;
+     font-family: 'Forever Dreaming', sans-serif;
+    color: white;
+    margin-left: 24vw;
+    font-size: 5vw;
+}
+.macy0{
+      position: absolute;
+    z-index: 3;
+    margin-top: -74vw;
+     font-family: 'Forever Dreaming', sans-serif;
+    color: white;
+    margin-left: 24vw;
+    font-size: 5vw;
+}
+.hkp0{
+     position: absolute;
+    z-index: 3;
+    margin-top: -68vw;
+    margin-left:24vw;
+    color: white;
+     font-family: 'Forever Dreaming', sans-serif;
+    font-size: 5vw;
+}
+.yoyy1{
+     position: absolute;
+    z-index: 3;
+    margin-left: 10vw;
+    color: white;
+    margin-top: -55vw;
+}
+.era1{
+     position: absolute;
+    z-index: 3;
+    font-size: 5vw;
+     font-family: 'Forever Dreaming', sans-serif;
+    color: white;
+    margin-top: -45vw;
+    margin-left: 24vw;
+}
+.hi1{
+     position: absolute;
+    z-index: 3;
+    color: white;
+     font-family: 'Forever Dreaming', sans-serif;
+    font-size: 5vw;
+    margin-left: 24vw;
+    margin-top: -40vw;
+}
+.macy1{
+        position: absolute;
+    z-index: 3;
+    margin-top: -34vw;
+     font-family: 'Forever Dreaming', sans-serif;
+    margin-left:24vw;
+    font-size: 5vw;
+    color: white;
+}
+.hkp1{
+    position: absolute;
+    z-index: 3;
+    margin-top: -28vw;
+    font-family: 'Forever Dreaming', sans-serif;
+    margin-left: 24vw;
+    color: white;
+    font-size: 5vw;
+}
 }
 

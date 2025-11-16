@@ -34,10 +34,10 @@ const [formData, setFormData] = useState({
 
     emailjs
       .send(
-        "service_wue1pqf", // Replace with your EmailJS service ID
-        "template_vmj3zs7", // Replace with your EmailJS template ID
+        "service_wue1pqf", 
+        "template_vmj3zs7", 
         params,
-        "zlh6YHfECaW1NmnbX" // Replace with your EmailJS public key
+        "zlh6YHfECaW1NmnbX" 
       )
       .then(
         () => {
