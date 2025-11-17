@@ -9,14 +9,14 @@
 }
 .hok{
     position: relative;
-    width: 4vw;
-    margin-left: 3vw;
+    width: 3.5vw;
+    top: 2vw;
+    margin-left: 4vw;
 }
 .takp{
     position: relative;
     margin-left: 8vw;
-    top: -3vw;
-    font-size: 2vw;
+    top: -1vw;
     color: brown;
    font-family: 'Merry Loves', sans-serif;
 }

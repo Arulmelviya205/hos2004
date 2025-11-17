@@ -4,13 +4,14 @@
 }
 .ho11{
     position: relative;
-    width: 4vw;
-    margin-left: 3vw;
+    width: 3.5vw;
+    top: 1vw;
+    margin-left: 4vw;
 }
 .ta11{
      position: relative;
      margin-left: 8vw;
-     top: -3.3vw;
+     top: -2vw;
      font-family: 'Merry Loves', sans-serif;
      color: brown;
 }
@@ -829,8 +830,9 @@ table {
 }
 
 th, td {
-  padding: 1.2vw;
+  padding: 1vw;
   border-bottom: 1px solid #ddd;
+ 
 }
 
 th {

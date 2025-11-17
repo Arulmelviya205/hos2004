@@ -6,13 +6,14 @@
 }
 .ho{
     position: relative;
-    width: 4vw;
-    margin-left: 3vw;
+    width: 3.5vw;
+    top: 1.3vw;
+    margin-left: 4vw;
 }
 .ta{
     position: relative;
     margin-left: 8vw;
-    top: -3.3vw;
+    top: -1.8vw;
     font-family: 'Merry Loves', sans-serif;
     color: brown;
 }

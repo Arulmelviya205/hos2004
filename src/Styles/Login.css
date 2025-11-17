@@ -3,8 +3,9 @@
 .pit{
     position: relative;
     margin-left: 8vw;
-    top: 3.5vw;
+    top: 3vw;
     color: brown;
+    font-family: 'Merry Loves', sans-serif;
 }
 .pit0{
    position: relative;
